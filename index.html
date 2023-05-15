@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <title>MCU Timeline</title>
+    </head>
+    <body>
+        <div id="title"> 
+            <div class="heading">MCU TIMELINE (Chronological and Movie order)</div>    
+        </div>
+        <div id="main">
+        <form id="forms">
+        <table>
+            <tr>
+                <td><p>Select Phase</p></td> 
+                <td>
+                    <select id="phsel">
+                    <option value="">Select a Phase</option>
+                    <option value='1'>Phase 1</option>
+                    <option value="2">Phase 2</option>
+                    <option value="3">Phase 3</option>
+                    <option value="4">Phase 4</option>
+                    <option value="5">Phase 5</option>
+                    <option value="cannon">MCU Cannon</option>
+                    </select>
+                </td>
+                <td>
+                    <select id="ph1sel" class="hidden">
+                    <option value="">Select a Phase 1 Project</option>
+                    <option value="1">Iron Man 1</option>
+                    <option value="2">Incredible Hulk</option>
+                    <option value="3">Iron Man 2</option>
+                    <option value="4">Captain America The First Avenger</option>
+                    <option value="5">Thor</option>
+                    <option value="6">Avengers</option>
+                    </select>
+                </td>
+                <td>
+                    <select id="ph2sel" class="hidden">
+                    <option value="">Select a Phase 2 Project</option>
+                    <option value="1">Captain America The Winter Soldier</option>
+                    <option value="2">Iron Man 3</option>
+                    <option value="3">Thor Dark World</option>
+                    <option value="4">Guardians of the Galaxy Vol 1</option>
+                    <option value="5">Avengers Age of Ultron</option>
+                    <option value="6">Antman 1</option>
+                    </select>
+                </td>
+                <td>
+                    <select id="ph3sel" class="hidden">
+                    <option value="">Select a Phase 3 Project</option>
+                    <option value="1">Captain America Civil War</option>
+                    <option value="2">Spider Man Homecoming</option>
+                    <option value="3">Doctor Strange</option>
+                    <option value="4">Guardians of Galaxy Vol 2</option>
+                    <option value="5">Thor Ragnarok</option>
+                    <option value="6">Black Panther</option>
+                    <option value="7">Captain Marvel</option>
+                    <option value="8">Avengers Infinity War</option>
+                    <option value="9">Antman and the Wasp</option>
+                    <option value="10">Avengers Endgame</option>
+                    <option value="11">Spider Man Far From Home</option>
+                    </select>
+                </td>   
+                <td>
+                    <select id="ph4sel" class="hidden">
+                    <option value="">Select a Phase 4 Project</option>
+                    <option value="1">Wandavision</option>
+                    <option value="2">Falcon and Winter Soldier</option>
+                    <option value="3">Black Widow</option>
+                    <option value="4">Shang Chi and the Legend of Ten Rings</option>
+                    <option value="5">Ms.Marvel</option>
+                    <option value="6">Loki Season 1</option>
+                    <option value="7">Eternals</option>
+                    <option value="8">Doctor Strange in the Multiverse of Madness</option>
+                    <option value="9">Black Panther Wakanda Forever</option>
+                    <option value="10">Hawkeye</option>
+                    <option value="11">She Hulk Attorney at Law</option>
+                    <option value="12">I am Groot</option>
+                    <option value="13">Guardians of Galaxy Holiday Special</option>
+                    <option value="14">Werewolf by Night</option>
+                    <option value="15">Thor Love and Thunder</option>
+                    <option value="16">Spiderman No Way Home</option>
+                    <option value="17">What If Season 1</option>
+                    </select>
+                </td>
+                <td>
+                    <select id="ph5sel" class="hidden">
+                    <option value="">Select a Phase 5 Project</option>
+                    <option value="1">Antman and Wasp Quantamania</option>
+                    <option value="2">Secret Invasion</option>
+                    <option value="3">Guardians of Galaxy Vol 3</option>
+                    <!--<option value="4">Marvels</option>
+                    <option value="5">Loki Season 2</option>
+                    <option value="6">Captain America New World Order</option>
+                    <option value="7">Thunderbolts</option>-->
+                    </select>
+                </td>
+                <td>
+                    <select id="cansel" class="hidden">
+                    <option value="">Select a Cannon Project</option>
+                    <option value="1">Agent Carter</option>
+                    <option value="2">Spiderman 1,2,3</option>
+                    <option value="3">The Amazing Spiderman 1,2</option>
+                    <option value="4">Venom 1,2</option>
+                    </select>
+                </td>
+                <td><button type="reset" class="hidden" id="rest">RESET</button></td>
+            </tr>
+        </table>
+        </form>
+        </div>
+        <div id="container">
+            <div id="image" class="hidden"></div>
+            <div id="text" class="hidden">
+            <div id="pdf"><button id="poster"><a href="MCU_POSTER_DIAGRAM.svg" target="_blank">Click here to view the Overall Time Line Chart</a></button></div>
+            <div><input type="button" id="mcu"></div>
+            <div id="parallel"><strong>PARALLEL PROJECTS:</strong></div>
+            <div id="prev"><strong>PREVIOUS PROJECTS --> :</strong></div>
+            <div id="next"><strong>--> UPCOMING PROJECTS :</strong></div>
+            <strong>PLOT AND SYNOPSIS:</strong>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
