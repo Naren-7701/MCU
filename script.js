@@ -565,7 +565,7 @@ $(document).ready(function()
             else if(movie==4)
             {
                 $("#ph5sel").prop('disabled',true);
-                $("#image").append('<img src="Marvels.jpg" height="570" width="400"/>'); 
+                $("#image").append('<img src="marvels.png" height="570" width="400"/>'); 
                 $("#image").show("fast");
                 $("#mcu").prop("value","MCU YEAR: ");
                 $("#parallel").append(" -");
