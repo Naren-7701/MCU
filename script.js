@@ -562,6 +562,42 @@ $(document).ready(function()
                 $("#text").append("");
                 $("#text").show(300);
             }
+            else if(movie==4)
+            {
+                $("#ph5sel").prop('disabled',true);
+                $("#image").append('<img src="Marvels.jpg" height="570" width="400"/>'); 
+                $("#image").show("fast");
+                $("#mcu").prop("value","MCU YEAR: ");
+                $("#parallel").append(" -");
+                $("#prev").append(" Wanda Vision, Secret Invasion, Ms. Marvel, Avengers Endgame, Captain Marvel ");
+                $("#next").append(" -");
+                $("#text").append("");
+                $("#text").show(300);
+            }
+            else if(movie==5)
+            {
+                $("#ph5sel").prop('disabled',true);
+                $("#image").append('<img src="Loki S02.jpg" height="570" width="400"/>'); 
+                $("#image").show("fast");
+                $("#mcu").prop("value","MCU YEAR: ");
+                $("#parallel").append(" -");
+                $("#prev").append(" Loki Season 01, Antman and Wasp Quantumania");
+                $("#next").append(" -");
+                $("#text").append("");
+                $("#text").show(300);
+            }
+            else
+            {
+                $("#ph5sel").prop('disabled',true);
+                $("#image").append('<img src="Echo.jpg" height="570" width="400"/>'); 
+                $("#image").show("fast");
+                $("#mcu").prop("value","MCU YEAR: ");
+                $("#parallel").append(" -");
+                $("#prev").append(" Hawkeye, Spider Man No Way Home, She Hulk");
+                $("#next").append(" -");
+                $("#text").append("");
+                $("#text").show(300);
+            }
         });
     }
     else
