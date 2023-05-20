@@ -557,9 +557,9 @@ $(document).ready(function()
                 $("#image").show("fast");
                 $("#mcu").prop("value","MCU YEAR: ");
                 $("#parallel").append(" -");
-                $("#prev").append(" Avengers Endgame, Thor Love and Thunder, Guardians of Galaxy Holiday Special");
+                $("#prev").append(" Avengers Endgame, Thor Love and Thunder, Guardians of Galaxy Volume 2, Guardians of Galaxy Holiday Special");
                 $("#next").append(" -");
-                $("#text").append("");
+                $("#text").append(" The High Evolutionary wants to create a Perfect Society, thus he experiments on various animals across the Universe. One such Subject: 89P13 (Rocket Racoon), High Evol was impressed by Rocket's intelligence but he wants to create better creatures than Rocket, thus he betrays him. Rocket comes to know about the true intentions, and manages to escape after losing his friends. In present Day, when he was attacked by Adam Warlock and is almost pushed towards his Death, the Guardians along with Gamora (Ravager) has to find the Passkey and save Rocket. They go to Counter-Earth (Similar Planet like Earth) where they have to face High.Evol. The Planet is Destroyed, the Guardians are split. Along with the help of Kraglin, Cosmo from Knowhere they have to Stop High Evol, save Different Life Forms. Some of the Guardians have to part ways. The New Guardians of Galaxy team with their New Captain will continue saving the Galaxy from different Threats.");
                 $("#text").show(300);
             }
             else if(movie==4)
