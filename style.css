@@ -124,3 +124,7 @@ input
 {
     background-color:rgb(255, 61, 61);
 }
+img
+{
+    border:4px solid black
+}
