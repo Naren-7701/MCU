@@ -17,7 +17,7 @@ $(document).ready(function()
                 {
                     $("#ph1sel").prop('disabled',true);
                     $("#image").append('<img src="Iron Man 1.jpg" height="570" width="450"/>'); 
-                    $("#image").show("fast");
+                    $("#image").show(50);
                     $("#mcu").prop("value","MCU YEAR: 2008");
                     $("#partxt").append("   -");
                     $("#prevtxt").append("Captain Marvel, Captain America The First Avenger");
@@ -33,7 +33,7 @@ $(document).ready(function()
                 {
                     $("#ph1sel").prop('disabled',true);
                     $("#image").append('<img src="Incredible Hulk.jpg" height="570" width="450"/>'); 
-                    $("#image").show("fast");
+                    $("#image").show(50);
                     $("#mcu").prop("value","MCU YEAR: 2011 (Fury's Busy Week)");
                     $("#partxt").append(" Captain America First Avenger, Thor, Iron Man 2");
                     $("#prevtxt").append(" Iron Man");
@@ -65,7 +65,7 @@ $(document).ready(function()
                 {
                     $("#ph1sel").prop('disabled',true);
                     $("#image").append('<img src="CA 01.jpg" height="570" width="400"/>'); 
-                    $("#image").show("fast");
+                    $("#image").show(50);
                     $("#mcu").prop("value","MCU YEAR: 2011 (Fury's Busy Week)");
                     $("#partxt").append(" Incredible Hulk, Thor, Iron Man 2");
                     $("#prevtxt").append(" Eternals");
@@ -81,7 +81,7 @@ $(document).ready(function()
                 {
                     $("#ph1sel").prop('disabled',true);
                     $("#image").append('<img src="Thor 1.jpg" height="570" width="400"/>'); 
-                    $("#image").show("fast");
+                    $("#image").show(50);
                     $("#mcu").prop("value","MCU YEAR: 2011 (Fury's Busy Week)");
                     $("#partxt").append(" Incredible Hulk, Iron Man 2, Captain America First Avenger");
                     $("#prevtxt").append(" -");
@@ -97,7 +97,7 @@ $(document).ready(function()
                 {
                     $("#ph1sel").prop('disabled',true);
                     $("#image").append('<img src="Avengers 1.jpg" height="570" width="400"/>'); 
-                    $("#image").show("fast");
+                    $("#image").show(50);
                     $("#mcu").prop("value","MCU YEAR: 2012");
                     $("#partxt").append(" Loki Season 1");
                     $("#prevtxt").append(" Incredible Hulk, Captain America First Avenger, Thor, Iron Man 2");
@@ -121,7 +121,7 @@ $(document).ready(function()
                 {
                     $("#ph2sel").prop('disabled',true);
                     $("#image").append('<img src="CA 02.jpg" height="570" width="400"/>');  
-                    $("#image").show("fast");
+                    $("#image").show(50);
                     $("#mcu").prop("value","MCU YEAR: 2014");
                     $("#partxt").append(" -");
                     $("#prevtxt").append(" Avengers");
@@ -137,7 +137,7 @@ $(document).ready(function()
                 {
                     $("#ph2sel").prop('disabled',true);
                     $("#image").append('<img src="Iron Man 3.jpg" height="570" width="400"/>'); 
-                    $("#image").show("fast");
+                    $("#image").show(50);
                     $("#mcu").prop("value","MCU YEAR: 2013");
                     $("#partxt").append(" -");
                     $("#prevtxt").append(" Avengers");
@@ -153,7 +153,7 @@ $(document).ready(function()
                 {
                     $("#ph2sel").prop('disabled',true);
                     $("#image").append('<img src="Thor 2.jpg" height="570" width="400"/>'); 
-                    $("#image").show("fast");
+                    $("#image").show(50);
                     $("#mcu").prop("value","MCU YEAR: 2013");
                     $("#partxt").append(" -");
                     $("#prevtxt").append(" Avengers");
@@ -169,7 +169,7 @@ $(document).ready(function()
                 {
                     $("#ph2sel").prop('disabled',true);
                     $("#image").append('<img src="Guardians 1.jpg" height="570" width="400"/>'); 
-                    $("#image").show("fast");
+                    $("#image").show(50);
                     $("#mcu").prop("value","MCU YEAR: 2014");
                     $("#partxt").append(" I am Groot");
                     $("#prevtxt").append(" -");
@@ -185,7 +185,7 @@ $(document).ready(function()
                 {
                     $("#ph2sel").prop('disabled',true);
                     $("#image").append('<img src="Avengers 2.jpg" height="570" width="400"/>'); 
-                    $("#image").show("fast");
+                    $("#image").show(50);
                     $("#mcu").prop("value","MCU YEAR: 2015");
                     $("#partxt").append(" Antman 1");
                     $("#prevtxt").append(" Captain America Winter Soldier, Iron Man 3, Thor Dark World");
@@ -201,7 +201,7 @@ $(document).ready(function()
                 {
                     $("#ph2sel").prop('disabled',true);
                     $("#image").append('<img src="Antman 1.jpg" height="570" width="400"/>'); 
-                    $("#image").show("fast");
+                    $("#image").show(50);
                     $("#mcu").prop("value","MCU YEAR: 2015");
                     $("#partxt").append(" Avengers Age of Ultron");
                     $("#prevtxt").append(" -");
@@ -225,7 +225,7 @@ $(document).ready(function()
                 {
                     $("#ph3sel").prop('disabled',true);
                     $("#image").append('<img src="CA 3.jpg" height="570" width="400"/>'); 
-                    $("#image").show("fast");
+                    $("#image").show(50);
                     $("#mcu").prop("value","MCU YEAR: 2016");
                     $("#partxt").append(" Black Widow");
                     $("#prevtxt").append(" Avengers Age of Ultron, Antman 1");
@@ -241,7 +241,7 @@ $(document).ready(function()
                 {
                     $("#ph3sel").prop('disabled',true);
                     $("#image").append('<img src="Spider Man 1.jpg" height="570" width="400"/>'); 
-                    $("#image").show("fast");
+                    $("#image").show(50);
                     $("#mcu").prop("value","MCU YEAR: 2017");
                     $("#partxt").append(" -");
                     $("#prevtxt").append(" Captain America Civil War, Avengers");
@@ -257,7 +257,7 @@ $(document).ready(function()
                 {
                     $("#ph3sel").prop('disabled',true);
                     $("#image").append('<img src="Doc Str 1.jpg" height="570" width="400"/>'); 
-                    $("#image").show("fast");
+                    $("#image").show(50);
                     $("#mcu").prop("value","MCU YEAR: 2016");
                     $("#partxt").append(" -");
                     $("#prevtxt").append(" -");
@@ -273,7 +273,7 @@ $(document).ready(function()
                 {
                     $("#ph3sel").prop('disabled',true);
                     $("#image").append('<img src="Guardians 2.jpg" height="550" width="375"/>'); 
-                    $("#image").show("fast");
+                    $("#image").show(50);
                     $("#mcu").prop("value","MCU YEAR: 2014");
                     $("#partxt").append(" I am Groot");
                     $("#prevtxt").append(" Guardians of Galaxy Volume 1");
@@ -289,7 +289,7 @@ $(document).ready(function()
                 {
                     $("#ph3sel").prop('disabled',true);
                     $("#image").append('<img src="Thor 3.jpg" height="570" width="400"/>'); 
-                    $("#image").show("fast");
+                    $("#image").show(50);
                     $("#mcu").prop("value","MCU YEAR: 2017");
                     $("#partxt").append(" -");
                     $("#prevtxt").append(" Avengers Age of Ultron, Doctor Strange");
@@ -305,7 +305,7 @@ $(document).ready(function()
                 {
                     $("#ph3sel").prop('disabled',true);
                     $("#image").append('<img src="BP 01.jpg" height="570" width="400"/>'); 
-                    $("#image").show("fast");
+                    $("#image").show(50);
                     $("#mcu").prop("value","MCU YEAR: 2018");
                     $("#partxt").append(" -");
                     $("#prevtxt").append(" Captain America Civil War");
@@ -321,7 +321,7 @@ $(document).ready(function()
                 {
                     $("#ph3sel").prop('disabled',true);
                     $("#image").append('<img src="Captain Marvel.jpg" height="570" width="400"/>'); 
-                    $("#image").show("fast");
+                    $("#image").show(50);
                     $("#mcu").prop("value","MCU YEAR: 1990's");
                     $("#partxt").append(" -");
                     $("#prevtxt").append(" Captain America First Avenger");
@@ -337,7 +337,7 @@ $(document).ready(function()
                 {
                     $("#ph3sel").prop('disabled',true);
                     $("#image").append('<img src="Avengers 3.jpg" height="570" width="400"/>'); 
-                    $("#image").show("fast");
+                    $("#image").show(50);
                     $("#mcu").prop("value","MCU YEAR: 2018");
                     $("#partxt").append(" Antman and the Wasp");
                     $("#prevtxt").append(" Captain America Civil War, Black Panther, Spider Man Homecoming, Black Widow, Guardians of Galaxy Volume 2, Thor Ragnarok, Doctor Strange");
@@ -353,7 +353,7 @@ $(document).ready(function()
                 {
                     $("#ph3sel").prop('disabled',true);
                     $("#image").append('<img src="Antman 2.jpg" height="570" width="400"/>'); 
-                    $("#image").show("fast");
+                    $("#image").show(50);
                     $("#mcu").prop("value","MCU YEAR: 2018");
                     $("#partxt").append(" Avengers Infinity War");
                     $("#prevtxt").append(" Captain America Civil War");
@@ -369,7 +369,7 @@ $(document).ready(function()
                 {
                     $("#ph3sel").prop('disabled',true);
                     $("#image").append('<img src="Avengers 4.jpg" height="570" width="400"/>'); 
-                    $("#image").show("fast");
+                    $("#image").show(50);
                     $("#mcu").prop("value","MCU YEAR: 2019-2023");
                     $("#partxt").append(" -");
                     $("#prevtxt").append(" Avengers Infinity War, Antman and the Wasp");
@@ -385,7 +385,7 @@ $(document).ready(function()
                 {
                     $("#ph3sel").prop('disabled',true);
                     $("#image").append('<img src="Spider Man 2.jpg" height="570" width="400"/>'); 
-                    $("#image").show("fast");
+                    $("#image").show(50);
                     $("#mcu").prop("value","MCU YEAR: 2024");
                     $("#partxt").append(" -");
                     $("#prevtxt").append(" Avengers Endgame");
@@ -409,7 +409,7 @@ $(document).ready(function()
             {
                 $("#ph4sel").prop('disabled',true);
                 $("#image").append('<img src="Wanda Vision.jpg" height="570" width="400"/>'); 
-                $("#image").show("fast");
+                $("#image").show(50);
                 $("#mcu").prop("value","MCU YEAR: 2023");
                 $("#partxt").append(" -");
                 $("#prevtxt").append(" Avengers Endgame");
@@ -425,7 +425,7 @@ $(document).ready(function()
             {
                 $("#ph4sel").prop('disabled',true);
                 $("#image").append('<img src="FAWS.jpg" height="570" width="400"/>'); 
-                $("#image").show("fast");
+                $("#image").show(50);
                 $("#mcu").prop("value","MCU YEAR: 2024");
                 $("#partxt").append(" Black Panther Wakanda Forever");
                 $("#prevtxt").append(" Avengers Endgame");
@@ -441,7 +441,7 @@ $(document).ready(function()
             {
                 $("#ph4sel").prop('disabled',true);
                 $("#image").append('<img src="Black widow.jpg" height="570" width="400"/>'); 
-                $("#image").show("fast");
+                $("#image").show(50);
                 $("#mcu").prop("value","MCU YEAR: 2016");
                 $("#partxt").append(" -");
                 $("#prevtxt").append(" Captain America Civil War");
@@ -457,7 +457,7 @@ $(document).ready(function()
             {
                 $("#ph4sel").prop('disabled',true);
                 $("#image").append('<img src="Shang Chi.jpg" height="570" width="400"/>'); 
-                $("#image").show("fast");
+                $("#image").show(50);
                 $("#mcu").prop("value","MCU YEAR: 2023+");
                 $("#partxt").append(" She Hulk Attorney at Law");
                 $("#prevtxt").append(" -");
@@ -473,7 +473,7 @@ $(document).ready(function()
             {
                 $("#ph4sel").prop('disabled',true);
                 $("#image").append('<img src="Ms marvel.jpg" height="570" width="400"/>'); 
-                $("#image").show("fast");
+                $("#image").show(50);
                 $("#mcu").prop("value","MCU YEAR: 2025");
                 $("#partxt").append(" Spider Man No Way Home");
                 $("#prevtxt").append(" Avengers Endgame");
@@ -489,7 +489,7 @@ $(document).ready(function()
             {
                 $("#ph4sel").prop('disabled',true);
                 $("#image").append('<img src="Loki Season 1.jpg" height="570" width="400"/>'); 
-                $("#image").show("fast");
+                $("#image").show(50);
                 $("#mcu").prop("value","MCU YEAR: Start-End");
                 $("#partxt").append(" -");
                 $("#prevtxt").append(" Avengers Endgame, Avengers");
@@ -505,7 +505,7 @@ $(document).ready(function()
             {
                 $("#ph4sel").prop('disabled',true);
                 $("#image").append('<img src="Eternals.jpg" height="570" width="400"/>'); 
-                $("#image").show("fast");
+                $("#image").show(50);
                 $("#mcu").prop("value","MCU YEAR: 5000 BCE - 2023");
                 $("#mcu").show();
                 $("#partxt").append(" -");
@@ -522,7 +522,7 @@ $(document).ready(function()
             {
                 $("#ph4sel").prop('disabled',true);
                 $("#image").append('<img src="Doc Str 2.jpg" height="570" width="400"/>'); 
-                $("#image").show("fast");
+                $("#image").show(50);
                 $("#mcu").prop("value","MCU YEAR: 2024");
                 $("#partxt").append(" -");
                 $("#prevtxt").append(" Avengers Endgame, Wanda Vision, Spider Man No Way Home");
@@ -538,7 +538,7 @@ $(document).ready(function()
             {
                 $("#ph4sel").prop('disabled',true);
                 $("#image").append('<img src="BP 02.jpg" height="570" width="400"/>'); 
-                $("#image").show("fast");
+                $("#image").show(50);
                 $("#mcu").prop("value","MCU YEAR: 2024");
                 $("#partxt").append(" Falcon and the Winter Soldier");
                 $("#prevtxt").append(" Avengers Endgame");
@@ -554,7 +554,7 @@ $(document).ready(function()
             {
                 $("#ph4sel").prop('disabled',true);
                 $("#image").append('<img src="Hawkeye.jpg" height="570" width="400"/>'); 
-                $("#image").show("fast");
+                $("#image").show(50);
                 $("#mcu").prop("value","MCU YEAR: 2024");
                 $("#partxt").append(" Spider Man No Way Home");
                 $("#prevtxt").append(" Avengers Endgame");
@@ -570,7 +570,7 @@ $(document).ready(function()
             {
                 $("#ph4sel").prop('disabled',true);
                 $("#image").append('<img src="She Hulk.jpg" height="570" width="400"/>'); 
-                $("#image").show("fast");
+                $("#image").show(50);
                 $("#mcu").prop("value","MCU YEAR: 2024");
                 $("#partxt").append(" Shang Chi and the Legend of Ten Rings");
                 $("#prevtxt").append(" Avengers Endgame");
@@ -586,7 +586,7 @@ $(document).ready(function()
             {
                 $("#ph4sel").prop('disabled',true);
                 $("#image").append('<img src="I am Groot.jpg" height="570" width="400"/>'); 
-                $("#image").show("fast");
+                $("#image").show(50);
                 $("#mcu").prop("value","MCU YEAR: 2014");
                 $("#partxt").append(" -");
                 $("#prevtxt").append(" Guardians of Galaxy Volume 1");
@@ -602,7 +602,7 @@ $(document).ready(function()
             {
                 $("#ph4sel").prop('disabled',true);
                 $("#image").append('<img src="Guardians Holiday Special.jpg" height="570" width="400"/>'); 
-                $("#image").show("fast");
+                $("#image").show(50);
                 $("#mcu").prop("value","MCU YEAR: 2023+");
                 $("#partxt").append(" -");
                 $("#prevtxt").append(" Avengers Endgame, Thor Love and Thunder");
@@ -618,7 +618,7 @@ $(document).ready(function()
             {
                 $("#ph4sel").prop('disabled',true);
                 $("#image").append('<img src="werewolf.jpg" height="570" width="450"/>'); 
-                $("#image").show("fast");
+                $("#image").show(50);
                 $("#mcu").prop("value","MCU YEAR: 2023+");
                 $("#partxt").append(" -");
                 $("#prevtxt").append(" -");
@@ -634,7 +634,7 @@ $(document).ready(function()
             {
                 $("#ph4sel").prop('disabled',true);
                 $("#image").append('<img src="Thor 4.jpg" height="570" width="400"/>'); 
-                $("#image").show("fast");
+                $("#image").show(50);
                 $("#mcu").prop("value","MCU YEAR: 2023+");
                 $("#partxt").append(" -");
                 $("#prevtxt").append(" Avengers Endgame");
@@ -650,7 +650,7 @@ $(document).ready(function()
             {
                 $("#ph4sel").prop('disabled',true);
                 $("#image").append('<img src="Spider Man 3.jpg" height="570" width="450"/>'); 
-                $("#image").show("fast");
+                $("#image").show(50);
                 $("#mcu").prop("value","MCU YEAR: 2024");
                 $("#partxt").append(" Hawkeye");
                 $("#prevtxt").append(" Spider Man Far From Home, Spider Man 1,2,3 (Raimi); The Amazing Spider Man 1,2 ; Venom 1,2");
@@ -666,7 +666,7 @@ $(document).ready(function()
             {
                 $("#ph4sel").prop('disabled',true);
                 $("#image").append('<img src="What If S01.jpg" height="570" width="400"/>'); 
-                $("#image").show("fast");
+                $("#image").show(50);
                 $("#mcu").prop("value","MCU YEAR: -");
                 $("#partxt").append(" -");
                 $("#prevtxt").append(" -");
@@ -690,7 +690,7 @@ $(document).ready(function()
             {
                 $("#ph5sel").prop('disabled',true);
                 $("#image").append('<img src="Antman 3.jpg" height="570" width="400"/>'); 
-                $("#image").show("fast");
+                $("#image").show(50);
                 $("#mcu").prop("value","MCU YEAR: 2023+");
                 $("#partxt").append(" -");
                 $("#prevtxt").append(" Avengers Endgame");
@@ -706,7 +706,7 @@ $(document).ready(function()
             {
                 $("#ph5sel").prop('disabled',true);
                 $("#image").append('<img src="Secret Invasion.jpg" height="570" width="400"/>'); 
-                $("#image").show("fast");
+                $("#image").show(50);
                 $("#mcu").prop("value","MCU YEAR: ");
                 $("#partxt").append(" -");
                 $("#prevtxt").append(" -");
@@ -722,7 +722,7 @@ $(document).ready(function()
             {
                 $("#ph5sel").prop('disabled',true);
                 $("#image").append('<img src="Guardians 3.jpg" height="570" width="400"/>'); 
-                $("#image").show("fast");
+                $("#image").show(50);
                 $("#mcu").prop("value","MCU YEAR: ");
                 $("#partxt").append(" -");
                 $("#prevtxt").append(" Avengers Endgame, Thor Love and Thunder, Guardians of Galaxy Volume 2, Guardians of Galaxy Holiday Special");
@@ -738,7 +738,7 @@ $(document).ready(function()
             {
                 $("#ph5sel").prop('disabled',true);
                 $("#image").append('<img src="marvels.png" height="570" width="400"/>'); 
-                $("#image").show("fast");
+                $("#image").show(50);
                 $("#mcu").prop("value","MCU YEAR: ");
                 $("#partxt").append(" -");
                 $("#prevtxt").append(" Wanda Vision, Secret Invasion, Ms. Marvel, Avengers Endgame, Captain Marvel ");
@@ -754,7 +754,7 @@ $(document).ready(function()
             {
                 $("#ph5sel").prop('disabled',true);
                 $("#image").append('<img src="Loki S02.jpg" height="570" width="400"/>'); 
-                $("#image").show("fast");
+                $("#image").show(50);
                 $("#mcu").prop("value","MCU YEAR: ");
                 $("#partxt").append(" -");
                 $("#prevtxt").append(" Loki Season 01, Antman and Wasp Quantumania");
@@ -770,7 +770,7 @@ $(document).ready(function()
             {
                 $("#ph5sel").prop('disabled',true);
                 $("#image").append('<img src="Echo.jpg" height="570" width="400"/>'); 
-                $("#image").show("fast");
+                $("#image").show(50);
                 $("#mcu").prop("value","MCU YEAR: ");
                 $("#partxt").append(" -");
                 $("#prevtxt").append(" Hawkeye, Spider Man No Way Home, She Hulk");
@@ -794,7 +794,7 @@ $(document).ready(function()
             {
                 $("#cansel").prop('disabled',true);
                 $("#image").append('<img src="Agent Carter.jpg" height="570" width="400"/>'); 
-                $("#image").show("fast");
+                $("#image").show(50);
                 $("#mcu").prop("value","MCU YEAR: 1940's");
                 $("#partxt").append(" -");
                 $("#prevtxt").append(" Captain America First Avenger");
@@ -810,7 +810,7 @@ $(document).ready(function()
             {
                 $("#cansel").prop('disabled',true);
                 $("#image").append('<img src="Raimi spiderman.png" height="530" width="400"/>'); 
-                $("#image").show("fast");
+                $("#image").show(50);
                 $("#mcu").prop("value","YEAR: 2000 - 2007");
                 $("#partxt").hide(); 
                 $("#prevtxt").hide();
@@ -826,7 +826,7 @@ $(document).ready(function()
             {
                 $("#cansel").prop('disabled',true);
                 $("#image").append('<img src="Amazing Spiderman.png" height="570" width="400"/>'); 
-                $("#image").show("fast");
+                $("#image").show(50);
                 $("#mcu").prop("value","YEAR: 2012 - 2014");
                 $("#partxt").hide();
                 $("#prevtxt").hide();
@@ -842,7 +842,7 @@ $(document).ready(function()
             {
                 $("#cansel").prop('disabled',true);
                 $("#image").append('<img src="Venom.png" height="570" width="390"/>'); 
-                $("#image").show("fast");
+                $("#image").show(50);
                 $("#mcu").prop("value","YEAR: 2018-2020");
                 $("#partxt").hide();
                 $("#prevtxt").hide();
