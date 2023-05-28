@@ -858,7 +858,7 @@ $(document).ready(function()
                 $("#cansel").prop('disabled',true);
                 $("#image").append('<img src="Raimi spiderman.png" height="530" width="400"/>'); 
                 $("#image").show(50);
-                $("#mcuyear").append("2000 - 2007");
+                $("#mcuyear").append("2002-2007");
                 $("#partxt").hide(); 
                 $("#prevtxt").hide();
                 $("#nextxt").append(" Spider Man No Way Home");
@@ -875,7 +875,7 @@ $(document).ready(function()
                 $("#cansel").prop('disabled',true);
                 $("#image").append('<img src="Amazing Spiderman.png" height="570" width="400"/>'); 
                 $("#image").show(50);
-                $("#mcuyear").append("2012 - 2014");
+                $("#mcuyear").append("2012-2014");
                 $("#partxt").hide();
                 $("#prevtxt").hide();
                 $("#nextxt").append(" Spider Man No Way Home");
