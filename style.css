@@ -121,6 +121,14 @@ input
     color: rgb(0, 0, 0);
     font-weight:700;
 }
+#poster
+{
+    border:2px solid black;
+    padding:10px;
+    margin:3px;
+    width:225px;
+    text-align: center;
+}
 #poster:hover
 {
     background-color:rgb(255, 61, 61);
