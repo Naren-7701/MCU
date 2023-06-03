@@ -454,7 +454,7 @@ $(document).ready(function()
                 $("#partxt").append("Black Panther Wakanda Forever");
                 $("#prevtxt").append("Avengers Endgame");
                 $("#nextxt").append("Captain America New World Order, Thunderbolts");
-                $("#plotxt").append("After the Blip, GRC a independent Council was created, to displace the people back to their home, who were erased out of existence during the Blip. Bucky has to undergo therapy sessions to overcome his past trauma's, Sam has to manage his Family and the business. A New Captain America (John Walker) was appointed by the US Governement as replacement of Steve Rogers. A revolt group under Karli Margantha took the Super Soldier serum and are against GRC and the Government actions. Sam along with Bucky Barnes, Zemo, Sharon Carter has to stop Karli and deal with Walker's actions.");
+                $("#plotxt").append("After the Blip, GRC a independent Council was created, to displace the people back to their home, who were erased out of existence during the Blip. Bucky has to undergo therapy sessions to overcome his past trauma's, Sam has to manage his Family and the business. A New Captain America (John Walker) was appointed by the US Governement as replacement of Steve Rogers. A revolt group under Karli Margantha took the Super Soldier serum and are against GRC and the Government actions. Karli was funded by a Unknown Wealthy Induvidual (Powerbroker). Sam along with Bucky Barnes, Zemo, Sharon Carter has to stop Karli, find Powerbroker and deal with Walker's actions.");
                 $("#text").show();
                 $("#mcubut").click(function(){$("#mcuyear").fadeToggle(150)})
                 $("#parbut").click(function(){$("#partxt").fadeToggle(150)})
