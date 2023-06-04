@@ -308,7 +308,7 @@ $(document).ready(function()
                     $("#image").show(50);
                     $("#mcuyear").append("2017");
                     $("#partxt").append("");
-                    $("#prevtxt").append("Avengers Age of Ultron, Doctor Strange");
+                    $("#prevtxt").append("Thor Dark World, Avengers Age of Ultron, Doctor Strange");
                     $("#nextxt").append("Avengers Infinity War");
                     $("#plotxt").append("Thor goes to Asgrard, where an imposter Loki is ruling. In search of Odin, Thor comes to know about Hela (Godess of Death, Odin's Daughter), who wants vengence, destroy Asgard. Thor goes to Sarkar, fights Hulk and forms a Team (Revengers), to fight against Hela, and save the people of Asgard.");
                     $("#text").show();
