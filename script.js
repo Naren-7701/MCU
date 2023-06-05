@@ -16,7 +16,7 @@ $(document).ready(function()
                 if(movie==1)
                 {
                     $("#ph1sel").prop('disabled',true);
-                    $("#image").append('<img src="Iron Man 1.jpg" height="570" width="450"/>'); 
+                    $("#image").append('<img src="images/Iron Man 1.jpg" height="570" width="450"/>'); 
                     $("#image").show(50);
                     $("#mcuyear").append("2008");
                     $("#partxt").append("");
@@ -33,7 +33,7 @@ $(document).ready(function()
                 else if(movie==2)
                 {
                     $("#ph1sel").prop('disabled',true);
-                    $("#image").append('<img src="Incredible Hulk.jpg" height="570" width="450"/>'); 
+                    $("#image").append('<img src="images/Incredible Hulk.jpg" height="570" width="450"/>'); 
                     $("#image").show(50);
                     $("#mcuyear").append("2011 (Fury's Busy Week)");
                     $("#partxt").append("Captain America First Avenger, Thor, Iron Man 2");
@@ -50,7 +50,7 @@ $(document).ready(function()
                 else if(movie==3)
                 {
                     $("#ph1sel").prop('disabled',true);
-                    $("#image").append('<img src="Iron Man 2.jpg" height="570" width="450"/>'); 
+                    $("#image").append('<img src="images/Iron Man 2.jpg" height="570" width="450"/>'); 
                     $("#image").show();
                     $("#mcuyear").append("2011 (Fury's Busy Week)");
                     $("#partxt").append("Incredible Hulk, Thor, Captain America First Avenger");
@@ -67,7 +67,7 @@ $(document).ready(function()
                 else if(movie==4)
                 {
                     $("#ph1sel").prop('disabled',true);
-                    $("#image").append('<img src="CA 01.jpg" height="570" width="400"/>'); 
+                    $("#image").append('<img src="images/CA 01.jpg" height="570" width="400"/>'); 
                     $("#image").show(50);
                     $("#mcuyear").append("1940's, 2011 (Fury's Busy Week)");
                     $("#partxt").append("Incredible Hulk, Thor, Iron Man 2");
@@ -84,7 +84,7 @@ $(document).ready(function()
                 else if(movie==5)
                 {
                     $("#ph1sel").prop('disabled',true);
-                    $("#image").append('<img src="Thor 1.jpg" height="570" width="400"/>'); 
+                    $("#image").append('<img src="images/Thor 1.jpg" height="570" width="400"/>'); 
                     $("#image").show(50);
                     $("#mcuyear").append("2011 (Fury's Busy Week)");
                     $("#partxt").append("Incredible Hulk, Iron Man 2, Captain America First Avenger");
@@ -101,7 +101,7 @@ $(document).ready(function()
                 else
                 {
                     $("#ph1sel").prop('disabled',true);
-                    $("#image").append('<img src="Avengers 1.jpg" height="570" width="400"/>'); 
+                    $("#image").append('<img src="images/Avengers 1.jpg" height="570" width="400"/>'); 
                     $("#image").show(50);
                     $("#mcuyear").append("2012");
                     $("#partxt").append("Loki Season 1");
@@ -126,7 +126,7 @@ $(document).ready(function()
                 if(movie==1)
                 {
                     $("#ph2sel").prop('disabled',true);
-                    $("#image").append('<img src="CA 02.jpg" height="570" width="400"/>');  
+                    $("#image").append('<img src="images/CA 02.jpg" height="570" width="400"/>');  
                     $("#image").show(50);
                     $("#mcuyear").append("2014");
                     $("#partxt").append("");
@@ -143,7 +143,7 @@ $(document).ready(function()
                 else if(movie==2)
                 {
                     $("#ph2sel").prop('disabled',true);
-                    $("#image").append('<img src="Iron Man 3.jpg" height="570" width="400"/>'); 
+                    $("#image").append('<img src="images/Iron Man 3.jpg" height="570" width="400"/>'); 
                     $("#image").show(50);
                     $("#mcuyear").append("2013");
                     $("#partxt").append("");
@@ -160,7 +160,7 @@ $(document).ready(function()
                 else if(movie==3)
                 {
                     $("#ph2sel").prop('disabled',true);
-                    $("#image").append('<img src="Thor 2.jpg" height="570" width="400"/>'); 
+                    $("#image").append('<img src="images/Thor 2.jpg" height="570" width="400"/>'); 
                     $("#image").show(50);
                     $("#mcuyear").append("2013");
                     $("#partxt").append("");
@@ -177,7 +177,7 @@ $(document).ready(function()
                 else if(movie==4)
                 {
                     $("#ph2sel").prop('disabled',true);
-                    $("#image").append('<img src="Guardians 1.jpg" height="570" width="400"/>'); 
+                    $("#image").append('<img src="images/Guardians 1.jpg" height="570" width="400"/>'); 
                     $("#image").show(50);
                     $("#mcuyear").append("2014");
                     $("#partxt").append("I am Groot");
@@ -194,7 +194,7 @@ $(document).ready(function()
                 else if(movie==5)
                 {
                     $("#ph2sel").prop('disabled',true);
-                    $("#image").append('<img src="Avengers 2.jpg" height="570" width="400"/>'); 
+                    $("#image").append('<img src="images/Avengers 2.jpg" height="570" width="400"/>'); 
                     $("#image").show(50);
                     $("#mcuyear").append("2015");
                     $("#partxt").append("Antman 1");
@@ -211,7 +211,7 @@ $(document).ready(function()
                 else
                 {
                     $("#ph2sel").prop('disabled',true);
-                    $("#image").append('<img src="Antman 1.jpg" height="570" width="400"/>'); 
+                    $("#image").append('<img src="images/Antman 1.jpg" height="570" width="400"/>'); 
                     $("#image").show(50);
                     $("#mcuyear").append("2015");
                     $("#partxt").append("Avengers Age of Ultron");
@@ -236,7 +236,7 @@ $(document).ready(function()
                 if(movie==1)
                 {
                     $("#ph3sel").prop('disabled',true);
-                    $("#image").append('<img src="CA 3.jpg" height="570" width="400"/>'); 
+                    $("#image").append('<img src="images/CA 3.jpg" height="570" width="400"/>'); 
                     $("#image").show(50);
                     $("#mcuyear").append("2016");
                     $("#partxt").append("Black Widow");
@@ -253,7 +253,7 @@ $(document).ready(function()
                 else if(movie==2)
                 {
                     $("#ph3sel").prop('disabled',true);
-                    $("#image").append('<img src="Spider Man 1.jpg" height="570" width="400"/>'); 
+                    $("#image").append('<img src="images/Spider Man 1.jpg" height="570" width="400"/>'); 
                     $("#image").show(50);
                     $("#mcuyear").append("2017");
                     $("#partxt").append("");
@@ -270,7 +270,7 @@ $(document).ready(function()
                 else if(movie==3)
                 {
                     $("#ph3sel").prop('disabled',true);
-                    $("#image").append('<img src="Doc Str 1.jpg" height="570" width="400"/>'); 
+                    $("#image").append('<img src="images/Doc Str 1.jpg" height="570" width="400"/>'); 
                     $("#image").show(50);
                     $("#mcuyear").append("2016");
                     $("#partxt").append("");
@@ -287,7 +287,7 @@ $(document).ready(function()
                 else if(movie==4)
                 {
                     $("#ph3sel").prop('disabled',true);
-                    $("#image").append('<img src="Guardians 2.jpg" height="550" width="375"/>'); 
+                    $("#image").append('<img src="images/Guardians 2.jpg" height="550" width="375"/>'); 
                     $("#image").show(50);
                     $("#mcuyear").append("2014");
                     $("#partxt").append("I am Groot");
@@ -304,7 +304,7 @@ $(document).ready(function()
                 else if(movie==5)
                 {
                     $("#ph3sel").prop('disabled',true);
-                    $("#image").append('<img src="Thor 3.jpg" height="570" width="400"/>'); 
+                    $("#image").append('<img src="images/Thor 3.jpg" height="570" width="400"/>'); 
                     $("#image").show(50);
                     $("#mcuyear").append("2017");
                     $("#partxt").append("");
@@ -321,7 +321,7 @@ $(document).ready(function()
                 else if(movie==6)
                 {
                     $("#ph3sel").prop('disabled',true);
-                    $("#image").append('<img src="BP 01.jpg" height="570" width="400"/>'); 
+                    $("#image").append('<img src="images/BP 01.jpg" height="570" width="400"/>'); 
                     $("#image").show(50);
                     $("#mcuyear").append("2018");
                     $("#partxt").append("");
@@ -338,7 +338,7 @@ $(document).ready(function()
                 else if(movie==7)
                 {
                     $("#ph3sel").prop('disabled',true);
-                    $("#image").append('<img src="Captain Marvel.jpg" height="570" width="400"/>'); 
+                    $("#image").append('<img src="images/Captain Marvel.jpg" height="570" width="400"/>'); 
                     $("#image").show(50);
                     $("#mcuyear").append("1990's");
                     $("#partxt").append("");
@@ -355,7 +355,7 @@ $(document).ready(function()
                 else if(movie==8)
                 {
                     $("#ph3sel").prop('disabled',true);
-                    $("#image").append('<img src="Avengers 3.jpg" height="570" width="400"/>'); 
+                    $("#image").append('<img src="images/Avengers 3.jpg" height="570" width="400"/>'); 
                     $("#image").show(50);
                     $("#mcuyear").append("2018");
                     $("#partxt").append("Antman and the Wasp");
@@ -372,7 +372,7 @@ $(document).ready(function()
                 else if(movie==9)
                 {
                     $("#ph3sel").prop('disabled',true);
-                    $("#image").append('<img src="Antman 2.jpg" height="570" width="400"/>'); 
+                    $("#image").append('<img src="images/Antman 2.jpg" height="570" width="400"/>'); 
                     $("#image").show(50);
                     $("#mcuyear").append("2018");
                     $("#partxt").append("Avengers Infinity War");
@@ -389,7 +389,7 @@ $(document).ready(function()
                 else if(movie==10)
                 {
                     $("#ph3sel").prop('disabled',true);
-                    $("#image").append('<img src="Avengers 4.jpg" height="570" width="400"/>'); 
+                    $("#image").append('<img src="images/Avengers 4.jpg" height="570" width="400"/>'); 
                     $("#image").show(50);
                     $("#mcuyear").append("2018 - 2023");
                     $("#partxt").append("");
@@ -406,7 +406,7 @@ $(document).ready(function()
                 else
                 {
                     $("#ph3sel").prop('disabled',true);
-                    $("#image").append('<img src="Spider Man 2.jpg" height="570" width="400"/>'); 
+                    $("#image").append('<img src="images/Spider Man 2.jpg" height="570" width="400"/>'); 
                     $("#image").show(50);
                     $("#mcuyear").append("2024");
                     $("#partxt").append("");
@@ -431,7 +431,7 @@ $(document).ready(function()
             if(movie==1)
             {
                 $("#ph4sel").prop('disabled',true);
-                $("#image").append('<img src="Wanda Vision.jpg" height="570" width="400"/>'); 
+                $("#image").append('<img src="images/Wanda Vision.jpg" height="570" width="400"/>'); 
                 $("#image").show(50);
                 $("#mcuyear").append("2023");
                 $("#partxt").append("");
@@ -448,7 +448,7 @@ $(document).ready(function()
             else if(movie==2)
             {
                 $("#ph4sel").prop('disabled',true);
-                $("#image").append('<img src="FAWS.jpg" height="570" width="400"/>'); 
+                $("#image").append('<img src="images/FAWS.jpg" height="570" width="400"/>'); 
                 $("#image").show(50);
                 $("#mcuyear").append("2024");
                 $("#partxt").append("Black Panther Wakanda Forever");
@@ -465,7 +465,7 @@ $(document).ready(function()
             else if(movie==3)
             {
                 $("#ph4sel").prop('disabled',true);
-                $("#image").append('<img src="Black widow.jpg" height="570" width="400"/>'); 
+                $("#image").append('<img src="images/Black widow.jpg" height="570" width="400"/>'); 
                 $("#image").show(50);
                 $("#mcuyear").append("2016");
                 $("#partxt").append("");
@@ -482,7 +482,7 @@ $(document).ready(function()
             else if(movie==4)
             {
                 $("#ph4sel").prop('disabled',true);
-                $("#image").append('<img src="Shang Chi.jpg" height="570" width="400"/>'); 
+                $("#image").append('<img src="images/Shang Chi.jpg" height="570" width="400"/>'); 
                 $("#image").show(50);
                 $("#mcuyear").append("2023+");
                 $("#partxt").append("She Hulk Attorney at Law");
@@ -499,7 +499,7 @@ $(document).ready(function()
             else if(movie==5)
             {
                 $("#ph4sel").prop('disabled',true);
-                $("#image").append('<img src="Ms marvel.jpg" height="570" width="400"/>'); 
+                $("#image").append('<img src="images/Ms marvel.jpg" height="570" width="400"/>'); 
                 $("#image").show(50);
                 $("#mcuyear").append("2025");
                 $("#partxt").append("Spider Man No Way Home");
@@ -516,7 +516,7 @@ $(document).ready(function()
             else if(movie==6)
             {
                 $("#ph4sel").prop('disabled',true);
-                $("#image").append('<img src="Loki Season 1.jpg" height="570" width="400"/>'); 
+                $("#image").append('<img src="images/Loki Season 1.jpg" height="570" width="400"/>'); 
                 $("#image").show(50);
                 $("#mcuyear").append("Start - End");
                 $("#partxt").append("");
@@ -533,7 +533,7 @@ $(document).ready(function()
             else if(movie==7)
             {
                 $("#ph4sel").prop('disabled',true);
-                $("#image").append('<img src="Eternals.jpg" height="570" width="400"/>'); 
+                $("#image").append('<img src="images/Eternals.jpg" height="570" width="400"/>'); 
                 $("#image").show(50);
                 $("#mcuyear").append("5000 BCE - 2023");
                 $("#mcu").show();
@@ -551,7 +551,7 @@ $(document).ready(function()
             else if(movie==8)
             {
                 $("#ph4sel").prop('disabled',true);
-                $("#image").append('<img src="Doc Str 2.jpg" height="570" width="400"/>'); 
+                $("#image").append('<img src="images/Doc Str 2.jpg" height="570" width="400"/>'); 
                 $("#image").show(50);
                 $("#mcuyear").append("2024");
                 $("#partxt").append("");
@@ -568,7 +568,7 @@ $(document).ready(function()
             else if(movie==9)
             {
                 $("#ph4sel").prop('disabled',true);
-                $("#image").append('<img src="BP 02.jpg" height="570" width="400"/>'); 
+                $("#image").append('<img src="images/BP 02.jpg" height="570" width="400"/>'); 
                 $("#image").show(50);
                 $("#mcuyear").append("2024");
                 $("#partxt").append("Falcon and the Winter Soldier");
@@ -585,7 +585,7 @@ $(document).ready(function()
             else if(movie==10)
             {
                 $("#ph4sel").prop('disabled',true);
-                $("#image").append('<img src="Hawkeye.jpg" height="570" width="400"/>'); 
+                $("#image").append('<img src="images/Hawkeye.jpg" height="570" width="400"/>'); 
                 $("#image").show(50);
                 $("#mcuyear").append("2024");
                 $("#partxt").append("Spider Man No Way Home");
@@ -602,7 +602,7 @@ $(document).ready(function()
             else if(movie==11)
             {
                 $("#ph4sel").prop('disabled',true);
-                $("#image").append('<img src="She Hulk.jpg" height="570" width="400"/>'); 
+                $("#image").append('<img src="images/She Hulk.jpg" height="570" width="400"/>'); 
                 $("#image").show(50);
                 $("#mcuyear").append("2024");
                 $("#partxt").append("Shang Chi and the Legend of Ten Rings");
@@ -619,7 +619,7 @@ $(document).ready(function()
             else if(movie==12)
             {
                 $("#ph4sel").prop('disabled',true);
-                $("#image").append('<img src="I am Groot.jpg" height="570" width="400"/>'); 
+                $("#image").append('<img src="images/I am Groot.jpg" height="570" width="400"/>'); 
                 $("#image").show(50);
                 $("#mcuyear").append("2014");
                 $("#partxt").append("");
@@ -636,7 +636,7 @@ $(document).ready(function()
             else if(movie==13)
             {
                 $("#ph4sel").prop('disabled',true);
-                $("#image").append('<img src="Guardians Holiday Special.jpg" height="570" width="400"/>'); 
+                $("#image").append('<img src="images/Guardians Holiday Special.jpg" height="570" width="400"/>'); 
                 $("#image").show(50);
                 $("#mcuyear").append("2023+");
                 $("#partxt").append("");
@@ -653,7 +653,7 @@ $(document).ready(function()
             else if(movie==14)
             {
                 $("#ph4sel").prop('disabled',true);
-                $("#image").append('<img src="werewolf.jpg" height="570" width="450"/>'); 
+                $("#image").append('<img src="images/werewolf.jpg" height="570" width="450"/>'); 
                 $("#image").show(50);
                 $("#mcuyear").append("2023+");
                 $("#partxt").append("");
@@ -670,7 +670,7 @@ $(document).ready(function()
             else if(movie==15)
             {
                 $("#ph4sel").prop('disabled',true);
-                $("#image").append('<img src="Thor 4.jpg" height="570" width="400"/>'); 
+                $("#image").append('<img src="images/Thor 4.jpg" height="570" width="400"/>'); 
                 $("#image").show(50);
                 $("#mcuyear").append("2023+");
                 $("#partxt").append("");
@@ -687,7 +687,7 @@ $(document).ready(function()
             else if(movie==16)
             {
                 $("#ph4sel").prop('disabled',true);
-                $("#image").append('<img src="Spider Man 3.jpg" height="570" width="450"/>'); 
+                $("#image").append('<img src="images/Spider Man 3.jpg" height="570" width="450"/>'); 
                 $("#image").show(50);
                 $("#mcuyear").append("2024");
                 $("#partxt").append("Hawkeye");
@@ -704,7 +704,7 @@ $(document).ready(function()
             else
             {
                 $("#ph4sel").prop('disabled',true);
-                $("#image").append('<img src="What If S01.jpg" height="570" width="400"/>'); 
+                $("#image").append('<img src="images/What If S01.jpg" height="570" width="400"/>'); 
                 $("#image").show(50);
                 $("#mcuyear").append("");
                 $("#partxt").append("");
@@ -729,7 +729,7 @@ $(document).ready(function()
             if(movie==1)
             {
                 $("#ph5sel").prop('disabled',true);
-                $("#image").append('<img src="Antman 3.jpg" height="570" width="400"/>'); 
+                $("#image").append('<img src="images/Antman 3.jpg" height="570" width="400"/>'); 
                 $("#image").show(50);
                 $("#mcuyear").append("2023+");
                 $("#partxt").append("");
@@ -746,7 +746,7 @@ $(document).ready(function()
             else if(movie==2)
             {
                 $("#ph5sel").prop('disabled',true);
-                $("#image").append('<img src="Secret Invasion.jpg" height="570" width="400"/>'); 
+                $("#image").append('<img src="images/Secret Invasion.jpg" height="570" width="400"/>'); 
                 $("#image").show(50);
                 $("#mcuyear").append("");
                 $("#partxt").append("");
@@ -763,7 +763,7 @@ $(document).ready(function()
             else if(movie==3)
             {
                 $("#ph5sel").prop('disabled',true);
-                $("#image").append('<img src="Guardians 3.jpg" height="570" width="400"/>'); 
+                $("#image").append('<img src="images/Guardians 3.jpg" height="570" width="400"/>'); 
                 $("#image").show(50);
                 $("#mcuyear").append("");
                 $("#partxt").append("");
@@ -780,7 +780,7 @@ $(document).ready(function()
             else if(movie==4)
             {
                 $("#ph5sel").prop('disabled',true);
-                $("#image").append('<img src="marvels.png" height="570" width="400"/>'); 
+                $("#image").append('<img src="images/marvels.png" height="570" width="400"/>'); 
                 $("#image").show(50);
                 $("#mcuyear").append("");
                 $("#partxt").append("");
@@ -797,7 +797,7 @@ $(document).ready(function()
             else if(movie==5)
             {
                 $("#ph5sel").prop('disabled',true);
-                $("#image").append('<img src="Loki S02.jpg" height="570" width="400"/>'); 
+                $("#image").append('<img src="images/Loki S02.jpg" height="570" width="400"/>'); 
                 $("#image").show(50);
                 $("#mcuyear").append("");
                 $("#partxt").append("");
@@ -814,7 +814,7 @@ $(document).ready(function()
             else
             {
                 $("#ph5sel").prop('disabled',true);
-                $("#image").append('<img src="Echo.jpg" height="570" width="400"/>'); 
+                $("#image").append('<img src="images/Echo.jpg" height="570" width="400"/>'); 
                 $("#image").show(50);
                 $("#mcuyear").append("");
                 $("#partxt").append("");
@@ -839,7 +839,7 @@ $(document).ready(function()
             if(movie==1)
             {
                 $("#cansel").prop('disabled',true);
-                $("#image").append('<img src="Agent Carter.jpg" height="570" width="400"/>'); 
+                $("#image").append('<img src="images/Agent Carter.jpg" height="570" width="400"/>'); 
                 $("#image").show(50);
                 $("#mcuyear").append("1940's");
                 $("#partxt").append("");
@@ -856,7 +856,7 @@ $(document).ready(function()
             else if(movie==2)
             {
                 $("#cansel").prop('disabled',true);
-                $("#image").append('<img src="Raimi spiderman.png" height="530" width="400"/>'); 
+                $("#image").append('<img src="images/Raimi spiderman.png" height="530" width="400"/>'); 
                 $("#image").show(50);
                 $("#mcuyear").append("2002 - 2007");
                 $("#partxt").hide(); 
@@ -873,7 +873,7 @@ $(document).ready(function()
             else if(movie==3)
             {
                 $("#cansel").prop('disabled',true);
-                $("#image").append('<img src="Amazing Spiderman.png" height="570" width="400"/>'); 
+                $("#image").append('<img src="images/Amazing Spiderman.png" height="570" width="400"/>'); 
                 $("#image").show(50);
                 $("#mcuyear").append("2012 - 2014");
                 $("#partxt").hide();
@@ -890,7 +890,7 @@ $(document).ready(function()
             else
             {
                 $("#cansel").prop('disabled',true);
-                $("#image").append('<img src="Venom.png" height="570" width="390"/>'); 
+                $("#image").append('<img src="images/Venom.png" height="570" width="390"/>'); 
                 $("#image").show(50);
                 $("#mcuyear").append("2018 - 2020");
                 $("#partxt").hide();
