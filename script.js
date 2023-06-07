@@ -746,7 +746,7 @@ $(document).ready(function()
             else if(movie==2)
             {
                 $("#ph5sel").prop('disabled',true);
-                $("#image").append('<img src="images/Secret Invasion.jpg" height="570" width="400"/>'); 
+                $("#image").append('<img src="images/Secret Invasion.png" height="570" width="400"/>'); 
                 $("#image").show(50);
                 $("#mcuyear").append("");
                 $("#partxt").append("");
