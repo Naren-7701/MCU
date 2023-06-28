@@ -750,7 +750,7 @@ $(document).ready(function()
                 $("#image").show(50);
                 $("#mcuyear").append("");
                 $("#partxt").append("");
-                $("#prevtxt").append("Captain Marvel, Avengers Endgame");
+                $("#prevtxt").append("Captain Marvel, Avengers Endgame, Spider Man Far From Home");
                 $("#nextxt").append("");
                 $("#plotxt").append("");
                 $("#text").show();
