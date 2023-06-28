@@ -340,7 +340,7 @@ $(document).ready(function()
                     $("#ph3sel").prop('disabled',true);
                     $("#image").append('<img src="images/Captain Marvel.jpg" height="570" width="400"/>'); 
                     $("#image").show(50);
-                    $("#mcuyear").append("1990's");
+                    $("#mcuyear").append("1995");
                     $("#partxt").append("");
                     $("#prevtxt").append("Captain America First Avenger");
                     $("#nextxt").append("Iron Man 1, Avengers Endgame");
