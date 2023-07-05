@@ -748,7 +748,7 @@ $(document).ready(function()
                 $("#ph5sel").prop('disabled',true);
                 $("#image").append('<img src="images/Secret Invasion.png" height="570" width="400"/>'); 
                 $("#image").show(50);
-                $("#mcuyear").append("");
+                $("#mcuyear").append("2025");
                 $("#partxt").append("");
                 $("#prevtxt").append("Captain Marvel, Avengers Endgame, Spider Man Far From Home");
                 $("#nextxt").append("");
