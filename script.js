@@ -811,7 +811,7 @@ $(document).ready(function()
                 $("#nxtbut").click(function(){$("#nextxt").fadeToggle(150)})
                 $("#pltbut").click(function(){$("#plotxt").fadeToggle(150)})
             }
-            else
+            else if(movie==6)
             {
                 $("#ph5sel").prop('disabled',true);
                 $("#image").append('<img src="images/Echo.jpg" height="570" width="400"/>'); 
@@ -819,6 +819,40 @@ $(document).ready(function()
                 $("#mcuyear").append("");
                 $("#partxt").append("");
                 $("#prevtxt").append("Hawkeye, Spider Man No Way Home, She Hulk");
+                $("#nextxt").append("");
+                $("#plotxt").append("");
+                $("#text").show();
+                $("#mcubut").click(function(){$("#mcuyear").fadeToggle(150)})
+                $("#parbut").click(function(){$("#partxt").fadeToggle(150)})
+                $("#prebut").click(function(){$("#prevtxt").fadeToggle(150)})
+                $("#nxtbut").click(function(){$("#nextxt").fadeToggle(150)})
+                $("#pltbut").click(function(){$("#plotxt").fadeToggle(150)})
+            }
+            else if(movie==7)
+            {
+                $("#ph5sel").prop('disabled',true);
+                $("#image").append('<img src="images/Deadpool 3.jpg" height="570" width="400"/>'); 
+                $("#image").show(50);
+                $("#mcuyear").append("");
+                $("#partxt").append("");
+                $("#prevtxt").append("");
+                $("#nextxt").append("");
+                $("#plotxt").append("");
+                $("#text").show();
+                $("#mcubut").click(function(){$("#mcuyear").fadeToggle(150)})
+                $("#parbut").click(function(){$("#partxt").fadeToggle(150)})
+                $("#prebut").click(function(){$("#prevtxt").fadeToggle(150)})
+                $("#nxtbut").click(function(){$("#nextxt").fadeToggle(150)})
+                $("#pltbut").click(function(){$("#plotxt").fadeToggle(150)})
+            }
+            else
+            {
+                $("#ph5sel").prop('disabled',true);
+                $("#image").append('<img src="images/Captain America 4.jpg" height="570" width="400"/>'); 
+                $("#image").show(50);
+                $("#mcuyear").append("");
+                $("#partxt").append("");
+                $("#prevtxt").append("");
                 $("#nextxt").append("");
                 $("#plotxt").append("");
                 $("#text").show();
