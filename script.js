@@ -28,6 +28,7 @@ $(document).ready(function()
                     $("#parbut").click(function(){$("#partxt").fadeToggle(150)})
                     $("#prebut").click(function(){$("#prevtxt").fadeToggle(150)})
                     $("#nxtbut").click(function(){$("#nextxt").fadeToggle(150)})
+                    $("#trabut").click(function(){window.open("https://youtu.be/8ugaeA-nMTc")})
                     $("#pltbut").click(function(){$("#plotxt").fadeToggle(150)})
                 }
                 else if(movie==2)
@@ -45,6 +46,7 @@ $(document).ready(function()
                     $("#parbut").click(function(){$("#partxt").fadeToggle(150)})
                     $("#prebut").click(function(){$("#prevtxt").fadeToggle(150)})
                     $("#nxtbut").click(function(){$("#nextxt").fadeToggle(150)})
+                    $("#trabut").click(function(){window.open("https://youtu.be/xbqNb2PFKKA")})
                     $("#pltbut").click(function(){$("#plotxt").fadeToggle(150)})
                 }
                 else if(movie==3)
@@ -62,6 +64,7 @@ $(document).ready(function()
                     $("#parbut").click(function(){$("#partxt").fadeToggle(150)})
                     $("#prebut").click(function(){$("#prevtxt").fadeToggle(150)})
                     $("#nxtbut").click(function(){$("#nextxt").fadeToggle(150)})
+                    $("#trabut").click(function(){window.open("https://youtu.be/wKtcmiifycU")})
                     $("#pltbut").click(function(){$("#plotxt").fadeToggle(150)})
                 }
                 else if(movie==4)
@@ -79,6 +82,7 @@ $(document).ready(function()
                     $("#parbut").click(function(){$("#partxt").fadeToggle(150)})
                     $("#prebut").click(function(){$("#prevtxt").fadeToggle(150)})
                     $("#nxtbut").click(function(){$("#nextxt").fadeToggle(150)})
+                    $("#trabut").click(function(){window.open("https://youtu.be/JerVrbLldXw")})
                     $("#pltbut").click(function(){$("#plotxt").fadeToggle(150)})
                 }
                 else if(movie==5)
@@ -96,6 +100,7 @@ $(document).ready(function()
                     $("#parbut").click(function(){$("#partxt").fadeToggle(150)})
                     $("#prebut").click(function(){$("#prevtxt").fadeToggle(150)})
                     $("#nxtbut").click(function(){$("#nextxt").fadeToggle(150)})
+                    $("#trabut").click(function(){window.open("https://youtu.be/JOddp-nlNvQ")})
                     $("#pltbut").click(function(){$("#plotxt").fadeToggle(150)})
                 }
                 else
@@ -113,6 +118,7 @@ $(document).ready(function()
                     $("#parbut").click(function(){$("#partxt").fadeToggle(150)})
                     $("#prebut").click(function(){$("#prevtxt").fadeToggle(150)})
                     $("#nxtbut").click(function(){$("#nextxt").fadeToggle(150)})
+                    $("#trabut").click(function(){window.open("https://youtu.be/eOrNdBpGMv8")})
                     $("#pltbut").click(function(){$("#plotxt").fadeToggle(150)})
                 }
             });
@@ -138,6 +144,7 @@ $(document).ready(function()
                     $("#parbut").click(function(){$("#partxt").fadeToggle(150)})
                     $("#prebut").click(function(){$("#prevtxt").fadeToggle(150)})
                     $("#nxtbut").click(function(){$("#nextxt").fadeToggle(150)})
+                    $("#trabut").click(function(){window.open("https://youtu.be/7SlILk2WMTI")})
                     $("#pltbut").click(function(){$("#plotxt").fadeToggle(150)})
                 }
                 else if(movie==2)
@@ -155,6 +162,7 @@ $(document).ready(function()
                     $("#parbut").click(function(){$("#partxt").fadeToggle(150)})
                     $("#prebut").click(function(){$("#prevtxt").fadeToggle(150)})
                     $("#nxtbut").click(function(){$("#nextxt").fadeToggle(150)})
+                    $("#trabut").click(function(){window.open("https://youtu.be/YLorLVa95Xo")})
                     $("#pltbut").click(function(){$("#plotxt").fadeToggle(150)})
                 }
                 else if(movie==3)
@@ -172,6 +180,7 @@ $(document).ready(function()
                     $("#parbut").click(function(){$("#partxt").fadeToggle(150)})
                     $("#prebut").click(function(){$("#prevtxt").fadeToggle(150)})
                     $("#nxtbut").click(function(){$("#nextxt").fadeToggle(150)})
+                    $("#trabut").click(function(){window.open("https://youtu.be/npvJ9FTgZbM")})
                     $("#pltbut").click(function(){$("#plotxt").fadeToggle(150)})
                 }
                 else if(movie==4)
@@ -189,6 +198,7 @@ $(document).ready(function()
                     $("#parbut").click(function(){$("#partxt").fadeToggle(150)})
                     $("#prebut").click(function(){$("#prevtxt").fadeToggle(150)})
                     $("#nxtbut").click(function(){$("#nextxt").fadeToggle(150)})
+                    $("#trabut").click(function(){window.open("https://youtu.be/d96cjJhvlMA")})
                     $("#pltbut").click(function(){$("#plotxt").fadeToggle(150)})
                 }
                 else if(movie==5)
@@ -206,6 +216,7 @@ $(document).ready(function()
                     $("#parbut").click(function(){$("#partxt").fadeToggle(150)})
                     $("#prebut").click(function(){$("#prevtxt").fadeToggle(150)})
                     $("#nxtbut").click(function(){$("#nextxt").fadeToggle(150)})
+                    $("#trabut").click(function(){window.open("https://youtu.be/tmeOjFno6Do")})
                     $("#pltbut").click(function(){$("#plotxt").fadeToggle(150)})
                 }
                 else
@@ -223,6 +234,7 @@ $(document).ready(function()
                     $("#parbut").click(function(){$("#partxt").fadeToggle(150)})
                     $("#prebut").click(function(){$("#prevtxt").fadeToggle(150)})
                     $("#nxtbut").click(function(){$("#nextxt").fadeToggle(150)})
+                    $("#trabut").click(function(){window.open("https://youtu.be/pWdKf3MneyI")})
                     $("#pltbut").click(function(){$("#plotxt").fadeToggle(150)})
                 }
             });
@@ -248,6 +260,7 @@ $(document).ready(function()
                     $("#parbut").click(function(){$("#partxt").fadeToggle(150)})
                     $("#prebut").click(function(){$("#prevtxt").fadeToggle(150)})
                     $("#nxtbut").click(function(){$("#nextxt").fadeToggle(150)})
+                    $("#trabut").click(function(){window.open("https://youtu.be/dKrVegVI0Us")})
                     $("#pltbut").click(function(){$("#plotxt").fadeToggle(150)})
                 }
                 else if(movie==2)
@@ -265,6 +278,7 @@ $(document).ready(function()
                     $("#parbut").click(function(){$("#partxt").fadeToggle(150)})
                     $("#prebut").click(function(){$("#prevtxt").fadeToggle(150)})
                     $("#nxtbut").click(function(){$("#nextxt").fadeToggle(150)})
+                    $("#trabut").click(function(){window.open("https://youtu.be/rk-dF1lIbIg")})
                     $("#pltbut").click(function(){$("#plotxt").fadeToggle(150)})
                 }
                 else if(movie==3)
@@ -282,6 +296,7 @@ $(document).ready(function()
                     $("#parbut").click(function(){$("#partxt").fadeToggle(150)})
                     $("#prebut").click(function(){$("#prevtxt").fadeToggle(150)})
                     $("#nxtbut").click(function(){$("#nextxt").fadeToggle(150)})
+                    $("#trabut").click(function(){window.open("https://youtu.be/HSzx-zryEgM")})
                     $("#pltbut").click(function(){$("#plotxt").fadeToggle(150)})
                 }
                 else if(movie==4)
@@ -299,6 +314,7 @@ $(document).ready(function()
                     $("#parbut").click(function(){$("#partxt").fadeToggle(150)})
                     $("#prebut").click(function(){$("#prevtxt").fadeToggle(150)})
                     $("#nxtbut").click(function(){$("#nextxt").fadeToggle(150)})
+                    $("#trabut").click(function(){window.open("https://youtu.be/dW1BIid8Osg")})
                     $("#pltbut").click(function(){$("#plotxt").fadeToggle(150)})
                 }
                 else if(movie==5)
@@ -316,6 +332,7 @@ $(document).ready(function()
                     $("#parbut").click(function(){$("#partxt").fadeToggle(150)})
                     $("#prebut").click(function(){$("#prevtxt").fadeToggle(150)})
                     $("#nxtbut").click(function(){$("#nextxt").fadeToggle(150)})
+                    $("#trabut").click(function(){window.open("https://youtu.be/ue80QwXMRHg")})
                     $("#pltbut").click(function(){$("#plotxt").fadeToggle(150)})
                 }
                 else if(movie==6)
@@ -333,6 +350,7 @@ $(document).ready(function()
                     $("#parbut").click(function(){$("#partxt").fadeToggle(150)})
                     $("#prebut").click(function(){$("#prevtxt").fadeToggle(150)})
                     $("#nxtbut").click(function(){$("#nextxt").fadeToggle(150)})
+                    $("#trabut").click(function(){window.open("https://youtu.be/xjDjIWPwcPU")})
                     $("#pltbut").click(function(){$("#plotxt").fadeToggle(150)})
                 }
                 else if(movie==7)
@@ -350,6 +368,7 @@ $(document).ready(function()
                     $("#parbut").click(function(){$("#partxt").fadeToggle(150)})
                     $("#prebut").click(function(){$("#prevtxt").fadeToggle(150)})
                     $("#nxtbut").click(function(){$("#nextxt").fadeToggle(150)})
+                    $("#trabut").click(function(){window.open("https://youtu.be/Z1BCujX3pw8")})
                     $("#pltbut").click(function(){$("#plotxt").fadeToggle(150)})
                 }
                 else if(movie==8)
@@ -367,6 +386,7 @@ $(document).ready(function()
                     $("#parbut").click(function(){$("#partxt").fadeToggle(150)})
                     $("#prebut").click(function(){$("#prevtxt").fadeToggle(150)})
                     $("#nxtbut").click(function(){$("#nextxt").fadeToggle(150)})
+                    $("#trabut").click(function(){window.open("https://youtu.be/6ZfuNTqbHE8")})
                     $("#pltbut").click(function(){$("#plotxt").fadeToggle(150)})
                 }
                 else if(movie==9)
@@ -384,7 +404,9 @@ $(document).ready(function()
                     $("#parbut").click(function(){$("#partxt").fadeToggle(150)})
                     $("#prebut").click(function(){$("#prevtxt").fadeToggle(150)})
                     $("#nxtbut").click(function(){$("#nextxt").fadeToggle(150)})
+                    $("#trabut").click(function(){window.open("https://youtu.be/UUkn-enk2RU")})
                     $("#pltbut").click(function(){$("#plotxt").fadeToggle(150)})
+
                 }
                 else if(movie==10)
                 {
@@ -401,6 +423,7 @@ $(document).ready(function()
                     $("#parbut").click(function(){$("#partxt").fadeToggle(150)})
                     $("#prebut").click(function(){$("#prevtxt").fadeToggle(150)})
                     $("#nxtbut").click(function(){$("#nextxt").fadeToggle(150)})
+                    $("#trabut").click(function(){window.open("https://youtu.be/TcMBFSGVi1c")})
                     $("#pltbut").click(function(){$("#plotxt").fadeToggle(150)})
                 }
                 else
@@ -418,6 +441,7 @@ $(document).ready(function()
                     $("#parbut").click(function(){$("#partxt").fadeToggle(150)})
                     $("#prebut").click(function(){$("#prevtxt").fadeToggle(150)})
                     $("#nxtbut").click(function(){$("#nextxt").fadeToggle(150)})
+                    $("#trabut").click(function(){window.open("https://youtu.be/Nt9L1jCKGnE")})
                     $("#pltbut").click(function(){$("#plotxt").fadeToggle(150)})
                 }
             });
@@ -443,6 +467,7 @@ $(document).ready(function()
                 $("#parbut").click(function(){$("#partxt").fadeToggle(150)})
                 $("#prebut").click(function(){$("#prevtxt").fadeToggle(150)})
                 $("#nxtbut").click(function(){$("#nextxt").fadeToggle(150)})
+                $("#trabut").click(function(){window.open("https://youtu.be/sj9J2ecsSpo")})
                 $("#pltbut").click(function(){$("#plotxt").fadeToggle(150)})
             }
             else if(movie==2)
@@ -460,6 +485,7 @@ $(document).ready(function()
                 $("#parbut").click(function(){$("#partxt").fadeToggle(150)})
                 $("#prebut").click(function(){$("#prevtxt").fadeToggle(150)})
                 $("#nxtbut").click(function(){$("#nextxt").fadeToggle(150)})
+                $("#trabut").click(function(){window.open("https://youtu.be/IWBsDaFWyTE")})
                 $("#pltbut").click(function(){$("#plotxt").fadeToggle(150)})
             }
             else if(movie==3)
@@ -477,6 +503,7 @@ $(document).ready(function()
                 $("#parbut").click(function(){$("#partxt").fadeToggle(150)})
                 $("#prebut").click(function(){$("#prevtxt").fadeToggle(150)})
                 $("#nxtbut").click(function(){$("#nextxt").fadeToggle(150)})
+                $("#trabut").click(function(){window.open("https://youtu.be/ybji16u608U")})
                 $("#pltbut").click(function(){$("#plotxt").fadeToggle(150)})
             }
             else if(movie==4)
@@ -494,6 +521,7 @@ $(document).ready(function()
                 $("#parbut").click(function(){$("#partxt").fadeToggle(150)})
                 $("#prebut").click(function(){$("#prevtxt").fadeToggle(150)})
                 $("#nxtbut").click(function(){$("#nextxt").fadeToggle(150)})
+                $("#trabut").click(function(){window.open("https://youtu.be/x7Krla_UxRg")})
                 $("#pltbut").click(function(){$("#plotxt").fadeToggle(150)})
             }
             else if(movie==5)
@@ -511,6 +539,7 @@ $(document).ready(function()
                 $("#parbut").click(function(){$("#partxt").fadeToggle(150)})
                 $("#prebut").click(function(){$("#prevtxt").fadeToggle(150)})
                 $("#nxtbut").click(function(){$("#nextxt").fadeToggle(150)})
+                $("#trabut").click(function(){window.open("https://youtu.be/m9EX0f6V11Y")})
                 $("#pltbut").click(function(){$("#plotxt").fadeToggle(150)})
             }
             else if(movie==6)
@@ -528,6 +557,7 @@ $(document).ready(function()
                 $("#parbut").click(function(){$("#partxt").fadeToggle(150)})
                 $("#prebut").click(function(){$("#prevtxt").fadeToggle(150)})
                 $("#nxtbut").click(function(){$("#nextxt").fadeToggle(150)})
+                $("#trabut").click(function(){window.open("https://youtu.be/nW948Va-l10")})
                 $("#pltbut").click(function(){$("#plotxt").fadeToggle(150)})
             }
             else if(movie==7)
@@ -546,6 +576,7 @@ $(document).ready(function()
                 $("#parbut").click(function(){$("#partxt").fadeToggle(150)})
                 $("#prebut").click(function(){$("#prevtxt").fadeToggle(150)})
                 $("#nxtbut").click(function(){$("#nextxt").fadeToggle(150)})
+                $("#trabut").click(function(){window.open("https://youtu.be/x_me3xsvDgk")})
                 $("#pltbut").click(function(){$("#plotxt").fadeToggle(150)})
             }
             else if(movie==8)
@@ -563,6 +594,7 @@ $(document).ready(function()
                 $("#parbut").click(function(){$("#partxt").fadeToggle(150)})
                 $("#prebut").click(function(){$("#prevtxt").fadeToggle(150)})
                 $("#nxtbut").click(function(){$("#nextxt").fadeToggle(150)})
+                $("#trabut").click(function(){window.open("https://youtu.be/aWzlQ2N6qqg")})
                 $("#pltbut").click(function(){$("#plotxt").fadeToggle(150)})
             }
             else if(movie==9)
@@ -580,6 +612,7 @@ $(document).ready(function()
                 $("#parbut").click(function(){$("#partxt").fadeToggle(150)})
                 $("#prebut").click(function(){$("#prevtxt").fadeToggle(150)})
                 $("#nxtbut").click(function(){$("#nextxt").fadeToggle(150)})
+                $("#trabut").click(function(){window.open("https://youtu.be/_Z3QKkl1WyM")})
                 $("#pltbut").click(function(){$("#plotxt").fadeToggle(150)})
             }
             else if(movie==10)
@@ -597,6 +630,7 @@ $(document).ready(function()
                 $("#parbut").click(function(){$("#partxt").fadeToggle(150)})
                 $("#prebut").click(function(){$("#prevtxt").fadeToggle(150)})
                 $("#nxtbut").click(function(){$("#nextxt").fadeToggle(150)})
+                $("#trabut").click(function(){window.open("https://youtu.be/5VYb3B1ETlk")})
                 $("#pltbut").click(function(){$("#plotxt").fadeToggle(150)})
             }
             else if(movie==11)
@@ -614,6 +648,7 @@ $(document).ready(function()
                 $("#parbut").click(function(){$("#partxt").fadeToggle(150)})
                 $("#prebut").click(function(){$("#prevtxt").fadeToggle(150)})
                 $("#nxtbut").click(function(){$("#nextxt").fadeToggle(150)})
+                $("#trabut").click(function(){window.open("https://youtu.be/u7JsKhI2An0")})
                 $("#pltbut").click(function(){$("#plotxt").fadeToggle(150)})
             }
             else if(movie==12)
@@ -631,6 +666,7 @@ $(document).ready(function()
                 $("#parbut").click(function(){$("#partxt").fadeToggle(150)})
                 $("#prebut").click(function(){$("#prevtxt").fadeToggle(150)})
                 $("#nxtbut").click(function(){$("#nextxt").fadeToggle(150)})
+                $("#trabut").click(function(){window.open("https://youtu.be/D7eFpRf4tac")})
                 $("#pltbut").click(function(){$("#plotxt").fadeToggle(150)})
             }
             else if(movie==13)
@@ -648,6 +684,7 @@ $(document).ready(function()
                 $("#parbut").click(function(){$("#partxt").fadeToggle(150)})
                 $("#prebut").click(function(){$("#prevtxt").fadeToggle(150)})
                 $("#nxtbut").click(function(){$("#nextxt").fadeToggle(150)})
+                $("#trabut").click(function(){window.open("https://youtu.be/OYhFFQl4fLs")})
                 $("#pltbut").click(function(){$("#plotxt").fadeToggle(150)})
             }
             else if(movie==14)
@@ -665,6 +702,7 @@ $(document).ready(function()
                 $("#parbut").click(function(){$("#partxt").fadeToggle(150)})
                 $("#prebut").click(function(){$("#prevtxt").fadeToggle(150)})
                 $("#nxtbut").click(function(){$("#nextxt").fadeToggle(150)})
+                $("#trabut").click(function(){window.open("https://youtu.be/bLEFqhS5WmI")})
                 $("#pltbut").click(function(){$("#plotxt").fadeToggle(150)})
             }
             else if(movie==15)
@@ -682,6 +720,7 @@ $(document).ready(function()
                 $("#parbut").click(function(){$("#partxt").fadeToggle(150)})
                 $("#prebut").click(function(){$("#prevtxt").fadeToggle(150)})
                 $("#nxtbut").click(function(){$("#nextxt").fadeToggle(150)})
+                $("#trabut").click(function(){window.open("https://youtu.be/Go8nTmfrQd8")})
                 $("#pltbut").click(function(){$("#plotxt").fadeToggle(150)})
             }
             else if(movie==16)
@@ -699,6 +738,25 @@ $(document).ready(function()
                 $("#parbut").click(function(){$("#partxt").fadeToggle(150)})
                 $("#prebut").click(function(){$("#prevtxt").fadeToggle(150)})
                 $("#nxtbut").click(function(){$("#nextxt").fadeToggle(150)})
+                $("#trabut").click(function(){window.open("https://youtu.be/ZYzbalQ6Lg8")})
+                $("#pltbut").click(function(){$("#plotxt").fadeToggle(150)})
+            }
+            else if(movie==17)
+            {
+                $("#ph4sel").prop('disabled',true);
+                $("#image").append('<img src="images/Moon Knight.png" height="570" width="400"/>'); 
+                $("#image").show(50);
+                $("#mcuyear").append("");
+                $("#partxt").append("");
+                $("#prevtxt").append("");
+                $("#nextxt").append("");
+                $("#plotxt").append("Marc Spector, an Identity Disorder Mercenary in order to Save his Life takes the Avatar of Khonsu (An Egyptian God). Marc in his childhood created an Alter Identity of Himself (Steven Grant) to overcome Depression. Khonsu punishes those people who commit Crime. Arthur Harrow, a Staunch Disciple of Ammit (Another Egyptian God), judges people according to their previous deeds and Eliminates them. Arthur wants to find the Tomb of Ammit in Egypt and release her. Marc is Shot, Dead. In the Afterlife, along with the Help of Egyptian Goddess Tauras, Marc/Steven has to comeback and Stop Arthur with the Help of Layla and Khonsu.");
+                $("#text").show();
+                $("#mcubut").click(function(){$("#mcuyear").fadeToggle(150)})
+                $("#parbut").click(function(){$("#partxt").fadeToggle(150)})
+                $("#prebut").click(function(){$("#prevtxt").fadeToggle(150)})
+                $("#nxtbut").click(function(){$("#nextxt").fadeToggle(150)})
+                $("#trabut").click(function(){window.open("https://youtu.be/x7Krla_UxRg")})
                 $("#pltbut").click(function(){$("#plotxt").fadeToggle(150)})
             }
             else
@@ -716,6 +774,7 @@ $(document).ready(function()
                 $("#parbut").click(function(){$("#partxt").fadeToggle(150)})
                 $("#prebut").click(function(){$("#prevtxt").fadeToggle(150)})
                 $("#nxtbut").click(function(){$("#nextxt").fadeToggle(150)})
+                $("#trabut").click(function(){window.open("https://youtu.be/x9D0uUKJ5KI")})
                 $("#pltbut").click(function(){$("#plotxt").fadeToggle(150)})
             }
         });
@@ -741,6 +800,7 @@ $(document).ready(function()
                 $("#parbut").click(function(){$("#partxt").fadeToggle(150)})
                 $("#prebut").click(function(){$("#prevtxt").fadeToggle(150)})
                 $("#nxtbut").click(function(){$("#nextxt").fadeToggle(150)})
+                $("#trabut").click(function(){window.open("https://youtu.be/ZlNFpri-Y40")})
                 $("#pltbut").click(function(){$("#plotxt").fadeToggle(150)})
             }
             else if(movie==2)
@@ -751,13 +811,14 @@ $(document).ready(function()
                 $("#mcuyear").append("2025");
                 $("#partxt").append("");
                 $("#prevtxt").append("Captain Marvel, Avengers Endgame, Spider Man Far From Home");
-                $("#nextxt").append("");
+                $("#nextxt").append("The Marvels");
                 $("#plotxt").append("In 1995, when the Skrulls came to Earth as Refugees, Nick Fury made a Promise to find a New Home for the Skrulls in return of their help as Spies. Nearly after 30 years, when Fury failed to fulfill their Promise, Gravik the New Skrull General along with his Council and Young Rebellion Army wants to take control of the Earth as their New Home. At the same time Millions of Skrull are in the Planet, disguised as Spies and Top Position Leaders. The Skrulls try to destroy the Planet by starting World War 3, so that the humans can kill each other. Nick Fury along with the Help of Talos, other Secret Agents have to stop Gravik and the Secret Invasion.");
                 $("#text").show();
                 $("#mcubut").click(function(){$("#mcuyear").fadeToggle(150)})
                 $("#parbut").click(function(){$("#partxt").fadeToggle(150)})
                 $("#prebut").click(function(){$("#prevtxt").fadeToggle(150)})
                 $("#nxtbut").click(function(){$("#nextxt").fadeToggle(150)})
+                $("#trabut").click(function(){window.open("https://youtu.be/Tp_YZNqNBhw")})
                 $("#pltbut").click(function(){$("#plotxt").fadeToggle(150)})
             }
             else if(movie==3)
@@ -775,12 +836,13 @@ $(document).ready(function()
                 $("#parbut").click(function(){$("#partxt").fadeToggle(150)})
                 $("#prebut").click(function(){$("#prevtxt").fadeToggle(150)})
                 $("#nxtbut").click(function(){$("#nextxt").fadeToggle(150)})
+                $("#trabut").click(function(){window.open("https://youtu.be/JqcncLPi9zw")})
                 $("#pltbut").click(function(){$("#plotxt").fadeToggle(150)})
             }
             else if(movie==4)
             {
                 $("#ph5sel").prop('disabled',true);
-                $("#image").append('<img src="images/marvels.png" height="570" width="400"/>'); 
+                $("#image").append('<img src="images/The Marvels.jpg" height="570" width="400"/>'); 
                 $("#image").show(50);
                 $("#mcuyear").append("");
                 $("#partxt").append("");
@@ -792,6 +854,7 @@ $(document).ready(function()
                 $("#parbut").click(function(){$("#partxt").fadeToggle(150)})
                 $("#prebut").click(function(){$("#prevtxt").fadeToggle(150)})
                 $("#nxtbut").click(function(){$("#nextxt").fadeToggle(150)})
+                $("#trabut").click(function(){window.open("https://youtu.be/wS_qbDztgVY")})
                 $("#pltbut").click(function(){$("#plotxt").fadeToggle(150)})
             }
             else if(movie==5)
@@ -885,6 +948,7 @@ $(document).ready(function()
                 $("#parbut").click(function(){$("#partxt").fadeToggle(150)})
                 $("#prebut").click(function(){$("#prevtxt").fadeToggle(150)})
                 $("#nxtbut").click(function(){$("#nextxt").fadeToggle(150)})
+                $("#trabut").hide();
                 $("#pltbut").click(function(){$("#plotxt").fadeToggle(150)})
             }
             else if(movie==2)
@@ -902,6 +966,7 @@ $(document).ready(function()
                 $("#parbut").click(function(){$("#partxt").fadeToggle(150)})
                 $("#prebut").click(function(){$("#prevtxt").fadeToggle(150)})
                 $("#nxtbut").click(function(){$("#nextxt").fadeToggle(150)})
+                $("#trabut").hide();
                 $("#pltbut").click(function(){$("#plotxt").fadeToggle(150)})
             }
             else if(movie==3)
@@ -919,6 +984,7 @@ $(document).ready(function()
                 $("#parbut").click(function(){$("#partxt").fadeToggle(150)})
                 $("#prebut").click(function(){$("#prevtxt").fadeToggle(150)})
                 $("#nxtbut").click(function(){$("#nextxt").fadeToggle(150)})
+                $("#trabut").hide();
                 $("#pltbut").click(function(){$("#plotxt").fadeToggle(150)})
             }
             else
@@ -936,6 +1002,7 @@ $(document).ready(function()
                 $("#parbut").click(function(){$("#partxt").fadeToggle(150)})
                 $("#prebut").click(function(){$("#prevtxt").fadeToggle(150)})
                 $("#nxtbut").click(function(){$("#nextxt").fadeToggle(150)})
+                $("#trabut").hide();
                 $("#pltbut").click(function(){$("#plotxt").fadeToggle(150)})
             }
         });
