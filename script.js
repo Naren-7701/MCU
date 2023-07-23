@@ -856,7 +856,7 @@ $(document).ready(function()
                 $("#nxtbut").click(function(){$("#nextxt").fadeToggle(150)})
                 $("#trabut").click(function(){window.open("https://youtu.be/wS_qbDztgVY")})
                 $("#pltbut").click(function(){$("#plotxt").fadeToggle(150)})
-            }
+            }/*
             else if(movie==5)
             {
                 $("#ph5sel").prop('disabled',true);
@@ -924,7 +924,7 @@ $(document).ready(function()
                 $("#prebut").click(function(){$("#prevtxt").fadeToggle(150)})
                 $("#nxtbut").click(function(){$("#nextxt").fadeToggle(150)})
                 $("#pltbut").click(function(){$("#plotxt").fadeToggle(150)})
-            }
+            }*/
         });
     }
     else
