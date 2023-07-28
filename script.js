@@ -308,7 +308,7 @@ $(document).ready(function()
                     $("#partxt").append("I am Groot");
                     $("#prevtxt").append("Guardians of Galaxy Volume 1");
                     $("#nextxt").append("Avengers Infinity War");
-                    $("#plotxt").append("Two weeks after defeating Ronin, the Guardians want to save a bunch of people (Soverign People) from a Giant Monter. On their way back, they are interrupted by EGO (Peter Quill's Father), who wants his son's help, to destroy the Galaxy. Peter initially happy after bonding with his Dad, comes to know about his true intentions later. Peter along with Yondu, other Guardians have to stop EGO.");
+                    $("#plotxt").append("Two weeks after defeating Ronin, the Guardians want to save a bunch of people (Soverign People) from a Giant Monster. On their way back, they are interrupted by EGO (Peter Quill's Father), who wants his son's help, to destroy the Galaxy. Peter initially happy after bonding with his Dad, comes to know about his true intentions later. Peter along with Yondu, other Guardians have to stop EGO.");
                     $("#text").show();
                     $("#mcubut").click(function(){$("#mcuyear").fadeToggle(150)})
                     $("#parbut").click(function(){$("#partxt").fadeToggle(150)})
