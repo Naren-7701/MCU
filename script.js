@@ -856,11 +856,11 @@ $(document).ready(function()
                 $("#nxtbut").click(function(){$("#nextxt").fadeToggle(150)})
                 $("#trabut").click(function(){window.open("https://youtu.be/wS_qbDztgVY")})
                 $("#pltbut").click(function(){$("#plotxt").fadeToggle(150)})
-            }/*
+            }
             else if(movie==5)
             {
                 $("#ph5sel").prop('disabled',true);
-                $("#image").append('<img src="images/Loki S02.jpg" height="570" width="400"/>'); 
+                $("#image").append('<img src="images/Loki S2.png" height="570" width="400"/>'); 
                 $("#image").show(50);
                 $("#mcuyear").append("");
                 $("#partxt").append("");
@@ -872,8 +872,9 @@ $(document).ready(function()
                 $("#parbut").click(function(){$("#partxt").fadeToggle(150)})
                 $("#prebut").click(function(){$("#prevtxt").fadeToggle(150)})
                 $("#nxtbut").click(function(){$("#nextxt").fadeToggle(150)})
+                $("#trabut").click(function(){window.open("https://youtu.be/dug56u8NN7g")})
                 $("#pltbut").click(function(){$("#plotxt").fadeToggle(150)})
-            }
+            }/*
             else if(movie==6)
             {
                 $("#ph5sel").prop('disabled',true);
