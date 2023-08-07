@@ -659,7 +659,7 @@ $(document).ready(function()
                 $("#mcuyear").append("2014");
                 $("#partxt").append("");
                 $("#prevtxt").append("Guardians of Galaxy Volume 1");
-                $("#nextxt").append("Guardians of Galaxy Volume 2");
+                $("#nextxt").append("I am Groot Season 2");
                 $("#plotxt").append("A mini TV series about Groot's development from young to Teenage. Takes place between Guardians Vol 1, Guardians Vol 2.");
                 $("#text").show();
                 $("#mcubut").click(function(){$("#mcuyear").fadeToggle(150)})
@@ -860,11 +860,29 @@ $(document).ready(function()
             else if(movie==5)
             {
                 $("#ph5sel").prop('disabled',true);
+                $("#image").append('<img src="images/I_Am_Groot_S2.webp" height="570" width="400"/>'); 
+                $("#image").show(50);
+                $("#mcuyear").append("2014");
+                $("#partxt").append("");
+                $("#prevtxt").append("I am Groot Season 1");
+                $("#nextxt").append("Guardians of Galaxy Vol 2");
+                $("#plotxt").append("A mini TV series about Groot's development from young to Teenage. Takes place between Guardians Vol 1, Guardians Vol 2.");
+                $("#text").show();
+                $("#mcubut").click(function(){$("#mcuyear").fadeToggle(150)})
+                $("#parbut").click(function(){$("#partxt").fadeToggle(150)})
+                $("#prebut").click(function(){$("#prevtxt").fadeToggle(150)})
+                $("#nxtbut").click(function(){$("#nextxt").fadeToggle(150)})
+                $("#trabut").click(function(){window.open("https://youtu.be/1k8H2CywVqg")})
+                $("#pltbut").click(function(){$("#plotxt").fadeToggle(150)})
+            }
+            else if(movie==6)
+            {
+                $("#ph5sel").prop('disabled',true);
                 $("#image").append('<img src="images/Loki S2.png" height="570" width="400"/>'); 
                 $("#image").show(50);
                 $("#mcuyear").append("");
                 $("#partxt").append("");
-                $("#prevtxt").append("Loki Season 01, Antman and Wasp Quantumania");
+                $("#prevtxt").append("Loki Season 01, Antman and Wasp Quantumania ");
                 $("#nextxt").append("");
                 $("#plotxt").append("");
                 $("#text").show();
@@ -875,7 +893,7 @@ $(document).ready(function()
                 $("#trabut").click(function(){window.open("https://youtu.be/dug56u8NN7g")})
                 $("#pltbut").click(function(){$("#plotxt").fadeToggle(150)})
             }/*
-            else if(movie==6)
+            else if(movie==7)
             {
                 $("#ph5sel").prop('disabled',true);
                 $("#image").append('<img src="images/Echo.jpg" height="570" width="400"/>'); 
@@ -892,7 +910,7 @@ $(document).ready(function()
                 $("#nxtbut").click(function(){$("#nextxt").fadeToggle(150)})
                 $("#pltbut").click(function(){$("#plotxt").fadeToggle(150)})
             }
-            else if(movie==7)
+            else if(movie==8)
             {
                 $("#ph5sel").prop('disabled',true);
                 $("#image").append('<img src="images/Deadpool 3.jpg" height="570" width="400"/>'); 
