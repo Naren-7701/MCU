@@ -486,11 +486,11 @@ $(document).ready(function()
                 $("#ph4sel").prop('disabled',true);
                 $("#image").append('<img src="images/I am Groot.jpg" height="570" width="400"/>'); 
                 $("#image").show(50);
-                $("#mcuyear").append("2014");
-                $("#partxt").append("");
+                $("#mcuyear").append("2016");
+                $("#partxt").append("Guardians of Galaxy Volume 2");
                 $("#prevtxt").append("Guardians of Galaxy Volume 1");
                 $("#nextxt").append("I am Groot Season 2");
-                $("#plotxt").append("A mini TV series about Groot's development from young to Teenage. Takes place between Guardians Vol 1, Guardians Vol 2.");
+                $("#plotxt").append("A mini TV series about Groot's development from young to Teenage. Takes place during Guardians Vol 2.");
                 $("#text").show();
                 $("#trabut").click(function(){window.open("https://youtu.be/D7eFpRf4tac")})
             }
@@ -637,11 +637,11 @@ $(document).ready(function()
                 $("#ph5sel").prop('disabled',true);
                 $("#image").append('<img src="images/I_Am_Groot_S2.webp" height="570" width="400"/>'); 
                 $("#image").show(50);
-                $("#mcuyear").append("2014");
-                $("#partxt").append("");
+                $("#mcuyear").append("2016");
+                $("#partxt").append("Guardians of Galaxy Volume 2");
                 $("#prevtxt").append("I am Groot Season 1");
-                $("#nextxt").append("Guardians of Galaxy Vol 2");
-                $("#plotxt").append("A mini TV series about Groot's development from young to Teenage. Takes place between Guardians Vol 1, Guardians Vol 2.");
+                $("#nextxt").append("Avengers Infinity War");
+                $("#plotxt").append("A mini TV series about Groot's development from young to Teenage. Takes place during Guardians Vol 2.");
                 $("#text").show();
                 $("#trabut").click(function(){window.open("https://youtu.be/1k8H2CywVqg")})
             }
