@@ -650,11 +650,11 @@ $(document).ready(function()
                 $("#ph5sel").prop('disabled',true);
                 $("#image").append('<img src="images/Loki S2.png" height="570" width="400"/>'); 
                 $("#image").show(50);
-                $("#mcuyear").append("");
+                $("#mcuyear").append("Start-End");
                 $("#partxt").append("");
                 $("#prevtxt").append("Loki Season 01, Antman and Wasp Quantumania ");
                 $("#nextxt").append("");
-                $("#plotxt").append("");
+                $("#plotxt").append("After Loki is sent to the TVA from End of Time, he starts to Time Slip. He has to fix this issue with the help of Ouroborus. He has to find Sylvie with the help of X-5 (Brad Wolf).");
                 $("#text").show();
                 $("#trabut").click(function(){window.open("https://youtu.be/dug56u8NN7g")})
             }/*
