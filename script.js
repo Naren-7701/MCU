@@ -654,7 +654,7 @@ $(document).ready(function()
                 $("#partxt").append("");
                 $("#prevtxt").append("Loki Season 01, Antman and Wasp Quantumania ");
                 $("#nextxt").append("");
-                $("#plotxt").append("After Loki is sent to the TVA from End of Time, he starts to Time Slip. He has to fix this issue with the help of Ouroborus. He has to find Sylvie with the help of X-5 (Brad Wolf).");
+                $("#plotxt").append("After Loki is sent to the TVA from End of Time, he starts to Time Slip. He has to fix this issue with the help of Ouroborus. He has to find Sylvie with the help of X-5 (Brad Wolf). Renslayer meets Victor Timely (A variant of Kang) according to the Plan. Loki, Mobius Want his help to fix the Temporal Loom in the TVA. Whereas, Sylvie wants to kill him. Miss Minutes goes Rogue. Renslayer is sent to the End of Time.");
                 $("#text").show();
                 $("#trabut").click(function(){window.open("https://youtu.be/dug56u8NN7g")})
             }/*
