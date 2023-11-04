@@ -654,14 +654,14 @@ $(document).ready(function()
                 $("#partxt").append("");
                 $("#prevtxt").append("Loki Season 01, Antman and Wasp Quantumania ");
                 $("#nextxt").append("");
-                $("#plotxt").append("Loki starts to Time Slip. He has to fix this with the help of Ouroborus. He has to find Sylvie with the help of X-5. Renslayer meets Victor Timely (A variant of Kang) according to the Plan. Loki, Mobius want his help to fix the Temporal Loom in the TVA. Whereas, Sylvie wants to kill him. Miss Minutes goes Rogue. Renslayer is sent to the End of Time, where she learns about her hidden Truth. OB, Casey and Timely try to create a Multiplier to fix the Temporal Loom. Renslayer and Miss Minutes, seek the help of Gen.Dox, X-5 and other arrested Minute-Men inorder to bring stability to the TVA. The TVA is rebooted. Timely is spaghetified.");
+                $("#plotxt").append("Loki starts to Time Slip. He has to fix this with the help of Ouroborus. He has to find Sylvie with the help of X-5. Renslayer meets Victor Timely (A variant of Kang) according to the Plan. Loki, Mobius want his help to fix the Temporal Loom in the TVA. Whereas, Sylvie wants to kill him. Miss Minutes goes Rogue. Renslayer is sent to the End of Time, where she learns about her hidden Truth. OB, Casey and Timely try to create a Multiplier to fix the Temporal Loom. Renslayer and Miss Minutes, seek the help of Gen.Dox, X-5 and other arrested Minute-Men inorder to bring stability to the TVA. The TVA is rebooted. Timely and TVA are spaghetified. Loki starts to Timeslip again. The Timelines start to destroy. Loki has to regroup his Team, and also learn how to control Timeslipping.");
                 $("#text").show();
                 $("#trabut").click(function(){window.open("https://youtu.be/dug56u8NN7g")})
-            }/*
+            }
             else if(movie==7)
             {
                 $("#ph5sel").prop('disabled',true);
-                $("#image").append('<img src="images/Echo.jpg" height="570" width="400"/>'); 
+                $("#image").append('<img src="images/echo.jpg" height="570" width="400"/>'); 
                 $("#image").show(50);
                 $("#mcuyear").append("");
                 $("#partxt").append("");
@@ -669,7 +669,7 @@ $(document).ready(function()
                 $("#nextxt").append("");
                 $("#plotxt").append("");
                 $("#text").show();
-            }
+            }/*
             else if(movie==8)
             {
                 $("#ph5sel").prop('disabled',true);
