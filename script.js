@@ -567,7 +567,7 @@ $(document).ready(function()
                 $("#mcuyear").append("");
                 $("#partxt").append("");
                 $("#prevtxt").append("");
-                $("#nextxt").append("Marvel Zombies");
+                $("#nextxt").append("Marvel Zombies, What If Season 2");
                 $("#plotxt").append("Uatu aka the Watcher, keeps watching on Different multiverse to gain knowledge. The show explores on alternate realities. We meet Peggy Carter as Captain America, T'Challa as Star Lord, Hank Pym as Yellow Jacket, Supreme Strange, Zombie Avengers, Kill monger, Funny Thor, Ultron as an evil AI. Every episode focuses on one Superhero whose fate his changed and the coressponding consequences that are observed. The Final face off is Watcher's Guardians of the Multiverse vs Ultrom who wants to capture the entire multiverse.");
                 $("#text").show();
                 $("#trabut").click(function(){window.open("https://youtu.be/x9D0uUKJ5KI")})
@@ -669,19 +669,21 @@ $(document).ready(function()
                 $("#nextxt").append("");
                 $("#plotxt").append("");
                 $("#text").show();
-            }/*
+                $("#trabut").click(function(){window.open("https://youtu.be/AFUKnherhuw?si=EAdsCNLqmq-97VmZ")})
+            }
             else if(movie==8)
             {
                 $("#ph5sel").prop('disabled',true);
-                $("#image").append('<img src="images/Deadpool 3.jpg" height="570" width="400"/>'); 
+                $("#image").append('<img src="images/What If S02.jpg" height="570" width="400"/>'); 
                 $("#image").show(50);
                 $("#mcuyear").append("");
                 $("#partxt").append("");
-                $("#prevtxt").append("");
+                $("#prevtxt").append("What If Season 1");
                 $("#nextxt").append("");
                 $("#plotxt").append("");
                 $("#text").show();
-            }
+                $("#trabut").click(function(){window.open("https://youtu.be/TiEVqZ2Bc_c?si=2IqxAa5aGfiW1-LE")})
+            }/*
             else
             {
                 $("#ph5sel").prop('disabled',true);
