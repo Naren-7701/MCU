@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../style2.css">
+        <link rel="shortcut icon" type="images/jpg" href="../images/naren_logo.jpg">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <title></title>
+    </head>
+    <body>
+        <div class="heading">MCU TIMELINE</div>
+        <div id="container">
+            <div id="image"></div>
+            <div id="text">
+            <div id="pdf"><button id="poster"><a href="" target="_blank">Overall TimeLine Chart</a></button></div>
+            <div class="content"><button class="view" id="trabut">PLAY TRAILER</button></div>
+            <div class="content2"><button class="view">MCU YEAR</button><div class="answer2" id="mcuyear"></div></div>
+            <div class="content"><button  class="view">PREVIOUS PROJECTS</button><div class="answer"><ul id="prevtxt"></ul></div></div>
+            <div class="content"><button  class="view">PARALLEL PROJECTS</button><div class="answer"><ul id="partxt"></ul></div></div>
+            <div class="content"><button class="view">UPCOMING PROJECTS</button><div class="answer"><ul id="nextxt"></ul></div></div>
+            <div class="content"><button class="view">PLOT AND SYNOPSIS</button><div class="answer" id="plotxt"></div></div>
+            </div>
+        </div>
+        <script>
+            $(document).prop('title','Spider Man Far From Home');
+            $("#image").append('<img src="../images/Spider Man 2.jpg"/>');
+            $("#mcuyear").append("2024");
+            $("#partxt").append("");
+            $("#prevtxt").append("<li>Avengers Endgame</li>");
+            $("#nextxt").append("<li>Secret Invasion</li><li>Spider Man No Way Home</li>");
+            $("#plotxt").append("After Tony Stark sacrificed his life for the greater good, Peter Parker has to find his own way. He spends some time in College Vacation Tour across Europe. He comes across Mysterio, an Ex-Stark Employee, who was fired by Stark, for not being useful to him. Mysterio wants Stark's EDITH Glasses, to control the Drones, create Illusion and destroy the world. He manipulates Peter and is succesful in his misson. Now Spider Man has to withstand Mysterio's attack and save the World, his college colleagues.");
+            $("#trabut").click(function(){window.open("https://youtu.be/Nt9L1jCKGnE")})
+        </script>
+    </body>
+</html>

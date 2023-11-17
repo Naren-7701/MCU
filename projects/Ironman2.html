@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../style2.css">
+        <link rel="shortcut icon" type="images/jpg" href="../images/naren_logo.jpg">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <title></title>
+    </head>
+    <body>
+        <div class="heading">MCU TIMELINE</div>
+        <div id="container">
+            <div id="image"></div>
+            <div id="text">
+            <div id="pdf"><button id="poster"><a href="" target="_blank">Overall TimeLine Chart</a></button></div>
+            <div class="content"><button class="view" id="trabut">PLAY TRAILER</button></div>
+            <div class="content2"><button class="view">MCU YEAR</button><div class="answer2" id="mcuyear"></div></div>
+            <div class="content"><button  class="view">PREVIOUS PROJECTS</button><div class="answer"><ul id="prevtxt"></ul></div></div>
+            <div class="content"><button  class="view">PARALLEL PROJECTS</button><div class="answer"><ul id="partxt"></ul></div></div>
+            <div class="content"><button class="view">UPCOMING PROJECTS</button><div class="answer"><ul id="nextxt"></ul></div></div>
+            <div class="content"><button class="view">PLOT AND SYNOPSIS</button><div class="answer" id="plotxt"></div></div>
+            </div>
+        </div>
+        <script>
+            $(document).prop('title','Iron Man 2');
+            $("#image").append('<img src="../images/Iron Man 2.jpg"/>'); 
+            $("#mcuyear").append("2011 (Fury's Busy Week)");
+            $("#partxt").append("<li>Incredible Hulk</li><li>Thor</li><li>Captain America First Avenger</li>");
+            $("#prevtxt").append("<li>Iron Man</li>");
+            $("#nextxt").append("<li>Avengers</li><li>Iron Man 3</li>");
+            $("#plotxt").append("A Russian Scientist (Ivan Vanko) whose father was betrayed by Howard Stark wants to get revenge on Tony Stark. He prepares his own armor with the Help of Hammer Industries. Stark is lavish, irresponsible with his Technology. The Arc Reactor slowly poisons him. Thus he has to fix the Arc Reactor and stop Ivan.");
+            $("#trabut").click(function(){window.open("https://youtu.be/wKtcmiifycU")})
+        </script>
+    </body>
+</html>

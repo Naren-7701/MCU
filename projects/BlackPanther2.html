@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../style2.css">
+        <link rel="shortcut icon" type="images/jpg" href="../images/naren_logo.jpg">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <title></title>
+    </head>
+    <body>
+        <div class="heading">MCU TIMELINE</div>
+        <div id="container">
+            <div id="image"></div>
+            <div id="text">
+            <div id="pdf"><button id="poster"><a href="" target="_blank">Overall TimeLine Chart</a></button></div>
+            <div class="content"><button class="view" id="trabut">PLAY TRAILER</button></div>
+            <div class="content2"><button class="view">MCU YEAR</button><div class="answer2" id="mcuyear"></div></div>
+            <div class="content"><button  class="view">PREVIOUS PROJECTS</button><div class="answer"><ul id="prevtxt"></ul></div></div>
+            <div class="content"><button  class="view">PARALLEL PROJECTS</button><div class="answer"><ul id="partxt"></ul></div></div>
+            <div class="content"><button class="view">UPCOMING PROJECTS</button><div class="answer"><ul id="nextxt"></ul></div></div>
+            <div class="content"><button class="view">PLOT AND SYNOPSIS</button><div class="answer" id="plotxt"></div></div>
+            </div>
+        </div>
+        <script>
+            $(document).prop('title','Black Panther Wakanda Forever');
+            $("#image").append('<img src="../images/BP 02.jpg"/>'); 
+            $("#mcuyear").append("2024");
+            $("#partxt").append("<li>Falcon and the Winter Soldier</li>");
+            $("#prevtxt").append("<li>Black Panther</li><li>Avengers Endgame</li>");
+            $("#nextxt").append("<li>Iron Heart</li>");
+            $("#plotxt").append("After the sudden loss of T'Challa, Wakanda is under pressure for it's Vibranium. A Vibranuim detector designed by a High School Student (Riri Williams), is used by the US Govt and it detects Vibranium in Atlantic. The Research team is killed by the Leader of Talokan (Namor), who wants to keep his people and the Kingdom safe. The US Government misinterupts and wants to take revenge on Wakanda. Namor makes a deal with Wakanda. Wakandan Army with their new Black Panther fights Namor and the Talokans .");
+            $("#trabut").click(function(){window.open("https://youtu.be/_Z3QKkl1WyM")})
+        </script>
+    </body>
+</html>

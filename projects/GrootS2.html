@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../style2.css">
+        <link rel="shortcut icon" type="images/jpg" href="../images/naren_logo.jpg">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <title></title>
+    </head>
+    <body>
+        <div class="heading">MCU TIMELINE</div>
+        <div id="container">
+            <div id="image"></div>
+            <div id="text">
+            <div id="pdf"><button id="poster"><a href="" target="_blank">Overall TimeLine Chart</a></button></div>
+            <div class="content"><button class="view" id="trabut">PLAY TRAILER</button></div>
+            <div class="content2"><button class="view">MCU YEAR</button><div class="answer2" id="mcuyear"></div></div>
+            <div class="content"><button  class="view">PREVIOUS PROJECTS</button><div class="answer"><ul id="prevtxt"></ul></div></div>
+            <div class="content"><button  class="view">PARALLEL PROJECTS</button><div class="answer"><ul id="partxt"></ul></div></div>
+            <div class="content"><button class="view">UPCOMING PROJECTS</button><div class="answer"><ul id="nextxt"></ul></div></div>
+            <div class="content"><button class="view">PLOT AND SYNOPSIS</button><div class="answer" id="plotxt"></div></div>
+            </div>
+        </div>
+        <script>
+            $(document).prop('title','I am Groot Season 2');
+            $("#image").append('<img src="../images/I_Am_Groot_S2.webp"/>'); 
+            $("#mcuyear").append("2016");
+            $("#partxt").append("<li>Guardians of Galaxy Volume 2</li>");
+            $("#prevtxt").append("<li>I am Groot Season 1</li>");
+            $("#nextxt").append("<li>Avengers Infinity War</li>");
+            $("#plotxt").append("A mini TV series about Groot's development from young to Teenage. Takes place during Guardians Vol 2.");
+            $("#trabut").click(function(){window.open("https://youtu.be/1k8H2CywVqg")})
+        </script>
+    </body>
+</html>

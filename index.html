@@ -1,36 +1,33 @@
 <!DOCTYPE html>
-<html>
     <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta charset="UTF-8">
+	    <meta name ="viewport" content = "width=device-width, intial-scale=1.0">
         <link rel="stylesheet" href="style.css">
         <link rel="shortcut icon" type="images/jpg" href="images/naren_logo.jpg">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <title>MCU TimeLine</title>
     </head>
     <body>
-        <div id="title"> 
-            <div class="heading">MCU TIMELINE (Chronological and Movie order)
-            <a href="https://naren-7701.github.io/SUPERHERO_DRAWINGS/" target="_blank"><button id="drawings">DRAWINGS</button></a></div></div>
+        <div><img id="studio" src="images/marvelstudio.png"></div>
+        <div class="heading">MCU TIMELINE <br><span id="subhead">(Chronology - Movie Order)</span></div>
+        <div>
+            <div class="textsel">SELECT PHASE</div>
+            <div class="contentdisp">
+            <select id="phsel">
+                <option value="">Select a Phase (1-5)</option>
+                <option value='1'>Phase 1 (2008-2012)</option>
+                <option value="2">Phase 2 (2013-2015)</option>
+                <option value="3">Phase 3 (2016-2019)</option>
+                <option value="4">Phase 4 (2021-2022)</option>
+                <option value="5">Phase 5 (2023-)</option>
+                <option value="cannon">Cannon</option>
+            </select>
+            </div>
         </div>
-        <div id="main">
-        <form id="forms">
-        <table>
-            <tr>
-                <td><p>Select Phase</p></td> 
-                <td>
-                    <select id="phsel">
-                    <option value="">Select a Phase</option>
-                    <option value='1'>Phase 1 (2008-2012)</option>
-                    <option value="2">Phase 2 (2013-2015)</option>
-                    <option value="3">Phase 3 (2016-2019)</option>
-                    <option value="4">Phase 4 (2021-2022)</option>
-                    <option value="5">Phase 5 (2023-)</option>
-                    <option value="cannon">Cannon</option>
-                    </select>
-                </td>
-                <td>
-                    <select id="ph1sel" class="hidden">
+        <div>
+            <div id="projselect" class="textsel">SELECT PROJECT</div>
+            <div class="contentdisp">
+                <select id="ph1sel" class="hidden">
                     <option value="">Select a Phase 1 Project</option>
                     <option value="1">&#x1F3A5; Iron Man 1</option>
                     <option value="2">&#x1F3A5; Incredible Hulk</option>
@@ -38,10 +35,8 @@
                     <option value="4">&#x1F3A5; Captain America The First Avenger</option>
                     <option value="5">&#x1F3A5; Thor</option>
                     <option value="6">&#x1F3A5; Avengers</option>
-                    </select>
-                </td>
-                <td>
-                    <select id="ph2sel" class="hidden">
+                </select>
+                <select id="ph2sel" class="hidden">
                     <option value="">Select a Phase 2 Project</option>
                     <option value="1">&#x1F3A5; Captain America The Winter Soldier</option>
                     <option value="2">&#x1F3A5; Iron Man 3</option>
@@ -49,10 +44,8 @@
                     <option value="4">&#x1F3A5; Guardians of the Galaxy Vol 1</option>
                     <option value="5">&#x1F3A5; Avengers Age of Ultron</option>
                     <option value="6">&#x1F3A5; Antman 1</option>
-                    </select>
-                </td>
-                <td>
-                    <select id="ph3sel" class="hidden">
+                </select>
+                <select id="ph3sel" class="hidden">
                     <option value="">Select a Phase 3 Project</option>
                     <option value="1">&#x1F3A5; Captain America Civil War</option>
                     <option value="2">&#x1F3A5; Spider Man Homecoming</option>
@@ -65,10 +58,8 @@
                     <option value="9">&#x1F3A5; Antman and the Wasp</option>
                     <option value="10">&#x1F3A5; Avengers Endgame</option>
                     <option value="11">&#x1F3A5; Spider Man Far From Home</option>
-                    </select>
-                </td>   
-                <td>
-                    <select id="ph4sel" class="hidden">
+                </select>
+                <select id="ph4sel" class="hidden">
                     <option value="">Select a Phase 4 Project</option>
                     <option value="1">&#x1F4FA; Wandavision</option>
                     <option value="2">&#x1F4FA; Falcon and Winter Soldier</option>
@@ -88,49 +79,30 @@
                     <option value="16">&#x1F3A5; Spiderman No Way Home</option>
                     <option value="17">&#x1F4FA; Moon Knight</option>
                     <option value="18">&#x1F4FA; What If Season 1</option>
-                    </select>
-                </td>
-                <td>
-                    <select id="ph5sel" class="hidden">
+                </select>
+                <select id="ph5sel" class="hidden">
                     <option value="">Select a Phase 5 Project</option>
                     <option value="1">&#x1F3A5; Antman and Wasp Quantamania</option>
                     <option value="2">&#x1F4FA; Secret Invasion</option>
                     <option value="3">&#x1F3A5; Guardians of Galaxy Vol 3</option>
-                    <option value="4">&#x1F3A5; Marvels</option>
-                    <option value="5">&#x1F4FA; I am Groot Season 2</option>
-                    <option value="6">&#x1F4FA; Loki Season 2</option>
-                    <option value="7">&#x1F4FA; Echo</option>
-                    <option value="8">&#x1F4FA; What If Season 2</option>
-                    <!--<option value="9">&#x1F3A5; Captain America Brave New World</option>-->
-                    </select>
-                </td>
-                <td>
-                    <select id="cansel" class="hidden">
+                    <option value="4">&#x1F4FA; I am Groot Season 2</option>
+                    <option value="5">&#x1F4FA; Loki Season 2</option>
+                    <!--<option value="6">&#x1F4FA; Echo</option>
+                    <option value="7">&#x1F4FA; What If Season 2</option>
+                    <option value="8">&#x1F3A5; Captain America Brave New World</option>-->
+                </select>
+                <select id="cansel" class="hidden">
                     <option value="">Select a Cannon Project</option>
                     <option value="1">&#x1F4FA; Agent Carter</option>
                     <option value="2">&#x1F3A5; Spiderman 1,2,3</option>
                     <option value="3">&#x1F3A5; The Amazing Spiderman 1,2</option>
                     <option value="4">&#x1F3A5; Venom 1,2</option>
-                    </select>
-                </td>
-                <td><button type="reset" class="hidden" id="rest">RESET</button></td>
-            </tr>
-        </table>
-        </form>
-        </div>
-        <div id="container">
-            <div id="image" class="hidden"></div>
-            <div id="text" class="hidden">
-            <div id="pdf"><button id="poster"><a href="https://viewer.diagrams.net/?tags=%7B%7D&target=blank&highlight=0000ff&edit=_blank&layers=1&nav=1&title=MCU_POSTER_DIAGRAM_LATEST.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1b5Y2oA0nzhHEIEsGAZZXpdzzXJTV1Vyc%26export%3Ddownload" target="_blank">
-            Overall Time Line Chart</a></button></div>
-            <div><button class="view" id="mcubut">MCU YEAR</button><div id="mcuyear" class="hidden togtxt"></div></div>
-            <div><button class="view" id="parbut">PARALLEL PROJECTS</button><div id="partxt" class="hidden togtxt"></div></div>
-            <div><button  class="view" id="prebut">PREVIOUS PROJECTS</button><div id="prevtxt" class="hidden togtxt"></div></div>
-            <div><button class="view" id="nxtbut">UPCOMING PROJECTS</button><div id="nextxt" class="hidden togtxt"></div></div>
-            <div><button class="view" id="trabut">PLAY TRAILER</button></div>
-            <div><button class="view"id="pltbut">PLOT AND SYNOPSIS</button><div id="plotxt" class="hidden"></div></div>
+                </select>
             </div>
         </div>
+        <div><button type="reset" class="hidden" id="rest">RESET</button></div>
+        <div><img src="./images/avengers_logo.jpg" class="avengers"/></div>
+        <footer><small>Website by NAREN ADHARSH S</small></footer>
         <script src="script.js"></script>
     </body>
 </html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../style2.css">
+        <link rel="shortcut icon" type="images/jpg" href="../images/naren_logo.jpg">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <title></title>
+    </head>
+    <body>
+        <div class="heading">MCU TIMELINE</div>
+        <div id="container">
+            <div id="image"></div>
+            <div id="text">
+            <div id="pdf"><button id="poster"><a href="" target="_blank">Overall TimeLine Chart</a></button></div>
+            <div class="content"><button class="view" id="trabut">PLAY TRAILER</button></div>
+            <div class="content2"><button class="view">MCU YEAR</button><div class="answer2" id="mcuyear"></div></div>
+            <div class="content"><button  class="view">PREVIOUS PROJECTS</button><div class="answer"><ul id="prevtxt"></ul></div></div>
+            <div class="content"><button  class="view">PARALLEL PROJECTS</button><div class="answer"><ul id="partxt"></ul></div></div>
+            <div class="content"><button class="view">UPCOMING PROJECTS</button><div class="answer"><ul id="nextxt"></ul></div></div>
+            <div class="content"><button class="view">PLOT AND SYNOPSIS</button><div class="answer" id="plotxt"></div></div>
+            </div>
+        </div>
+        <script>
+            $(document).prop('title','Avengers Endgame');
+            $("#image").append('<img src="../images/Avengers 4.jpg"/>'); 
+            $("#mcuyear").append("2018 - 2023");
+            $("#partxt").append("");
+            $("#prevtxt").append("<li>Avengers Infinity War</li><li>Antman and the Wasp</li>");
+            $("#nextxt").append("<li>Wanda Vision</li><li>She Hulk</li><li>Falcon and the Winter Soldier</li><li>Black Panther Wakanda Forever</li><li>Hawkeye</li><li>Spider Man Far From Home</li><li>Thor Love and Thunder</li><li>Eternals</li><li>Antman and Wasp Quantumania</li><li>Loki Season 1</li>");
+            $("#plotxt").append("After losing half of the Avengers to Thanos Snap, the remaining Avengers are hopeless. Antman comes back from Quantum Tunnel, and pitches about Time Travel Idea to the Avengers. The Remaining Avengers go back in time to specific moments in the past to collect Infinity Stones and reverse the Snap. The Final Battle involves all the Avengers facing against Thanos Army. After that Battle all Superheroes find their own path to live by.");
+            $("#trabut").click(function(){window.open("https://youtu.be/TcMBFSGVi1c")})
+        </script>
+    </body>
+</html>

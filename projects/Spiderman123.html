@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../style2.css">
+        <link rel="shortcut icon" type="images/jpg" href="../images/naren_logo.jpg">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <title></title>
+    </head>
+    <body>
+        <div class="heading">MCU TIMELINE</div>
+        <div id="container">
+            <div id="image"></div>
+            <div id="text">
+            <div id="pdf"><button id="poster"><a href="" target="_blank">Overall TimeLine Chart</a></button></div>
+            <div class="content2"><button class="view">MCU YEAR</button><div class="answer2" id="mcuyear"></div></div>
+            <div class="content"><button  class="view">PREVIOUS PROJECTS</button><div class="answer"><ul id="prevtxt"></ul></div></div>
+            <div class="content"><button  class="view">PARALLEL PROJECTS</button><div class="answer"><ul id="partxt"></ul></div></div>
+            <div class="content"><button class="view">UPCOMING PROJECTS</button><div class="answer"><ul id="nextxt"></ul></div></div>
+            <div class="content"><button class="view">PLOT AND SYNOPSIS</button><div class="answer" id="plotxt"></div></div>
+            </div>
+        </div>
+        <script>
+            $(document).prop('title','Spider Man 1,2,3 (Raimi)');
+            $("#image").append('<img src="../images/Raimi spiderman.png"/>'); 
+            $("#mcuyear").append("2002 - 2007");
+            $("#partxt").hide(); 
+            $("#prevtxt").hide();
+            $("#nextxt").append("<li>Spider Man No Way Home</li>");
+            $("#plotxt").append("(I) Peter Parker, a Brilliant Student, was bit by Spider, he gains body and can shoot organic webs. He wants to use this power and earn money illegally, ends up losing his Uncle. Norman Osborn a leading Scientist, is fired. Thus he creates an Alter Ego to threaten people (Goblin). Peter realises the Responsibilities with his power, designs a new suit, and becomes Spider Man. The Final face off is Goblin vs Spider Man. <br>(II) Dr.Otto Octavius a Brilliant Scientist wants to create an energy source from Trittium, thus he creates mechanised arms for his experiment, but the experiment goes wrong, the arms take control of him and he turns evil. Spider Man has to defeat Dr.Octopus and save Mary Jane.<br>(III) A local theif trying to escape from Police falls into an experiment, becomes Sandman, an Alien Symbiote from Space, makes Peter as its host. Peter slowly changes into an arrogant person, Harry want to take Revenge on Peter, thus he becomes Goblin. Peter spoils the career of his fellow reporter Eddie Brock. Soon Peter realises the impact of Venom on his life, wants to avoid it. Eddie becomes Venom. Peter has to fight Sand Man, Venom with the help of Harry to save New York.");
+        </script>
+    </body>
+</html>

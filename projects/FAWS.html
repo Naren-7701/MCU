@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../style2.css">
+        <link rel="shortcut icon" type="images/jpg" href="../images/naren_logo.jpg">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <title></title>
+    </head>
+    <body>
+        <div class="heading">MCU TIMELINE</div>
+        <div id="container">
+            <div id="image"></div>
+            <div id="text">
+            <div id="pdf"><button id="poster"><a href="" target="_blank">Overall TimeLine Chart</a></button></div>
+            <div class="content"><button class="view" id="trabut">PLAY TRAILER</button></div>
+            <div class="content2"><button class="view">MCU YEAR</button><div class="answer2" id="mcuyear"></div></div>
+            <div class="content"><button  class="view">PREVIOUS PROJECTS</button><div class="answer"><ul id="prevtxt"></ul></div></div>
+            <div class="content"><button  class="view">PARALLEL PROJECTS</button><div class="answer"><ul id="partxt"></ul></div></div>
+            <div class="content"><button class="view">UPCOMING PROJECTS</button><div class="answer"><ul id="nextxt"></ul></div></div>
+            <div class="content"><button class="view">PLOT AND SYNOPSIS</button><div class="answer" id="plotxt"></div></div>
+            </div>
+        </div>
+        <script>
+            $(document).prop('title','Falcon and the Winter Soldier');
+            $("#image").append('<img src="../images/FAWS.jpg"/>'); 
+            $("#mcuyear").append("2024");
+            $("#partxt").append("<li>Black Panther Wakanda Forever</li>");
+            $("#prevtxt").append("<li>Avengers Endgame</li>");
+            $("#nextxt").append("<li>Captain America Brave New World</li><li>Thunderbolts</li>");
+            $("#plotxt").append("After the Blip, GRC a independent Council was created, to displace the people back to their home, who were erased out of existence during the Blip. Bucky has to undergo therapy sessions to overcome his past trauma's, Sam has to manage his Family and the business. A New Captain America (John Walker) was appointed by the US Governement as replacement of Steve Rogers. A revolt group under Karli Margantha took the Super Soldier serum and are against GRC and the Government actions. Karli was funded by a Unknown Wealthy Induvidual (Powerbroker). Sam along with Bucky Barnes, Zemo, Sharon Carter has to stop Karli, find Powerbroker and deal with Walker's actions.");
+            $("#trabut").click(function(){window.open("https://youtu.be/IWBsDaFWyTE")})
+        </script>
+    </body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../style2.css">
+        <link rel="shortcut icon" type="images/jpg" href="../images/naren_logo.jpg">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <title></title>
+    </head>
+    <body>
+        <div class="heading">MCU TIMELINE</div>
+        <div id="container">
+            <div id="image"></div>
+            <div id="text">
+            <div id="pdf"><button id="poster"><a href="" target="_blank">Overall TimeLine Chart</a></button></div>
+            <div class="content"><button class="view" id="trabut">PLAY TRAILER</button></div>
+            <div class="content2"><button class="view">MCU YEAR</button><div class="answer2" id="mcuyear"></div></div>
+            <div class="content"><button  class="view">PREVIOUS PROJECTS</button><div class="answer"><ul id="prevtxt"></ul></div></div>
+            <div class="content"><button  class="view">PARALLEL PROJECTS</button><div class="answer"><ul id="partxt"></ul></div></div>
+            <div class="content"><button class="view">UPCOMING PROJECTS</button><div class="answer"><ul id="nextxt"></ul></div></div>
+            <div class="content"><button class="view">PLOT AND SYNOPSIS</button><div class="answer" id="plotxt"></div></div>
+            </div>
+        </div>
+        <script>
+            $(document).prop('title','Wanda Vision');
+            $("#image").append('<img src="../images/Wanda Vision.jpg"/>'); 
+            $("#mcuyear").append("2023");
+            $("#partxt").append("");
+            $("#prevtxt").append("<li>Avengers Endgame</li>");
+            $("#nextxt").append("<li>Doctor Strange in the Multiverse of Madness</li><li>The Marvels</li>");
+            $("#plotxt").append("Nine days after the Endgame Battle, Wanda Maximoff visits SWORD Headquartes, where she comes to know that Vision (Dead from Infinity War) is torn apart and used for Research purpose. Unable to withstand the grief, Wanda creates a Hex (Illusion Town called West View) with actual people and an imaginary Vision. SWORD tries to intrude and warn Wanda from outside the Hex. Agatha, a witch and resident of West view is well aware about the Situation and wants to Steal Wandas power.");
+            $("#trabut").click(function(){window.open("https://youtu.be/sj9J2ecsSpo")})
+        </script>
+    </body>
+</html>

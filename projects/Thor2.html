@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../style2.css">
+        <link rel="shortcut icon" type="images/jpg" href="../images/naren_logo.jpg">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <title></title>
+    </head>
+    <body>
+        <div class="heading">MCU TIMELINE</div>
+        <div id="container">
+            <div id="image"></div>
+            <div id="text">
+            <div id="pdf"><button id="poster"><a href="" target="_blank">Overall TimeLine Chart</a></button></div>
+            <div class="content"><button class="view" id="trabut">PLAY TRAILER</button></div>
+            <div class="content2"><button class="view">MCU YEAR</button><div class="answer2" id="mcuyear"></div></div>
+            <div class="content"><button  class="view">PREVIOUS PROJECTS</button><div class="answer"><ul id="prevtxt"></ul></div></div>
+            <div class="content"><button  class="view">PARALLEL PROJECTS</button><div class="answer"><ul id="partxt"></ul></div></div>
+            <div class="content"><button class="view">UPCOMING PROJECTS</button><div class="answer"><ul id="nextxt"></ul></div></div>
+            <div class="content"><button class="view">PLOT AND SYNOPSIS</button><div class="answer" id="plotxt"></div></div>
+            </div>
+        </div>
+        <script>
+            $(document).prop('title','Thor Dark World');
+            $("#image").append('<img src="../images/Thor 2.jpg"/>'); 
+            $("#mcuyear").append("2013");
+            $("#partxt").append("");
+            $("#prevtxt").append("<li>Avengers</li>");
+            $("#nextxt").append("<li>Avengers Age of Ultron</li>");
+            $("#plotxt").append("Thor's Ancestor (Bhor), hides a highly dangerous substance (Ether) from the Dark Elves thousand's of years Back. The Ether (in a unfortunate manner), gets inside Jane Foster, who becomes Sick and is taken to Asgard for her treatment. Loki is imprisoned for his actions against Humanity in Midgard. The Dark Elves are Back led by Malekith, Asgard is destroyed, Thor along with his brother has to defeat the Dark Elves and take Ether out of Jane Foster.");
+            $("#trabut").click(function(){window.open("https://youtu.be/npvJ9FTgZbM")})
+        </script>
+    </body>
+</html>

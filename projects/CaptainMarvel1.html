@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../style2.css">
+        <link rel="shortcut icon" type="images/jpg" href="../images/naren_logo.jpg">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <title></title>
+    </head>
+    <body>
+        <div class="heading">MCU TIMELINE</div>
+        <div id="container">
+            <div id="image"></div>
+            <div id="text">
+            <div id="pdf"><button id="poster"><a href="" target="_blank">Overall TimeLine Chart</a></button></div>
+            <div class="content"><button class="view" id="trabut">PLAY TRAILER</button></div>
+            <div class="content2"><button class="view">MCU YEAR</button><div class="answer2" id="mcuyear"></div></div>
+            <div class="content"><button  class="view">PREVIOUS PROJECTS</button><div class="answer"><ul id="prevtxt"></ul></div></div>
+            <div class="content"><button  class="view">PARALLEL PROJECTS</button><div class="answer"><ul id="partxt"></ul></div></div>
+            <div class="content"><button class="view">UPCOMING PROJECTS</button><div class="answer"><ul id="nextxt"></ul></div></div>
+            <div class="content"><button class="view">PLOT AND SYNOPSIS</button><div class="answer" id="plotxt"></div></div>
+            </div>
+        </div>
+        <script>
+            $(document).prop('title','Captain Marvel');
+            $("#image").append('<img src="../images/Captain Marvel.jpg"/>');             
+            $("#mcuyear").append("1995");
+            $("#partxt").append("");
+            $("#prevtxt").append("<li>Captain America First Avenger</li>");
+            $("#nextxt").append("<li>Iron Man 1</li><li>Avengers Endgame</li>");
+            $("#plotxt").append("Carol Danvers is a Fighter Jet Pilot, who works for the US Airforce. In a unexpected accident with the Tesseract, she becomes powerful. The Kree soldiers erased her memory and used her as a weapon against the Skrulls, to protect their home planet Hala. Danvers comes to know about their true intention via Supreme Intelligence. Now Nick Fury and Captain Marvel has to save Skrull's from Kree Invasion.");
+            $("#trabut").click(function(){window.open("https://youtu.be/Z1BCujX3pw8")})
+        </script>
+    </body>
+</html>

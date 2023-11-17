@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../style2.css">
+        <link rel="shortcut icon" type="images/jpg" href="../images/naren_logo.jpg">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <title></title>
+    </head>
+    <body>
+        <div class="heading">MCU TIMELINE</div>
+        <div id="container">
+            <div id="image"></div>
+            <div id="text">
+            <div id="pdf"><button id="poster"><a href="" target="_blank">Overall TimeLine Chart</a></button></div>
+            <div class="content"><button class="view" id="trabut">PLAY TRAILER</button></div>
+            <div class="content2"><button class="view">MCU YEAR</button><div class="answer2" id="mcuyear"></div></div>
+            <div class="content"><button  class="view">PREVIOUS PROJECTS</button><div class="answer"><ul id="prevtxt"></ul></div></div>
+            <div class="content"><button  class="view">PARALLEL PROJECTS</button><div class="answer"><ul id="partxt"></ul></div></div>
+            <div class="content"><button class="view">UPCOMING PROJECTS</button><div class="answer"><ul id="nextxt"></ul></div></div>
+            <div class="content"><button class="view">PLOT AND SYNOPSIS</button><div class="answer" id="plotxt"></div></div>
+            </div>
+        </div>
+        <script>
+            $(document).prop('title','Loki Season 2');
+            $("#image").append('<img src="../images/Loki S2.png"/>'); 
+            $("#mcuyear").append("Start-End");
+            $("#partxt").append("<li>Antman and Wasp Quantumania</li>");
+            $("#prevtxt").append("<li>Loki Season 01</li>");
+            $("#nextxt").append("");
+            $("#plotxt").append("Loki starts to Time Slip. He has to fix this with the help of OB. He has to find Sylvie. Renslayer meets Victor Timely (Variant of Kang). Loki, Mobius want his help to fix the Temporal Loom in the TVA. Whereas, Sylvie wants to kill him. Miss Minutes goes Rogue. Renslayer is sent to the End of Time. OB, Timely try to create a Multiplier to fix the Temporal Loom. Renslayer and M.Minutes, want to bring stability to TVA. Timely and TVA are spaghetified. Loki has to regroup his Team, and learn how to control Timeslipping. He tries to save the TVA multiple times, but fails everytime. He finally understoods his Glorious purpose, and sacrifices himself to escape the Loom and create a new Multiverse based TVA. He becomes God Loki");
+            $("#trabut").click(function(){window.open("https://youtu.be/dug56u8NN7g")})
+        </script>
+    </body>
+</html>

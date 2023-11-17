@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../style2.css">
+        <link rel="shortcut icon" type="images/jpg" href="../images/naren_logo.jpg">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <title></title>
+    </head>
+    <body>
+        <div class="heading">MCU TIMELINE</div>
+        <div id="container">
+            <div id="image"></div>
+            <div id="text">
+            <div id="pdf"><button id="poster"><a href="" target="_blank">Overall TimeLine Chart</a></button></div>
+            <div class="content"><button class="view" id="trabut">PLAY TRAILER</button></div>
+            <div class="content2"><button class="view">MCU YEAR</button><div class="answer2" id="mcuyear"></div></div>
+            <div class="content"><button  class="view">PREVIOUS PROJECTS</button><div class="answer"><ul id="prevtxt"></ul></div></div>
+            <div class="content"><button  class="view">PARALLEL PROJECTS</button><div class="answer"><ul id="partxt"></ul></div></div>
+            <div class="content"><button class="view">UPCOMING PROJECTS</button><div class="answer"><ul id="nextxt"></ul></div></div>
+            <div class="content"><button class="view">PLOT AND SYNOPSIS</button><div class="answer" id="plotxt"></div></div>
+            </div>
+        </div>
+        <script>
+            $(document).prop('title','Avengers Infinity War');
+            $("#image").append('<img src="../images/Avengers 3.jpg"/>'); 
+            $("#mcuyear").append("2018");
+            $("#partxt").append("<li>Antman and the Wasp</li>");
+            $("#prevtxt").append("<li>Captain America Civil War</li><li>Black Panther</li><li>Spider Man Homecoming</li><li>Black Widow</li><li>Guardians of Galaxy Volume 2</li><li>Thor Ragnarok</li><li>Doctor Strange</li>");
+            $("#nextxt").append("<li>Avengers Endgame</li>");
+            $("#plotxt").append("The Biggest face off by all the Super heroes, against one Common Enemy (Thanos). The Mad Titan wants six Infinity stones to snap and wipe half of the Universe from existence. All the Avengers group together and try their best to defend the Stones, untill their efforts go in vain.");
+            $("#trabut").click(function(){window.open("https://youtu.be/6ZfuNTqbHE8")})
+        </script>
+    </body>
+</html>

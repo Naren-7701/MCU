@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../style2.css">
+        <link rel="shortcut icon" type="images/jpg" href="../images/naren_logo.jpg">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <title></title>
+    </head>
+    <body>
+        <div class="heading">MCU TIMELINE</div>
+        <div id="container">
+            <div id="image"></div>
+            <div id="text">
+            <div id="pdf"><button id="poster"><a href="" target="_blank">Overall TimeLine Chart</a></button></div>
+            <div class="content"><button class="view" id="trabut">PLAY TRAILER</button></div>
+            <div class="content2"><button class="view">MCU YEAR</button><div class="answer2" id="mcuyear"></div></div>
+            <div class="content"><button  class="view">PREVIOUS PROJECTS</button><div class="answer"><ul id="prevtxt"></ul></div></div>
+            <div class="content"><button  class="view">PARALLEL PROJECTS</button><div class="answer"><ul id="partxt"></ul></div></div>
+            <div class="content"><button class="view">UPCOMING PROJECTS</button><div class="answer"><ul id="nextxt"></ul></div></div>
+            <div class="content"><button class="view">PLOT AND SYNOPSIS</button><div class="answer" id="plotxt"></div></div>
+            </div>
+        </div>
+        <script>
+            $(document).prop('title','She Hulk Attorney at Law');
+            $("#image").append('<img src="../images/She Hulk.jpg"/>'); 
+            $("#mcuyear").append("2024");
+            $("#partxt").append("<li>Shang Chi and the Legend of Ten Rings</li>");
+            $("#prevtxt").append("<li>Avengers Endgame</li>");
+            $("#nextxt").append("<li>Captain America Brave New World</li>");
+            $("#plotxt").append("Jennifer Walters is the Cousin of Bruce Banner. In a accident she gains Hulk powers from her Cousin. Hulk goes to Sakaar. She joins a Law Firm to solve cases pertaining to Superhero law division. Abomination approaches Jennifer for his Trial. She also handles some other Superhero cases. Jennifer comes to know about a gang in the Internet (Hulking) who wants her Blood. A mess is created in Abomination's house. She makes a Deal with Writers and K.E.V.I.N about her show. Hulk returns from Sarkar with a surprise.");
+            $("#trabut").click(function(){window.open("https://youtu.be/u7JsKhI2An0")})
+        </script>
+    </body>
+</html>

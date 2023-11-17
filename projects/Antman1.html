@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../style2.css">
+        <link rel="shortcut icon" type="images/jpg" href="../images/naren_logo.jpg">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <title></title>
+    </head>
+    <body>
+        <div class="heading">MCU TIMELINE</div>
+        <div id="container">
+            <div id="image"></div>
+            <div id="text">
+            <div id="pdf"><button id="poster"><a href="" target="_blank">Overall TimeLine Chart</a></button></div>
+            <div class="content"><button class="view" id="trabut">PLAY TRAILER</button></div>
+            <div class="content2"><button class="view">MCU YEAR</button><div class="answer2" id="mcuyear"></div></div>
+            <div class="content"><button  class="view">PREVIOUS PROJECTS</button><div class="answer"><ul id="prevtxt"></ul></div></div>
+            <div class="content"><button  class="view">PARALLEL PROJECTS</button><div class="answer"><ul id="partxt"></ul></div></div>
+            <div class="content"><button class="view">UPCOMING PROJECTS</button><div class="answer"><ul id="nextxt"></ul></div></div>
+            <div class="content"><button class="view">PLOT AND SYNOPSIS</button><div class="answer" id="plotxt"></div></div>
+            </div>
+        </div>
+        <script>
+            $(document).prop('title','Antman 1');
+            $("#image").append('<img src="../images/Antman 1.jpg"/>'); 
+            $("#mcuyear").append("2015");
+            $("#partxt").append("<li>Avengers Age of Ultron</li>");
+            $("#prevtxt").append("");
+            $("#nextxt").append("<li>Captain America Civil War</li>");
+            $("#plotxt").append("Hank Pym, a great Scientist who once worked with Howard Stark and SHEILD, is old now. He wants someone to take on the Mantle of Antman (the suit which can shrink and enlarge, communicate with Ants). Scott Lang, a theif, gets the Suit unfortunately, and becomes the Antman. He has to Stop Darren Cross aka Yellow Jacket, who works in Pym Industry, and wants the Ant man suit to test on various animals and humans, destroy them.");
+            $("#trabut").click(function(){window.open("https://youtu.be/pWdKf3MneyI")})
+        </script>
+    </body>
+</html>

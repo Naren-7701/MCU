@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../style2.css">
+        <link rel="shortcut icon" type="images/jpg" href="../images/naren_logo.jpg">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <title></title>
+    </head>
+    <body>
+        <div class="heading">MCU TIMELINE</div>
+        <div id="container">
+            <div id="image"></div>
+            <div id="text">
+            <div id="pdf"><button id="poster"><a href="" target="_blank">Overall TimeLine Chart</a></button></div>
+            <div class="content"><button class="view" id="trabut">PLAY TRAILER</button></div>
+            <div class="content2"><button class="view">MCU YEAR</button><div class="answer2" id="mcuyear"></div></div>
+            <div class="content"><button  class="view">PREVIOUS PROJECTS</button><div class="answer"><ul id="prevtxt"></ul></div></div>
+            <div class="content"><button  class="view">PARALLEL PROJECTS</button><div class="answer"><ul id="partxt"></ul></div></div>
+            <div class="content"><button class="view">UPCOMING PROJECTS</button><div class="answer"><ul id="nextxt"></ul></div></div>
+            <div class="content"><button class="view">PLOT AND SYNOPSIS</button><div class="answer" id="plotxt"></div></div>
+            </div>
+        </div>
+        <script>
+            $(document).prop('title','Loki Season 1');
+            $("#image").append('<img src="../images/Loki Season 1.jpg"/>'); 
+            $("#mcuyear").append("Start - End");
+            $("#partxt").append("");
+            $("#prevtxt").append("<li>Avengers Endgame</li><li>Avengers</li>");
+            $("#nextxt").append("<li>Loki Season 02</li>");
+            $("#plotxt").append("As an Alternate Variant created when the Avengers time traveled back to the past, Loki is summoned in the TVA. Initially reluctant, Loki has to help the TVA to find Sylvie (Another Female variant of Loki). Sylvie wants the TVA to be thrown, wants to kill the person responsible for her pruning. As Loki and Sylvie spend time together on a unknown plant, Loki comes to know that the workers in the TVA and the Whole system is fake. Loki wants the Truth to be exposed to everyone. He is sent to the Void where he meets multiple variants of himself. The Final faceoff is Loki and Sylvie vs the Man Controlling all the Timeline.");
+            $("#trabut").click(function(){window.open("https://youtu.be/nW948Va-l10")})
+        </script>
+    </body>
+</html>

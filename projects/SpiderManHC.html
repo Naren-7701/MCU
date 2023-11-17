@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../style2.css">
+        <link rel="shortcut icon" type="images/jpg" href="../images/naren_logo.jpg">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <title></title>
+    </head>
+    <body>
+        <div class="heading">MCU TIMELINE</div>
+        <div id="container">
+            <div id="image"></div>
+            <div id="text">
+            <div id="pdf"><button id="poster"><a href="" target="_blank">Overall TimeLine Chart</a></button></div>
+            <div class="content"><button class="view" id="trabut">PLAY TRAILER</button></div>
+            <div class="content2"><button class="view">MCU YEAR</button><div class="answer2" id="mcuyear"></div></div>
+            <div class="content"><button  class="view">PREVIOUS PROJECTS</button><div class="answer"><ul id="prevtxt"></ul></div></div>
+            <div class="content"><button  class="view">PARALLEL PROJECTS</button><div class="answer"><ul id="partxt"></ul></div></div>
+            <div class="content"><button class="view">UPCOMING PROJECTS</button><div class="answer"><ul id="nextxt"></ul></div></div>
+            <div class="content"><button class="view">PLOT AND SYNOPSIS</button><div class="answer" id="plotxt"></div></div>
+            </div>
+        </div>
+        <script>
+            $(document).prop('title','Spider Man Homecoming');
+            $("#image").append('<img src="../images/Spider Man 1.jpg"/>'); 
+            $("#mcuyear").append("2017");
+            $("#partxt").append("");
+            $("#prevtxt").append("<li>Captain America Civil War</li><li>Avengers</li>");
+            $("#nextxt").append("<li>Avengers Infinity War</li>");
+            $("#plotxt").append("During the Battle at Germany (Civil War), Tony was impressed by a Young Nerd, who can create Web Shooters, recruited him in his team and sponsered him. Tony was also the Chair person of DRDO, whose responsiblitiy was to clear the damages caused due to external threat. The waste resources from DRDO were misused by a bunch of people to create weapons. Spider Man aka Peter Parker has to stop Vulture from stealing resources, prevent misuse and earn the respect of Mr.Stark to join the Avengers.");
+            $("#trabut").click(function(){window.open("https://youtu.be/rk-dF1lIbIg")})
+        </script>
+    </body>
+</html>

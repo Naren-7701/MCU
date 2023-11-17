@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../style2.css">
+        <link rel="shortcut icon" type="images/jpg" href="../images/naren_logo.jpg">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <title></title>
+    </head>
+    <body>
+        <div class="heading">MCU TIMELINE</div>
+        <div id="container">
+            <div id="image"></div>
+            <div id="text">
+            <div id="pdf"><button id="poster"><a href="" target="_blank">Overall TimeLine Chart</a></button></div>
+            <div class="content"><button class="view" id="trabut">PLAY TRAILER</button></div>
+            <div class="content2"><button class="view">MCU YEAR</button><div class="answer2" id="mcuyear"></div></div>
+            <div class="content"><button  class="view">PREVIOUS PROJECTS</button><div class="answer"><ul id="prevtxt"></ul></div></div>
+            <div class="content"><button  class="view">PARALLEL PROJECTS</button><div class="answer"><ul id="partxt"></ul></div></div>
+            <div class="content"><button class="view">UPCOMING PROJECTS</button><div class="answer"><ul id="nextxt"></ul></div></div>
+            <div class="content"><button class="view">PLOT AND SYNOPSIS</button><div class="answer" id="plotxt"></div></div>
+            </div>
+        </div>
+        <script>
+            $(document).prop('title','Ms Marvel');
+            $("#image").append('<img src="../images/Ms marvel.jpg"/>'); 
+            $("#mcuyear").append("2025");
+            $("#partxt").append("<li>Spider Man No Way Home</li>");
+            $("#prevtxt").append("<li>Avengers Endgame</li>");
+            $("#nextxt").append("<li>The Marvels</li>");
+            $("#plotxt").append("A high school kid, Kamala Khan is obsessed with Captain Marvel. She receives a mystical Bangle which can create Hard Light, travel to another Dimension (Noor). Initially, unable to control her powers, Kamala Khan slowly understands its usage. She goes to Karachi, where she meets her Grandma to know the History of the Bangle. A group of people who were expeled from the Noor Dimension, wants the Bangle back to escape back to their reality. The DRDO wants to put an end to Children using Super power. Kamala Khan, along with her Family, has to save Kamran and the Bangle, from DRDO and the expelled people.");
+            $("#trabut").click(function(){window.open("https://youtu.be/m9EX0f6V11Y")})
+        </script>
+    </body>
+</html>

@@ -1,69 +1,50 @@
 body 
 { 
     font-family:'Gill Sans', 'Gill Sans MT','Calibri', 'Trebuchet MS', sans-serif;
-    background-image:url('images/background.png');
-    background-size:cover;
-    background-repeat:no-repeat;
+    background-color: black;
 }
-#title
+#studio
 {
-    text-align:center;
-    position:relative;
-}
-#drawings
-{
-    font-size:20px;
-    font-weight:600;
-    right:15px;
-    padding-top:10px;
-    position:absolute; 
-    background-color: rgb(74, 173, 235);
-    width:130px;
-    height:47px;
-    color:black; 
-}
-#drawings:hover
-{
-    color:rgb(255, 255, 255);
+    display:block;
+    position:static;
+    margin:auto;
+    padding-top:25px;
+    margin-bottom:10px;
 }
 .heading
 {
-    font-size:40px;
+    display:block;
+    flex-wrap: wrap;
+    font-size:35px;
     font-weight:600;
-    padding:1px 1px;
-    margin:auto;
-    background-color:rgb(235, 74, 74);
+    text-align:center;
+    color: white;
+    margin-top:10px;
+    margin-bottom:20px;
 }
-#main
+#projselect
 {
-    margin:auto;
-    padding-top:1px;
-    padding-bottom:1px;
-    position:relative;
-    background-color: rgb(255, 255, 255);
+    display:none;
 }
-p
+.textsel
 {
-    text-align:right;
-    width:90%;
-    font-size:25px;
+    text-align:center;
+    font-size:35px;
     font-weight:500;
-    margin:3px;
+    color: white;
+    margin-top:10px;
 }
-table
+.contentdisp
 {
-    width:65%;
-    margin:auto;
-}
-td
-{
-    width:50%;
+    text-align:center;
+    margin-top:10px;
 }
 select
 {
-    height:35px;
-    width:330px;
+    height:40px;
+    width:360px;
     border:2px solid black;
+    border-radius:5px;
 }
 option
 {
@@ -75,108 +56,68 @@ option
     display:none;
     margin:3px;
 }
-#container 
-{
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    width:100%;
-}  
-#image
-{
-    margin-left:3px;
-    padding-top:3px;
-}  
-#text 
-{
-    font-size:23px;
-    padding-left:10px;
-    padding-right:10px;
-    text-transform:none;
-    text-align:justify;
-    line-height:35px;
-}
-a
-{
-    text-decoration:none;
-    text-transform:none;
-    color:white;
-}
-a:visited
-{
-    text-transform:none;
-    text-decoration:none;
-    color:white;
-}
-#pdf
-{
-    padding-top:10px;
-    padding-bottom:10px;
-}
 button
 {
     border:3px solid black;
     border-radius:5px;
     font-size:large;
+    font-weight:600;
     padding:10px;
-    background-color:rgb(40, 40, 40);
-    color: white;
+    background-color:red;
+    color:black;
 }
 button:hover
 {
-    color:red;
+    background-color:white;
     cursor:pointer;
 }
-input
+#rest
 {
-    border:2px solid black;
-    font-size:large;
-    padding:10px;
-    margin:3px;
-    background-color:rgb(255, 0, 0);
-    color: rgb(0, 0, 0);
-    font-weight:700;
+    display:block;
+    position:static;
+    margin:auto;
+    margin-top:10px;
 }
-#poster
+footer
 {
-    border:2px solid black;
-    padding:10px;
-    margin:3px;
-    width:225px;
-    text-align: center;
+    position:fixed;
+    bottom:0;
+    color:white;
+    text-align:center;
+    font-size:25px;
+    font-weight:600;
+    width:100%;
+    padding-bottom:5px;
 }
-#poster:hover
+@media (min-width: 600px)   /*Laptop*/
 {
-    background-color:rgb(255, 61, 61);
+#studio
+{
+    width:75%;
+    margin:auto;  
 }
-img
+.avengers
 {
-    border:4px solid black
+    display:none;
 }
-.view
-{
-    border:2px solid black;
-    font-size:large;
-    padding:10px;
-    margin:3px;
-    width:225px;
-    background-color:rgb(255, 255, 255);
-    color: rgb(255, 0, 0);
-    font-weight:700;
-    text-align: center;
 }
-.view:hover
+@media (max-width: 600px)   /*Phone*/
 {
-    font-size:large;
-    padding:10px;
-    margin:3px;
-    width:225px;
-    background-color:rgb(0, 0, 0);
-    color: rgb(255, 255, 255);
-    font-weight:700;
-    text-align: center;
+#studio
+{
+    width:90%; 
+    margin:auto;
 }
-.togtxt
+#subhead
 {
-    font-weight:bold;
+    font-size:22px;
+}
+.avengers
+{
+    display:block;
+    margin:auto;
+    margin-top:10px;
+    width:140px;
+    height:140px;
+}
 }
