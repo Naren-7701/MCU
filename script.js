@@ -136,8 +136,10 @@ $(document).ready(function()
                 window.open("projects/GOG3.html")
             else if(movie==4)
                 window.open("projects/GrootS2.html")
-            else
+            else if(movie==5)
                 window.open("projects/LokiS2.html")
+            else
+                window.open("projects/Marvels.html")
         });
     }
     else
