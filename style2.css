@@ -118,7 +118,7 @@ ul
 li 
 {
     display:flex; 
-    line-height:0.95; 
+    line-height:0.75; 
     position:relative;
 }
 #plotxt
@@ -127,6 +127,7 @@ li
     margin-left:10px;
     font-weight:normal;
     font-size:0.98em;
+    line-height:1.32;
 }
 a
 {
