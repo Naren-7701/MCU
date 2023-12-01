@@ -11,11 +11,9 @@ body
     height:max-content;
     font-size:40px;
     font-weight:600;
-    margin:auto;
     background-color:rgb(235, 74, 74);
     justify-content:center;
-    text-align:center;
-    width:60%;
+    width:438px;
 }
 #image
 {
@@ -143,7 +141,7 @@ a:visited
 {
 body
 {
-    background-image: url("images/Captain_America_Shield.png");
+    background-image: url("images/Project_BG.png");
 }
 img
 {
