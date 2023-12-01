@@ -2,13 +2,8 @@ body
 { 
     font-family:Arial, Helvetica, sans-serif;
     background-color: black;
-}
-#studio
-{
-    display:block;
-    position:static;
-    margin:auto;
-    margin-bottom:10px;
+    background-repeat:no-repeat;
+    background-size:cover;
 }
 .heading
 {
@@ -117,34 +112,40 @@ footer
 }
 @media (min-width: 600px)   /*Laptop*/
 {
-#studio
+body
 {
-    width:75%;
-    margin:auto;
+    background-image:url("images/Desktop_wallpaper.png");
 }
-.avengers
+#studio1
+{
+    display:block;
+    position:static;
+    margin:auto;
+    margin-top:20px;
+    margin-bottom:10px;
+    width:50%;
+}
+#studio2
 {
     display:none;
 }
 }
 @media (max-width: 600px)   /*Phone*/
 {
-#studio
+#studio2
 {
+    display:block;
+    position:static;
     width:90%; 
     margin:auto;
     padding-top:20px;
 }
+#studio1
+{
+    display:none;
+}
 #subhead
 {
     font-size:20px;
-}
-.avengers
-{
-    display:block;
-    margin:auto;
-    margin-top:10px;
-    width:100px;
-    height:100px;
 }
 }
