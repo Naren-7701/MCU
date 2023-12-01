@@ -86,11 +86,15 @@ button:hover
     margin:auto;
     margin-top:7px;
 }
+#hidden2
+{
+    display:none;
+}
 #lastupd
 {
     display:block;
     margin:auto;
-    margin-top:7px;
+    margin-top:15px;
     color: white;
     text-align:center;
     font-size:20px;

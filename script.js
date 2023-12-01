@@ -7,7 +7,6 @@ $(document).ready(function()
         $("#projselect").show();
         var phase = $(this).val();
         $("#phsel").prop('disabled',true);
-        $("#rest").show();
         if(phase==1)
         {
             $("#ph1sel").show();
@@ -27,6 +26,7 @@ $(document).ready(function()
                 else
                     window.open("projects/Avengers1.html")
             });
+            $("#hidden2").show();
         }
         else if(phase==2)
         {
@@ -47,6 +47,7 @@ $(document).ready(function()
                 else
                     window.open("projects/Antman1.html")
             });
+            $("#hidden2").show();
         }
         else if(phase==3)
         {
@@ -77,6 +78,7 @@ $(document).ready(function()
                 else
                     window.open("projects/SpiderManFFH.html")
             });
+            $("#hidden2").show();
         }
         else if(phase==4)
         {
@@ -121,6 +123,7 @@ $(document).ready(function()
             else
                 window.open("projects/WhatIfS1.html")
         });
+        $("#hidden2").show();
     }
     else if(phase==5)
     {
@@ -141,6 +144,7 @@ $(document).ready(function()
             else
                 window.open("projects/Marvels.html")
         });
+        $("#hidden2").show();
     }
     else
     {
@@ -157,6 +161,7 @@ $(document).ready(function()
             else
                 window.open("projects/Venom12.html")
         });
+        $("#hidden2").show();
     }
     });
     $('#rest').on('click',function()
