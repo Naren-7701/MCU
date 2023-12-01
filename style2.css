@@ -13,7 +13,8 @@ body
     font-weight:600;
     background-color:rgb(235, 74, 74);
     justify-content:center;
-    width:438px;
+    width:40%;
+    margin:auto;
 }
 #image
 {
@@ -148,6 +149,10 @@ img
     border:4px solid black;
     width:430px;
     height:600px;
+}
+.heading
+{
+    margin-bottom: 10px;
 }
 }
 @media (max-width: 600px)   /*Phone*/
