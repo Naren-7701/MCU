@@ -136,6 +136,10 @@ body
 }
 @media (max-width: 600px)   /*Phone*/
 {
+body
+{
+    background-image:url("images/Phone_BG_Black.jpeg");
+}
 #studio2
 {
     display:block;
