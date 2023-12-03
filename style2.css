@@ -16,7 +16,14 @@ body
     justify-content:center;
     width:60%;
     margin:auto;
+}
+.heading a
+{
     color: black;
+}
+.heading a:visited
+{
+    color:black;
 }
 #image
 {
