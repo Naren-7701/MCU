@@ -10,19 +10,9 @@ body
 {
     display:flex;
     height:max-content;
-    font-size:40px;
-    font-weight:600;
     background-color:rgb(235, 74, 74);
     justify-content:center;
-    width:60%;
     margin:auto;
-}
-.heading a
-{
-    color: black;
-}
-.heading a:visited
-{
     color:black;
 }
 #image
@@ -164,7 +154,11 @@ img
 }
 .heading
 {
-    margin-top:5px;
+    font-size:2em;
+    font-weight:550;
+    width:65%;
+    margin-top:3px;
+    min-height:37px;
 }
 footer
 {
@@ -181,7 +175,12 @@ body
 }
 .heading
 {
+    font-size:1.8em;
+    font-weight:550;
     width:100%;
+    text-align:center;
+    text-wrap:wrap;
+    min-height:30px;
 }
 #container 
 {
