@@ -143,8 +143,10 @@ $(document).ready(function()
                 window.open("projects/LokiS2.html")
             else if(movie==6)
                 window.open("projects/Marvels.html")
-            else
+            else if(movie==7)
                 window.open("projects/WhatIfS2.html")
+            else
+            window.open("projects/Echo.html")
         });
         $("#hidden2").show();
     }
