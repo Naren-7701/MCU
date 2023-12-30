@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../style2.css">
+        <link rel="shortcut icon" type="images/jpg" href="../images/naren_logo.jpg">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <title></title>
+    </head>
+    <body>
+        <div class="heading">WHAT IF SEASON 2</div>
+        <div id="container">
+            <div id="image"></div>
+            <div id="text">
+            <div id="pdf"><button id="poster"><a href="../MCU_POSTER_DIAGRAM.svg" target="_blank">Overall TimeLine Chart</a></button></div>
+            <div class="content"><button class="view" id="trabut">PLAY TRAILER</button></div>
+            <div class="content2"><button class="view">MCU YEAR</button><div class="answer2" id="mcuyear"></div></div>
+            <div class="content"><button class="view">PREVIOUS PROJECTS</button><div class="answer"><ul id="prevtxt"></ul></div></div>
+            <div class="content"><button class="view">UPCOMING PROJECTS</button><div class="answer"><ul id="nextxt"></ul></div></div>
+            <div class="content"><button class="view">PLOT AND SYNOPSIS</button><div class="answer" id="plotxt"></div></div>
+            </div>
+        </div>
+        <footer><small>Website by Naren Adharsh</small></footer>
+        <script>
+            $(document).prop('title','What If Season 2');
+            $("#image").append('<img src="../images/What If S02.webp"/>'); 
+            $("#mcuyear").append("Multiverse");
+            $("#prevtxt").append("<li>What If Season 1</li>");
+            $("#nextxt").append("<li>What If Season 3</li>");
+            $("#plotxt").append("Uatu aka the Watcher, observes Different multiverse to gain knowledge. The show explores on alternate realities. What If Nebula joins Xandar Army as a Corpsman, Peter Quill attacks the Earth under Ego's influence, Happy Hogan turns into a Hulk and has to save the Stark Tower from Justin Hammer, Iron Man crashed into Sakaar and has to fight Grandmaster and Gamora, Peggy Carter has to fight Steve Rogers Hydra Stomper controlled by Red Room, Kahorri gains power from Teserract and has to save her Tribe from Spanish Invaders, Hela is banished from Asgard and trains with TaLo people to defend Midgard from Odin, Avengers assemble in 1602 to prevent and repair the Mysterious Rift, Captain Carter and Kahhori fight Supreme Strange and stop the Forge.");
+            $("#trabut").click(function(){window.open("https://youtu.be/TiEVqZ2Bc_c?si=8byYQ1YdyqEHz-e5")})
+        </script>
+    </body>
+</html>
