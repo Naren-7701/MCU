@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../style2.css">
+        <link rel="shortcut icon" type="images/jpg" href="../images/naren_logo.jpg">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <title></title>
+    </head>
+    <body>
+        <div class="heading">ECHO</div>
+        <div id="container">
+            <div id="image"></div>
+            <div id="text">
+            <div id="pdf"><button id="poster"><a href="../MCU_POSTER_DIAGRAM.svg" target="_blank">Overall TimeLine Chart</a></button></div>
+            <div class="content"><button class="view" id="trabut">PLAY TRAILER</button></div>
+            <div class="content2"><button class="view">MCU YEAR</button><div class="answer2" id="mcuyear"></div></div>
+            <div class="content"><button  class="view">PREVIOUS PROJECTS</button><div class="answer"><ul id="prevtxt"></ul></div></div>
+            <div class="content"><button class="view">UPCOMING PROJECTS</button><div class="answer"><ul id="nextxt"></ul></div></div>
+            <div class="content"><button class="view">PLOT AND SYNOPSIS</button><div class="answer" id="plotxt"></div></div>
+            </div>
+        </div>
+        <footer><small>Website by Naren Adharsh</small></footer>
+        <script>
+            $(document).prop('title','Echo');
+            $("#image").append('<img src="../images/Echo.jpg"/>'); 
+            $("#mcuyear").append("2025");
+            $("#prevtxt").append("<li>Hawkeye</li><li>Daredevil</li>");
+            $("#nextxt").append("<li>Daredevil Born Again</li>");
+            $("#plotxt").append("Maya Lopaz belongs to the Native American Race (Choctaw). The Mythological Superstition power is echoed across Generations. The power is activated whenever there is a need or Emergency. She met an accident and lost her Mother. She grew with the Support of Wilson Fisk aka Kingpin in the New York City. When her Father was killed, Maya realised the truth and shot Fisk. A Bounty was placed on her, and she is on the Run. She comes to her native town Oklahoma to hide from the Public. She exploded the Fisk Armory in New York. With the help of her Uncle Henry, Grandma Chula, she has to escape from Kingpin's Influence, save her Family and understand the usage of her Ancestral powers.");
+            $("#trabut").click(function(){window.open("https://youtu.be/AFUKnherhuw?si=lwqQ2jnK_m4jEm_1")})
+        </script>
+    </body>
+</html>
