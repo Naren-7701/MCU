@@ -141,8 +141,10 @@ $(document).ready(function()
                 window.open("projects/Marvels.html")
             else if(movie==6)
                 window.open("projects/WhatIfS2.html")
-            else
+            else if(movie==7)
                 window.open("projects/Echo.html")
+            else
+                window.open("projects/Deadpool3.html")
         });
         $("#hidden2").show();
     }
