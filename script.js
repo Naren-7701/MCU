@@ -164,8 +164,10 @@ $(document).ready(function()
                 window.open("projects/Spiderman123.html")
             else if(movie==5)
                 window.open("projects/AmazSpiderman12.html")
-            else
+            else if(movie==6)
                 window.open("projects/Venom12.html")
+            else
+                window.open("X MEN_POSTER_DIAGRAM.pdf")
         });
         $("#hidden2").show();
     }
