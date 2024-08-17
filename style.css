@@ -104,6 +104,24 @@ button:hover
 {
     text-decoration: none;
 }
+#supdraw
+{
+    display:block;
+    margin:auto;
+    margin-top:10px;
+    color:white;
+    text-align:center;
+    font-size:22px;
+    font-weight:600;
+    border: 3px solid rgb(34,166,242);
+    padding: 8px;
+    width: max-content;
+}
+#supdraw a
+{
+    color: white;
+    text-decoration: none;
+}
 #nextproj
 {
     display:block;
