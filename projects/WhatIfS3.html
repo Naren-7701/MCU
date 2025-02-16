@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../style2.css">
+        <link rel="shortcut icon" type="images/jpg" href="../images/naren_logo.jpg">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <title></title>
+    </head>
+    <body>
+        <div class="heading">WHAT IF SEASON 3</div>
+        <div id="container">
+            <div id="image"></div>
+            <div id="text">
+            <div id="pdf"><button id="poster"><a href="../MCU_POSTER_DIAGRAM.svg" target="_blank">Overall TimeLine Chart</a></button></div>
+            <div class="content"><button class="view" id="trabut">PLAY TRAILER</button></div>
+            <div class="content2"><button class="view">MCU YEAR</button><div class="answer2" id="mcuyear"></div></div>
+            <div class="content"><button class="view">PREVIOUS PROJECTS</button><div class="answer"><ul id="prevtxt"></ul></div></div>
+            <div class="content"><button class="view">PLOT AND SYNOPSIS</button><div class="answer" id="plotxt"></div></div>
+            </div>
+        </div>
+        <footer><small>Website by Naren Adharsh</small></footer>
+        <script>
+            $(document).prop('title','What If Season 3');
+            $("#image").append('<img src="../images/What If S03.jpg"/>'); 
+            $("#mcuyear").append("Multiverse");
+            $("#prevtxt").append("<li>What If Season 1</li><li>What If Season 2</li>");
+            $("#plotxt").append("Uatu aka the Watcher, observes Different Multiverse to gain knowledge. The show explores on alternate realities. What If the Hulk went rogue and has to fight the Mech-Avengers in a post Apocalyptic World, Kingo and Agatha Harkness Team-up in Hollywood to stop the Emergence and fight Arishem, Red-Guardian and Winter Soldier Team-up in a Failed Mission Run-Chase, Howard the Duck and Darcy Lewis try to protect their Convergence Kid from all the Galatic Beings, Riri Williams has to Team-up with the Alliance to fight Mysterio and his Illusions after the Emergence, Shang-Chi and Hawkeye (Kate Bishop) Team-up against the Hood in the Old West to find his Sister, The Guardians of Multiverse try to protect Uatu from the Higher Watchers.");
+            $("#trabut").click(function(){window.open("https://youtu.be/TiEVqZ2Bc_c?si=8byYQ1YdyqEHz-e5")})
+        </script>
+    </body>
+</html>

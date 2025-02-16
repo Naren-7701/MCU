@@ -147,6 +147,10 @@ $(document).ready(function()
                 window.open("projects/Deadpool3.html")
             else if(movie==9)
                 window.open("projects/AgathaAllAlong.html")
+            else if(movie==10)
+                window.open("projects/WhatIfS3.html")
+            else if(movie==11)
+                window.open("projects/CaptainAmerica4.html")
             else
                 window.open("projects/Deadpool3.html")
         });
