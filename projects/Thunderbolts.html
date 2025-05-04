@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../style2.css">
+        <link rel="shortcut icon" type="images/jpg" href="../images/naren_logo.jpg">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <title></title>
+    </head>
+    <body>
+        <div class="heading">THUNDERBOLTS*</div>
+        <div id="container">
+            <div id="image"></div>
+            <div id="text">
+            <div id="pdf"><button id="poster"><a href="../MCU_POSTER_DIAGRAM.svg" target="_blank">Overall TimeLine Chart</a></button></div>
+            <div class="content"><button class="view" id="trabut">PLAY TRAILER</button></div>
+            <div class="content2"><button class="view">MCU YEAR</button><div class="answer2" id="mcuyear"></div></div>
+            <div class="content"><button  class="view">PREVIOUS PROJECTS</button><div class="answer"><ul id="prevtxt"></ul></div></div>
+            <div class="content"><button class="view">UPCOMING PROJECTS</button><div class="answer"><ul id="nextxt"></ul></div></div>
+            <div class="content"><button class="view">PLOT AND SYNOPSIS</button><div class="answer" id="plotxt"></div></div>
+            </div>
+        </div>
+        <footer><small>Website by Naren Adharsh</small></footer>
+        <script>
+            $(document).prop('title','Thunderbolts*');
+            $("#image").append('<img src="../images/Thunderbolts.png"/>'); 
+            $("#mcuyear").append("2026+");
+            $("#prevtxt").append("<li>Falcon and the Winter Soldier</li><li>Black Widow</li><li>Captain America Brave New World</li><li>Ant-Man and the Wasp</li>");
+            $("#nextxt").append("<li>Avengers Doomsday</li>");
+            $("#plotxt").append("Valentina assigns a Task to Yelena in Malaysia, which She completes Successfully. In search of Purpose for her Life, She takes one Final Mission, where She meets other Mercenaries (John Walker, Ghost, Task Master). They understood that they are Trapped according to Val's Plan. They Try to Escape from there, and also Rescue Bob. Bob realises his True Power. On the Other Hand, Bucky and the other Congressmen try to Impeach Val, on her Actions in the OXE Group Human Testing Case. Val wants Bob (aka Sentry) to Obey her and be the Superhero that she wants. Bucky realises the Potential Danger of Bob, and Assembles a Team to Stop Sentry. Bob loses control and becomes the Void. The Entire New York City is in trouble. The Thunderbolts have to Step up and Save the Day.");
+            $("#trabut").click(function(){window.open("https://youtu.be/v-94Snw-H4o?si=RXZcAK0WWiPoobGU")})
+        </script>
+    </body>
+</html>

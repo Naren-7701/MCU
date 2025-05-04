@@ -151,6 +151,8 @@ $(document).ready(function()
                 window.open("projects/WhatIfS3.html")
             else if(movie==11)
                 window.open("projects/CaptainAmerica4.html")
+            else if(movie==12)
+                window.open("projects/Thunderbolts.html")
             else
                 window.open("projects/Deadpool3.html")
         });
