@@ -15,6 +15,7 @@
             <div id="pdf"><button id="poster"><a href="../MCU_POSTER_DIAGRAM.svg" target="_blank">Overall TimeLine Chart</a></button></div>
             <div class="content"><button class="view" id="trabut">PLAY TRAILER</button></div>
             <div class="content2"><button class="view">MCU YEAR</button><div class="answer2" id="mcuyear"></div></div>
+            <div class="content"><button  class="view">PREVIOUS PROJECTS</button><div class="answer"><ul id="prevtxt"></ul></div></div>
             <div class="content"><button  class="view">PARALLEL PROJECTS</button><div class="answer"><ul id="partxt"></ul></div></div>
             <div class="content"><button class="view">PLOT AND SYNOPSIS</button><div class="answer" id="plotxt"></div></div>
             </div>
@@ -24,7 +25,8 @@
             $(document).prop('title','Shang Chi and the Legend of Ten Rings');
             $("#image").append('<img src="../images/Shang Chi.jpg"/>'); 
             $("#mcuyear").append("2023+");
-            $("#partxt").append("<li>She Hulk Attorney at Law</li>");
+            $("#partxt").append("<li><a href ='SheHulk.html' target='_blank'>She Hulk Attorney at Law</a></li>");
+            $("#prevtxt").append("<li><a href ='Ironman3.html' target='_blank'>Iron Man 3</a></li>");
             $("#plotxt").append("As a Son of the Powerful lord Wen Wu (Mandarin), Shang Chi has to undergo a lot of Martial Arts training, which he is not interested. After 10 years, he lives in San Fransisco to overcome his past trauma's and to escape from his Dad's presence. However, he is abducted and taken back to his Dad's Ten Rings Organisation. Wen Wu wants to retreive his wife from an another Dimension, whereas Shang Chi wants to prevent his Dad. They go to Talo, where Shang Chi comes to know about the true potential of Ten Rings. Shang Chi, Katy, the Native people has to fight against Mandarin and soul sucking creatures.");
             $("#trabut").click(function(){window.open("https://youtu.be/x7Krla_UxRg")})
         </script>
