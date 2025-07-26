@@ -160,6 +160,19 @@ $(document).ready(function()
         });
         $("#hidden2").show();
     }
+    else if(phase==6)
+    {
+        $("#ph6sel").show();
+        $('#ph6sel').on('change',function() 
+        {
+            var movie = $(this).val();
+            if(movie==1)
+                window.open("projects/FantasticFour.html")
+            else
+                window.open("projects/Deadpool3.html")
+        });
+        $("#hidden2").show();
+    }
     else
     {
         $("#cansel").show();
