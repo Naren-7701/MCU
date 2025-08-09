@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../style2.css">
+        <link rel="shortcut icon" type="images/jpg" href="../images/naren_logo.jpg">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <title></title>
+    </head>
+    <body>
+        <div class="heading">EYES OF WAKANDA</div>
+        <div id="container">
+            <div id="image"></div>
+            <div id="text">
+            <div id="pdf"><button id="poster"><a href="../MCU_POSTER_DIAGRAM.png" target="_blank">Overall TimeLine Chart</a></button></div>
+            <div class="content"><button class="view" id="trabut">PLAY TRAILER</button></div>
+            <div class="content2"><button class="view">MCU YEAR</button><div class="answer2" id="mcuyear"></div></div>
+            <div class="content"><button class="view">UPCOMING PROJECTS</button><div class="answer"><ul id="nextxt"></ul></div></div>
+            <div class="content"><button class="view">PLOT AND SYNOPSIS</button><div class="answer" id="plotxt"></div></div>
+            </div>
+        </div>
+        <footer><small>Website by Naren Adharsh</small></footer>
+        <script>
+            $(document).prop('title','Eyes Of Wakanda');
+            $("#image").append('<img src="../images/Eyes_Of_Wakanda.jpg"/>'); 
+            $("#mcuyear").append("1260 BC - 2500 AD *");
+            $("#prevtxt").append("<li><a href ='' target='_blank'></a></li>");
+            $("#nextxt").append("<li><a href ='BlackPanther1.html' target='_blank'>Black Panther</a></li>");
+            $("#plotxt").append("In 1260 BC, a former Dora Milaje Member (Noni) tracks down a rogue Wakandan military chief, 'The Lion', who escaped to the outer world and has stolen vibranium artifacts and enslaved people in the name of Freedom. She defeats him, recovers the artifacts, and becomes the director of the Secret Wakandan Group (War Dogs). Decades later, a War Dog named B'Kai, disguised as Memnon, betrays Achilles during the Trojan War to retrieve another vibranium artifact from Helen, the Princess of Troy. In 1400 AD, a War Dog named (Agent Basha) steals a vibranium-tongued dragon statue in China but is pursued by Jorani, the Iron Fist, who is tasked with protecting it. Basha has to Confront the Iron Fist with the Help of Wakandan Military and Stop her. Finally, in 1896, a War Dog named Kuda and Prince Tafari retrieve a vibranium axe during the Italian-Ethiopian War. They are stopped by a future Black Panther from 2500 AD, whose timeline was destroyed by the Horde. She instructs them to return the axe to its original location to preserve the sacred timeline, ensuring it will later be stolen by Killmonger and Ulysses centuries later.");
+            $("#trabut").click(function(){window.open("https://youtu.be/ODHh6oe4MlE?si=w6GN6ACgd8o3EwuO")})
+        </script>
+    </body>
+</html>

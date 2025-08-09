@@ -168,6 +168,8 @@ $(document).ready(function()
             var movie = $(this).val();
             if(movie==1)
                 window.open("projects/FantasticFour.html")
+            else if(movie==2)
+                window.open("projects/EyesOfWakanda.html")
             else
                 window.open("projects/Deadpool3.html")
         });
