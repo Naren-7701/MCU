@@ -169,7 +169,7 @@ $(document).ready(function()
             if(movie==1)
                 window.open("projects/FantasticFour.html")
             else if(movie==2)
-                window.open("projects/EyesOfWakanda.html")
+                window.open("projects/EyesofWakanda.html")
             else
                 window.open("projects/Deadpool3.html")
         });
