@@ -214,8 +214,8 @@ footer {
         background-color: black;
     }
     .heading {
-        font-size: 4.5rem; /* Adjust heading size for smaller screens */
-        font-weight: 400;
+        font-size: 3rem; /* Adjust heading size for smaller screens */
+        font-weight: 350;
         letter-spacing: 2px;
     }
     #subhead {

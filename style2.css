@@ -270,6 +270,7 @@ footer {
 @media (max-width: 899px) {
     .heading {
         font-size: 3rem;
+        font-weight: 350;
         margin-top: 10px;
         margin-bottom: 10px;
     }
