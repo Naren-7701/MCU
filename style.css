@@ -1,201 +1,228 @@
-body 
-{ 
-    font-family:Arial, Helvetica, sans-serif;
-    background-color: black;
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto:wght@400;500;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    /* --- COLOR UPDATE --- Using a darker shade of the new hex code for the gradient */
+    background: radial-gradient(circle, rgb(40, 4, 5), black);
+    color: whitesmoke;
+    margin: 0;
+    padding-bottom: 60px; /* Add padding to prevent footer from overlapping content */
 }
-.heading
-{
-    display:block;
-    flex-wrap: wrap;
-    font-size:32px;
-    font-weight:600;
-    text-align:center;
+
+.heading {
+    /* Using the new 'Anton' font for the main title */
+    font-family: 'Anton', sans-serif;
+    font-size: 5rem; /* Slightly increased size for impact */
+    font-weight: 400;
+    text-align: center;
     color: white;
-    margin-top:10px;
-    margin-bottom:20px;
+    margin-top: 20px;
+    /* --- SPACING FIX --- Reduced bottom margin and line-height to close the gap */
+    margin-bottom: 0;
+    line-height: 1.1;
+    /* --- COLOR UPDATE --- */
+    text-shadow: 0 0 10px #ea151d, 3px 3px 5px black;
+    letter-spacing: 4px; /* Adjusted letter spacing for the new font */
+    text-transform: uppercase; /* Makes the title look more official */
 }
-#projselect
-{
-    display:none;
+
+#subhead {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-shadow: none;
+    color: #ffffff;
+    letter-spacing: normal; /* Reset letter spacing for the subheading */
+    text-transform: none; /* Reset text transform */
 }
-.textsel
-{
-    text-align:center;
-    font-size:25px;
-    font-weight:500;
+
+.contentdisp {
+    text-align: center;
+    margin-top: 20px;
+}
+
+select, #lastupd {
+    box-sizing: border-box; /* Ensures padding/border are included in the width */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    max-width: 400px; /* Set a max-width for consistency */
+    width: 90%; /* Use percentage for responsiveness */
+}
+
+select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    height: 50px;
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, 0.6);
+    /* --- COLOR UPDATE --- */
+    border: 2px solid #ea151d;
     color: white;
-    margin-top:8px;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 0 15px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    /* --- COLOR UPDATE (SVG must be URL encoded) --- */
+    background-image: url('data:image/svg+xml;utf8,<svg fill="%23ea151d" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M7 10l5 5 5-5z"/><path d="M0 0h24v24H0z" fill="none"/></svg>');
+    background-repeat: no-repeat;
+    background-position-x: 98%;
+    background-position-y: 50%;
 }
-.contentdisp
-{
-    text-align:center;
-    margin-top:10px;
+
+select:hover {
+    border-color: white;
+    /* --- COLOR UPDATE --- */
+    box-shadow: 0 0 15px rgba(234, 21, 29, 0.7);
 }
-select
-{
-    height:40px;
-    width:315px;
-    border-radius:5px;
-    overflow:scroll;
+
+select:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
 }
-option
-{
-    font-size:16px;
-    font-weight:400;
+
+option {
+    font-size: 16px;
+    font-weight: 400;
+    background-color: #333;
+    color: white;
 }
-option[value=""][disabled] 
-{
+
+option[value=""][disabled] {
     display: none;
 }
-.hidden
-{
-    display:none;
-    margin:3px;
+
+.hidden {
+    display: none;
+    /* --- ALIGNMENT FIX --- Removed margin property that was causing misalignment */
 }
-a
-{
-    text-decoration:underline;
+
+#hidden2 {
+    display: none;
+    text-align: center; /* This centers the button */
+    margin-top: 20px;
+}
+
+#rest {
+    font-family: 'Anton', sans-serif;
+    font-size: 1.6rem;
+    letter-spacing: 2px;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 30px;
+    /* --- COLOR UPDATE --- Using new hex and a darker shade for the gradient */
+    background: linear-gradient(45deg, #ea151d, #a10e14);
+    color: white;
+    text-shadow: 1px 1px 3px black;
+    /* --- COLOR UPDATE --- */
+    box-shadow: 0 0 10px #ea151d;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+#rest:hover {
+    transform: scale(1.05);
+    /* --- COLOR UPDATE --- */
+    box-shadow: 0 0 25px #ea151d;
     color: white;
 }
-a:visited
-{
-    color:white;
-}
-button
-{
-    border:3px solid black;
-    border-radius:5px;
-    font-size:large;
-    font-weight:600;
-    padding:10px;
-    background-color:red;
-    color:black;
-}
-button:hover
-{
-    background-color:white;
-    cursor:pointer;
-}
-#rest
-{
-    display:block;
-    position:static;
-    margin:auto;
-    margin-top:7px;
-}
-#hidden2
-{
-    display:none;
-}
-#lastupd
-{
-    display:block;
-    margin:auto;
-    margin-top:10px;
+
+#lastupd {
     color: white;
-    text-align:center;
-    font-size:20px;
-    font-weight:600;
-    border: 3px solid red;
-    padding: 8px;
-    width:300px;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 600;
+    /* --- COLOR UPDATE --- */
+    border: 2px solid #ea151d;
+    background-color: rgba(234, 21, 29, 0.1);
+    padding: 12px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
 }
-#lastupd a
-{
+
+#lastupd a {
     text-decoration: none;
-}
-#supdraw
-{
-    display:block;
-    margin:auto;
-    margin-top:10px;
-    color:white;
-    text-align:center;
-    font-size:22px;
-    font-weight:600;
-    border: 3px solid rgb(34,166,242);
-    padding: 8px;
-    width: max-content;
-}
-#supdraw a
-{
     color: white;
-    text-decoration: none;
+    transition: color 0.3s ease;
 }
-#nextproj
-{
-    display:block;
-    margin:auto;
-    margin-top:10px;
+
+#lastupd a :hover{
+    text-decoration: none;
     color: white;
-    text-align:center;
-    font-size:20px;
-    border: 2px solid whitesmoke;
-    padding:8px;
-    font-weight:600;
-    width: max-content;
 }
-#nextproj a
-{
-    text-decoration: none;
+
+#lastupd:hover {
+    /* --- COLOR UPDATE --- */
+    background-color: rgba(234, 21, 29, 0.3);
+    border-color: white;
+    box-shadow: 0 0 15px rgba(234, 21, 29, 0.5);
 }
-footer
-{
-    position:fixed;
-    bottom:0;
-    width:100%;
-    text-align:center;
-    font-size:20px;
-    font-weight:550;
-    color: whitesmoke;
-    padding-bottom:4px;
+
+#lastupd a:hover {
+    /* --- COLOR UPDATE --- */
+    text-shadow: 0 0 5px white;
 }
-@media (min-width: 600px)   /*Laptop*/
-{
-body
-{
-    background-image:url("images/Desktop_wallpaper.png");
-    background-repeat:no-repeat;
-    background-size:cover;
+
+/* --- Footer (Consistent with index.html) --- */
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 500;
+    color: white;
+    padding: 10px 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    box-shadow: 0 -5px 15px rgba(0, 0, 0, 0.5);
+    z-index: 10;
 }
-#studio1
-{
-    display:block;
-    position:static;
-    margin:auto;
-    margin-top:20px;
-    margin-bottom:10px;
-    width:50%;
+
+/* --- Media Queries for Responsiveness --- */
+
+/* Laptop / Desktop */
+@media (min-width: 600px) {
+    body {
+        background-image: url("images/Desktop_wallpaper.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    #studio1 {
+        display: block;
+        margin: 20px auto 10px auto;
+        width: 40%;
+        max-width: 500px;
+    }
+    #studio2 {
+        display: none;
+    }
 }
-#studio2
-{
-    display:none;
-}
-}
-@media (max-width: 600px)   /*Phone*/
-{
-body
-{
-    background-image:url("images/Phone_BG_Black.jpeg");
-}
-#studio2
-{
-    display:block;
-    position:static;
-    width:90%; 
-    margin:auto;
-    padding-top:20px;
-}
-#studio1
-{
-    display:none;
-}
-#subhead
-{
-    font-size:20px;
-}
-#lastupd
-{
-    width:80%;
-}
+
+/* Phone */
+@media (max-width: 599px) {
+    body {
+        background-image: url("images/Phone_BG_Black.jpeg");
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    .heading {
+        font-size: 3.5rem; /* Adjust heading size for smaller screens */
+        letter-spacing: 2px;
+    }
+    #subhead {
+        font-size: 1rem;
+    }
+    #studio1 {
+        display: none;
+    }
+    #studio2 {
+        display: block;
+        width: 80%;
+        margin: auto;
+        padding-top: 20px;
+    }
 }

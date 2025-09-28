@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../style2.css">
+        <link rel="shortcut icon" type="images/jpg" href="../images/naren_logo.jpg">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <title></title>
+    </head>
+    <body>
+        <div class="heading">MARVEL ZOMBIES</div>
+        <div id="container">
+            <div id="image"></div>
+            <div id="text">
+            <div id="pdf"><button id="poster"><a href="../MCU_POSTER_DIAGRAM.png" target="_blank">Overall TimeLine Chart</a></button></div>
+            <div class="content"><button class="view" id="trabut">PLAY TRAILER</button></div>
+            <div class="content2"><button class="view">MCU YEAR</button><div class="answer2" id="mcuyear"></div></div>
+            <div class="content"><button class="view">PREVIOUS PROJECTS</button><div class="answer"><ul id="prevtxt"></ul></div></div>
+            <div class="content"><button class="view">PLOT AND SYNOPSIS</button><div class="answer" id="plotxt"></div></div>
+            </div>
+        </div>
+        <footer><small>Website by Naren Adharsh</small></footer>
+        <script>
+            $(document).prop('title','Marvel Zombies');
+            $("#image").append('<img src="../images/Marvel Zombies.jpg"/>'); 
+            $("#mcuyear").append("Multiverse (2018-2024)");
+            $("#prevtxt").append("<li><a href = 'WhatIfS1.html' target='_blank'>What If Season 1</a></li>");
+            $("#plotxt").append("In an Alternate reality, Scott Lang and Hope Van Dyne try to retrieve Janet Van Dyne from the Quantum Realm, but it unleashes a global Zombie Virus outbreak, instantly infecting the Avengers. A small group of survivors seek a cure at Camp Lehigh, but are betrayed by the Vision, who sides with Wanda Maximoff. Spider-Man, Scott Lang, and Black Panther escape to Wakanda, where they must defeat Thanos by forcing him into a Vibranium Core. To contain the core's infinite energy, Bruce Banner transforms himself into the Infinite Hulk. Meanwhile, Shang-Chi and Katy form a survival team, as do Kamala Khan, Riri Williams, and Kate Bishop, who discover a mysterious, potentially curative transmitter. They seek help from the Red Guardian and the Black Widows at a S.H.I.E.L.D. Base in Ohio. Both survivor teams unite at Zemo's Raft, fighting Namor before escaping to the New Asgard to inform Thor and Valkyrie about the transmitter, only to be betrayed by the Nova Corps. They finally gather with the other heroes at Kamar Taj to defend the Infinite Hulk from Wanda and her Zombie horde. Kamala believes she has made a deal with Wanda, unaware she is trapped within a warped reality.");
+            $("#trabut").click(function(){window.open("https://youtu.be/twHYF506-9Y?si=NurqiuavM3p-AY4M")})
+        </script>
+    </body>
+</html>
