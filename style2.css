@@ -1,352 +1,358 @@
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto:wght@400;500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Roboto:wght@400;500;700&display=swap");
 
 /* NEW: Global rule to prevent horizontal scrollbars caused by padding/borders */
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 /* --- Global Styling (Consistent with index.html) --- */
 body {
-    font-family: 'Roboto', sans-serif;
-    /* Pure Black Background */
-    background-color: black;
-    color: whitesmoke;
-    margin: 0;
-    /* Kept padding for fixed footer */
-    padding-bottom: 60px; 
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
+  font-family: "Roboto", sans-serif;
+  /* Pure Black Background */
+  background-color: black;
+  color: whitesmoke;
+  margin: 0;
+  /* Kept padding for fixed footer */
+  padding-bottom: 60px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 /* --- Main Heading (Consistent with index.html) --- */
 .heading {
-    /* Using the new 'Anton' font for the title */
-    font-family: 'Anton', sans-serif;
-    font-weight: 400;
-    text-align: center;
-    color: white;
-    /* REDUCED MARGINS for vertical space saving */
-    margin-top: 10px; 
-    margin-bottom: 10px; 
-    line-height: 1.1;
-    /* Primary accent color and shadow */
-    text-shadow: 0 0 10px #ea151d, 3px 3px 5px black;
-    letter-spacing: 3px;
-    text-transform: uppercase;
-    display: block;
-    padding: 5px 0; /* Reduced padding */
+  /* Using the new 'Anton' font for the title */
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  text-align: center;
+  color: white;
+  /* REDUCED MARGINS for vertical space saving */
+  margin-top: 10px;
+  margin-bottom: 10px;
+  line-height: 1.1;
+  /* Primary accent color and shadow */
+  text-shadow: 0 0 10px #ea151d, 3px 3px 5px black;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  display: block;
+  padding: 5px 0; /* Reduced padding */
 }
 
 /* --- Layout Container (Image Left, Content Right) --- */
 #container {
-    display: flex;
-    flex-wrap: wrap; 
-    /* IMPROVEMENT: Increased max-width to use more screen space */
-    max-width: 1600px; 
-    margin: 0 auto;
-    /* ADJUSTED: Reduced padding for overall compactness */
-    padding: 0 10px; 
-    gap: 20px; 
-    align-items: flex-start; 
+  display: flex;
+  flex-wrap: wrap;
+  /* IMPROVEMENT: Increased max-width to use more screen space */
+  max-width: 1600px;
+  margin: 0 auto;
+  /* ADJUSTED: Reduced padding for overall compactness */
+  padding: 0 10px;
+  gap: 20px;
+  align-items: flex-start;
 }
 
 #image {
-    /* Maintained fixed width for the image container on desktop */
-    flex: 0 0 430px; 
-    text-align: left; 
+  /* Maintained fixed width for the image container on desktop */
+  flex: 0 0 430px;
+  text-align: left;
 }
 
 #image img {
-    border: 5px solid #ea151d; 
-    border-radius: 12px;
-    width: 100%;
-    height: auto;
-    max-width: 430px; 
-    object-fit: cover;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-    transition: transform 0.3s ease;
-    /* Constrain image height relative to viewport (vh) for no-scroll desktop view */
-    max-height: 80vh; 
+  border: 5px solid #ea151d;
+  border-radius: 12px;
+  width: 100%;
+  height: auto;
+  max-width: 430px;
+  object-fit: cover;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease;
+  /* Constrain image height relative to viewport (vh) for no-scroll desktop view */
+  max-height: 80vh;
 }
 
 #image img:hover {
-    transform: scale(1.01);
+  transform: scale(1.01);
 }
 
 #text {
-    /* Content takes up the remaining space on the right */
-    flex: 1 1 500px; 
-    padding: 0; /* Removed top/bottom padding to save vertical space */
-    color: #f0f0f0;
+  /* Content takes up the remaining space on the right */
+  flex: 1 1 500px;
+  padding: 0; /* Removed top/bottom padding to save vertical space */
+  color: #f0f0f0;
 }
 
 /* --- Info Boxes and Buttons (UNIFORM BUTTON WIDTH & REDUCED SPACING) --- */
-.content, .content2 {
-    /* REDUCED MARGIN for vertical space saving */
-    margin-bottom: 8px; 
-    display: flex;
-    align-items: center; 
-    flex-wrap: nowrap; 
-    gap: 15px; 
-    padding-right: 10px; 
+.content,
+.content2 {
+  /* REDUCED MARGIN for vertical space saving */
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 15px;
+  padding-right: 10px;
 }
 
 /* Ensure the wrapper for the timeline chart button also aligns */
 #pdf {
-    margin-bottom: 8px; /* Reduced margin */
-    display: flex;
-    align-items: center;
+  margin-bottom: 8px; /* Reduced margin */
+  display: flex;
+  align-items: center;
 }
 
 /* ALL BUTTONS: Fixed width for uniformity and restored font size */
-.view, #poster {
-    /* Set a FIXED width for the buttons only */
-    width: 240px; 
-    flex: 0 0 240px; 
-    
-    /* Restored font size for less shrinkage */
-    font-size: 1.1rem; 
-    /* Explicitly set font for consistency */
-    font-family: 'Roboto', sans-serif; 
-    font-weight: 700;
-    letter-spacing: 0.5px;
-    border: 2px solid #ea151d;
-    border-radius: 8px;
-    /* Restored padding */
-    padding: 10px 15px; 
-    background-color: rgba(0, 0, 0, 0.6);
-    color: white;
-    cursor: pointer;
-    transition: all 0.3s ease-in-out;
-    text-align: center;
-    box-shadow: 0 0 8px rgba(234, 21, 29, 0.4);
-    /* Restored minimum height */
-    min-height: 48px; 
-    display: flex; 
-    justify-content: center;
-    align-items: center;
+.view,
+#poster {
+  /* Set a FIXED width for the buttons only */
+  width: 240px;
+  flex: 0 0 240px;
+
+  /* Restored font size for less shrinkage */
+  font-size: 1.1rem;
+  /* Explicitly set font for consistency */
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  border: 2px solid #ea151d;
+  border-radius: 8px;
+  /* Restored padding */
+  padding: 10px 15px;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  text-align: center;
+  box-shadow: 0 0 8px rgba(234, 21, 29, 0.4);
+  /* Restored minimum height */
+  min-height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.view:hover, #poster:hover {
-    transform: translateY(-2px);
-    background-color: #ea151d;
-    box-shadow: 0 0 15px #ea151d;
-    border-color: white;
+.view:hover,
+#poster:hover {
+  transform: translateY(-2px);
+  background-color: #ea151d;
+  box-shadow: 0 0 15px #ea151d;
+  border-color: white;
 }
-
 
 #trabut {
-    /* Set a FIXED width for the buttons only */
-    width: 240px; 
-    flex: 0 0 240px; 
-    
-    /* Restored font size for less shrinkage */
-    font-size: 1.1rem; 
-    /* Explicitly set font for consistency */
-    font-family: 'Roboto', sans-serif; 
-    font-weight: 700;
-    letter-spacing: 0.5px;
-    border: 4px solid #ea151d;
-    border-radius: 8px;
-    /* Restored padding */
-    padding: 10px 15px; 
-    background-color: rgba(255, 255, 255);
-    color: black;
-    cursor: pointer;
-    transition: all 0.3s ease-in-out;
-    text-align: center;
-    box-shadow: 0 0 8px rgba(234, 21, 29, 0.4);
-    /* Restored minimum height */
-    min-height: 48px; 
-    display: flex; 
-    justify-content: center;
-    align-items: center;
+  /* Set a FIXED width for the buttons only */
+  width: 240px;
+  flex: 0 0 240px;
+
+  /* Restored font size for less shrinkage */
+  font-size: 1.1rem;
+  /* Explicitly set font for consistency */
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  border: 4px solid #ea151d;
+  border-radius: 8px;
+  /* Restored padding */
+  padding: 10px 15px;
+  background-color: rgba(255, 255, 255);
+  color: black;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  text-align: center;
+  box-shadow: 0 0 8px rgba(234, 21, 29, 0.4);
+  /* Restored minimum height */
+  min-height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #poster a {
-    color: inherit;
-    text-decoration: none;
-    display: block;
-    width: 100%;
-    /* FIX 1: Explicitly make the text inside the poster button bold */
-    font-weight: 700; 
+  color: inherit;
+  text-decoration: none;
+  display: block;
+  width: 100%;
+  /* FIX 1: Explicitly make the text inside the poster button bold */
+  font-weight: 700;
 }
 
 /* --- Answer Text Styling (Restored font size) --- */
-.answer, .answer2 {
-    /* Restored font size */
-    font-size: 1.1em; 
-    font-weight: 400;
-    color: #ccc;
-    flex: 1 1 auto; 
-    /* Restored min-height */
-    min-height: 48px; 
-    display: flex; 
-    align-items: center;
+.answer,
+.answer2 {
+  /* Restored font size */
+  font-size: 1.1em;
+  font-weight: 400;
+  color: #ccc;
+  flex: 1 1 auto;
+  /* Restored min-height */
+  min-height: 48px;
+  display: flex;
+  align-items: center;
 }
 
 .answer2 {
-    font-weight: 600;
-    color: white;
+  font-weight: 600;
+  color: white;
 }
 
 #plotxt {
-    /* Restored font size and line height slightly */
-    font-size: 1em; 
-    line-height: 1.6; 
-    margin-top: 8px;
-    margin-left: 0;
-    text-align: justify;
-    padding: 10px;
-    border-left: 3px solid #ea151d; 
-    min-height: auto; 
-    align-items: flex-start; 
-    /* FIX 3: Ensure long words break inside the container */
-    word-wrap: break-word;
-    overflow-wrap: break-word; 
+  /* Restored font size and line height slightly */
+  font-size: 1em;
+  line-height: 1.6;
+  margin-top: 8px;
+  margin-left: 0;
+  text-align: justify;
+  padding: 10px;
+  border-left: 3px solid #ea151d;
+  min-height: auto;
+  align-items: flex-start;
+  /* FIX 3: Ensure long words break inside the container */
+  word-wrap: break-word;
+  overflow-wrap: break-word;
 }
 
 /* --- List (Previous/Parallel/Upcoming Projects) --- */
 ul {
-    list-style: none;
-    padding-inline-start: 0;
-    display: flex;
-    flex-direction: column;
-    /* Reduced gap */
-    gap: 5px; 
-    margin: 5px 0;
+  list-style: none;
+  padding-inline-start: 0;
+  display: flex;
+  flex-direction: column;
+  /* Reduced gap */
+  gap: 5px;
+  margin: 5px 0;
 }
 
 li {
-    line-height: 1.2;
+  line-height: 1.2;
 }
 
 a {
-    /* Set default link color to white (for list values) */
-    color: white; 
-    text-decoration: none;
-    font-weight: 500;
-    transition: color 0.2s ease;
+  /* Set default link color to white (for list values) */
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s ease;
 }
 
 a:visited {
-    /* Changed visited to a light grey */
-    color: white; 
+  /* Changed visited to a light grey */
+  color: white;
 }
 
 a:hover {
-    /* Changed hover to the accent red color */
-    color: #ea151d; 
-    text-shadow: 0 0 5px #ea151d;
+  /* Changed hover to the accent red color */
+  color: #ea151d;
+  text-shadow: 0 0 5px #ea151d;
 }
 
 /* --- Footer (Consistent with index.html) --- */
 footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    text-align: center;
-    font-size: 1rem;
-    font-weight: 500;
-    color: white;
-    padding: 10px 0;
-    background-color: rgba(0, 0, 0, 0.7);
-    box-shadow: 0 -5px 15px rgba(0, 0, 0, 0.5);
-    z-index: 10;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 500;
+  color: white;
+  padding: 10px 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  box-shadow: 0 -5px 15px rgba(0, 0, 0, 0.5);
+  z-index: 10;
 }
 
 /* --- Media Queries for Responsiveness --- */
 
 /* Laptop / Desktop (Optimized for No-Scroll) */
 @media (min-width: 900px) {
-    .heading {
-        /* Restored heading size */
-        font-size: 4rem; 
-    }
+  .heading {
+    /* Restored heading size */
+    font-size: 4rem;
+  }
 }
 
 /* Tablet / Mobile (Scroll is expected and allowed) */
 @media (max-width: 899px) {
-    .heading {
-        font-size: 3rem;
-        font-weight: 350;
-        margin-top: 10px;
-        margin-bottom: 10px;
-    }
-    #container {
-        /* Revert to single column layout on mobile */
-        flex-direction: column;
-        align-items: center;
-        gap: 20px;
-        padding: 0 5px; /* Added slight horizontal padding to the main container */
-    }
-    #image {
-        flex: 1 1 100%;
-        max-width: 430px; 
-    }
-    #image img {
-        /* Remove max-height constraint on mobile to allow natural scroll/size */
-        max-height: none; 
-    }
-    #text {
-        /* FIX 2 & 3: Add horizontal padding to prevent content from touching the screen edges */
-        padding: 5px 15px; 
-        width: 100%; 
-    }
-    
-    /* Ensure buttons and content are centered/full-width on mobile */
-    .content, .content2 {
-        flex-direction: column;
-        align-items: flex-start;
-        flex-wrap: wrap;
-        width: 100%;
-        gap: 0; 
-        padding-right: 0; /* Remove padding here, rely on #text padding */
-    }
+  .heading {
+    font-size: 3rem;
+    font-weight: 350;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  #container {
+    /* Revert to single column layout on mobile */
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 0 5px; /* Added slight horizontal padding to the main container */
+  }
+  #image {
+    flex: 1 1 100%;
+    max-width: 430px;
+  }
+  #image img {
+    /* Remove max-height constraint on mobile to allow natural scroll/size */
+    max-height: none;
+  }
+  #text {
+    /* FIX 2 & 3: Add horizontal padding to prevent content from touching the screen edges */
+    padding: 5px 15px;
+    width: 100%;
+  }
 
-    /* Buttons take full width on mobile */
-    .view, #poster {
-        width: 100%;
-        flex: 1 1 100%; 
-        margin-bottom: 8px; 
-        max-width: none;
-    }
-    #trabut {
-        width: 100%;
-        flex: 1 1 100%; 
-        margin-bottom: 8px; 
-        max-width: none;
-    }
+  /* Ensure buttons and content are centered/full-width on mobile */
+  .content,
+  .content2 {
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 0;
+    padding-right: 0; /* Remove padding here, rely on #text padding */
+  }
 
-    #pdf {
-        width: 100%;
-    }
-    .answer, .answer2 {
-        width: 100%;
-        margin-top: 5px;
-        margin-left: 0;
-        min-height: auto; 
-    }
+  /* Buttons take full width on mobile */
+  .view,
+  #poster {
+    width: 100%;
+    flex: 1 1 100%;
+    margin-bottom: 8px;
+    max-width: none;
+  }
+  #trabut {
+    width: 100%;
+    flex: 1 1 100%;
+    margin-bottom: 8px;
+    max-width: none;
+  }
 
-    /* FIX: Center the MCU Year text inside the full-width box on mobile */
-    #mcuyear {
-        text-align: center; 
-    }
+  #pdf {
+    width: 100%;
+  }
+  .answer,
+  .answer2 {
+    width: 100%;
+    margin-top: 5px;
+    margin-left: 0;
+    min-height: auto;
+  }
 
-    ul {
-        padding-left: 20px;
-    }
-    
-    #plotxt {
-        /* FIX 2: Ensure the border line is within boundaries */
-        border-left: none;
-        border-top: 3px solid #ea151d;
-        padding-top: 10px;
-        /* Reset horizontal padding to 0, since #text now handles it */
-        padding-left: 0;
-        padding-right: 0;
-        margin-left: 0;
-        margin-right: 0;
-    }
+  /* FIX: Center the MCU Year text inside the full-width box on mobile */
+  #mcuyear {
+    text-align: center;
+  }
+
+  ul {
+    padding-left: 20px;
+  }
+
+  #plotxt {
+    /* FIX 2: Ensure the border line is within boundaries */
+    border-left: none;
+    border-top: 3px solid #ea151d;
+    padding-top: 10px;
+    /* Reset horizontal padding to 0, since #text now handles it */
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
+  }
 }
